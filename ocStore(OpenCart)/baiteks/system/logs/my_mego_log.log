@@ -1,0 +1,27 @@
+2015-10-02 7:11:38 - PHP Notice:  Undefined variable: text_none in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 358
+2015-10-02 7:11:57 - PHP Notice:  Undefined variable: text_none in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 358
+2015-10-02 7:12:04 - PHP Notice:  Undefined variable: text_none in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 358
+2015-10-02 7:12:10 - PHP Notice:  Undefined variable: text_none in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 358
+2015-10-02 7:12:45 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 629
+2015-10-02 7:13:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 629
+2015-10-02 7:15:52 - PHP Notice:  Undefined variable: text_none in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 358
+2015-10-02 7:16:00 - PHP Notice:  Undefined variable: text_none in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 358
+2015-10-02 7:16:02 - PHP Notice:  Undefined variable: text_none in C:\xampp\htdocs\baiteks.ru\catalog\view\theme\default\template\checkout\cart.tpl on line 358
+2015-10-02 7:56:40 - PHP Notice:  Error: Could not load language onecheckout/checkout! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 7:56:41 - PHP Notice:  Error: Could not load language onecheckout/checkout! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 7:56:41 - PHP Notice:  Error: Could not load language onecheckout/checkout! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 7:56:41 - PHP Notice:  Error: Could not load language onecheckout/checkout! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 7:58:48 - PHP Notice:  Error: Could not load language onecheckout/checkout! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 7:58:50 - PHP Notice:  Error: Could not load language onecheckout/checkout! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 7:58:50 - PHP Notice:  Error: Could not load language onecheckout/checkout! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 7:58:50 - PHP Notice:  Error: Could not load language onecheckout/checkout! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 8:16:06 - PHP Notice:  Error: Could not load language russian! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 8:16:06 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\baiteks.ru\index.php:103) in C:\xampp\htdocs\baiteks.ru\system\library\currency.php on line 45
+2015-10-02 8:17:38 - PHP Notice:  Error: Could not load language russian! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 8:17:38 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\baiteks.ru\index.php:103) in C:\xampp\htdocs\baiteks.ru\system\library\currency.php on line 45
+2015-10-02 8:17:42 - PHP Notice:  Error: Could not load language russian! in C:\xampp\htdocs\baiteks.ru\system\library\language.php on line 39
+2015-10-02 8:17:42 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\baiteks.ru\index.php:103) in C:\xampp\htdocs\baiteks.ru\system\library\currency.php on line 45
+2015-10-02 9:01:10 - PHP Notice:  Error: Table 'baiteks.oc_customer_simple_fields' doesn't exist<br />Error No: 1146<br />SELECT * FROM `oc_customer_simple_fields` WHERE `customer_id` = '' LIMIT 1 in C:\xampp\htdocs\baiteks.ru\system\database\mysql.php on line 50
+2015-10-02 9:03:57 - PHP Notice:  Error: Table 'baiteks.oc_customer_simple_fields' doesn't exist<br />Error No: 1146<br />SELECT * FROM `oc_customer_simple_fields` WHERE `customer_id` = '' LIMIT 1 in C:\xampp\htdocs\baiteks.ru\system\database\mysql.php on line 50
+2015-10-04 11:40:26 - PHP Notice:  Error: Table 'baiteks.oc_customer_simple_fields' doesn't exist<br />Error No: 1146<br />SELECT * FROM `oc_customer_simple_fields` WHERE `customer_id` = '' LIMIT 1 in C:\xampp\htdocs\baiteks.ru\system\database\mysql.php on line 50
+2015-10-04 11:40:40 - PHP Notice:  Error: Table 'baiteks.oc_customer_simple_fields' doesn't exist<br />Error No: 1146<br />SELECT * FROM `oc_customer_simple_fields` WHERE `customer_id` = '' LIMIT 1 in C:\xampp\htdocs\baiteks.ru\system\database\mysql.php on line 50

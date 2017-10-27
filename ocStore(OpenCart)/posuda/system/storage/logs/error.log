@@ -1,0 +1,3 @@
+2017-06-16 14:34:40 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\posuda\admin\view\template\module\fastfood_set.tpl on line 597
+2017-06-16 15:11:07 - PHP Notice:  Error: Table 'posuda.oc_gallery' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_gallery gi WHERE gi.status = 1 in C:\xampp\htdocs\posuda\system\library\db\mysqli.php on line 41
+2017-06-16 15:11:07 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\posuda\catalog\model\catalog\gallery.php on line 6

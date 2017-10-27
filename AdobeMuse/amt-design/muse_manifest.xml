@@ -1,0 +1,100 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="4037435043"/>
+    <file name="master_______-a.css" crc="4159940929" ref="домашняя-страница-копия:index"/>
+    <file name="________-________-_____.css" crc="277738733" ref="домашняя-страница-копия"/>
+    <file name="iefonts_________-________-_____.css" crc="302585860" ref="домашняя-страница-копия"/>
+    <file name="index.css" crc="137964572" ref="index"/>
+    <file name="iefonts_index.css" crc="3862606020" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:домашняя-страница-копия"/>
+    <file name="museutils.js" crc="3865766194" ref="index:домашняя-страница-копия"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:домашняя-страница-копия"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:домашняя-страница-копия"/>
+    <file name="pie.js" crc="3827607177" ref="index:домашняя-страница-копия"/>
+    <file name="webpro.js" crc="3903299128" ref="index:домашняя-страница-копия"/>
+    <file name="musewpslideshow.js" crc="138381373" ref="index:домашняя-страница-копия"/>
+    <file name="jquery.museoverlay.js" crc="4250894771" ref="index:домашняя-страница-копия"/>
+    <file name="touchswipe.js" crc="4156838003" ref="index:домашняя-страница-копия"/>
+    <file name="form_check.php" crc="4257733307" ref="index:домашняя-страница-копия"/>
+    <file name="form_throttle.php" crc="3966014863" ref="index:домашняя-страница-копия"/>
+    <file name="form-u439.php" crc="363992402" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:домашняя-страница-копия"/>
+    <file name="form-u1800.php" crc="3910323706" ref="домашняя-страница-копия"/>
+  </folder>
+  <folder name="images">
+    <file name="k5gdbvot-uw.jpg" crc="4136651093" ref="index:домашняя-страница-копия"/>
+    <file name="korablik-u133.png" crc="324544081" ref="index"/>
+    <file name="rocket-u138.png" crc="170663799" ref="index"/>
+    <file name="quarantee-u154.png" crc="3929016246" ref="index"/>
+    <file name="smart50x50-u1421.png" crc="445577340" ref="index"/>
+    <file name="brickwall_@2x.jpg" crc="4082286938" ref="index:домашняя-страница-копия"/>
+    <file name="u805-4.png" crc="4057767487" ref="index"/>
+    <file name="u782-4.png" crc="3874517740" ref="index"/>
+    <file name="u819-4.png" crc="109591924" ref="index"/>
+    <file name="u823-4.png" crc="507686086" ref="index"/>
+    <file name="strelka-u825.png" crc="3856263030" ref="index"/>
+    <file name="uslugi-composition.jpg" crc="3774834151" ref="index:домашняя-страница-копия"/>
+    <file name="arroow-click-u652.png" crc="3776674203" ref="index"/>
+    <file name="cross.png" crc="4183259437" ref="index:домашняя-страница-копия"/>
+    <file name="shtender.jpg" crc="458112406" ref="index:домашняя-страница-копия"/>
+    <file name="avtokleika.jpg" crc="3916986895" ref="index:домашняя-страница-копия"/>
+    <file name="kontrazhur4.jpg" crc="4010215271" ref="index:домашняя-страница-копия"/>
+    <file name="lightbox.jpg" crc="4224362076" ref="index:домашняя-страница-копия"/>
+    <file name="vuveska.jpg" crc="3796730876" ref="index:домашняя-страница-копия"/>
+    <file name="tabl.jpg" crc="3931316677" ref="index:домашняя-страница-копия"/>
+    <file name="stend.jpg" crc="3797249281" ref="index:домашняя-страница-копия"/>
+    <file name="applekacia.jpg" crc="427323012" ref="index:домашняя-страница-копия"/>
+    <file name="russiatc.jpg" crc="3878269280" ref="index:домашняя-страница-копия"/>
+    <file name="kompozit.jpg" crc="4035481536" ref="index:домашняя-страница-копия"/>
+    <file name="brandmauer.jpg" crc="3802948627" ref="index:домашняя-страница-копия"/>
+    <file name="stela.jpg" crc="3848148229" ref="index:домашняя-страница-копия"/>
+    <file name="x.png" crc="3993858933" ref="index:домашняя-страница-копия"/>
+    <file name="slide-chayxona.jpg" crc="163355447" ref="index:домашняя-страница-копия"/>
+    <file name="slide-pafos.jpg" crc="476899471" ref="index:домашняя-страница-копия"/>
+    <file name="slide-vipdent.jpg" crc="131998499" ref="index:домашняя-страница-копия"/>
+    <file name="left-button.png" crc="436897604" ref="index:домашняя-страница-копия"/>
+    <file name="left-button-hover.png" crc="3813771439" ref="index:домашняя-страница-копия"/>
+    <file name="right-button.png" crc="3819278144" ref="index:домашняя-страница-копия"/>
+    <file name="right-button-hover.png" crc="261824932" ref="index:домашняя-страница-копия"/>
+    <file name="phonecall.jpg" crc="4246002283" ref="index:домашняя-страница-копия"/>
+    <file name="calc.jpg" crc="355574553" ref="index:домашняя-страница-копия"/>
+    <file name="montaj.jpg" crc="3927617150" ref="index:домашняя-страница-копия"/>
+    <file name="quarantee.jpg" crc="352295534" ref="index:домашняя-страница-копия"/>
+    <file name="zamer.jpg" crc="382746119" ref="index:домашняя-страница-копия"/>
+    <file name="arrow-shema-rabot.png" crc="331628106" ref="index:домашняя-страница-копия"/>
+    <file name="arrow-shema-rabot-down.png" crc="3899680853" ref="index:домашняя-страница-копия"/>
+    <file name="smart50x50-u1409.png" crc="445577340" ref="index"/>
+    <file name="sexy.jpg" crc="251471229" ref="index:домашняя-страница-копия"/>
+    <file name="u442-17.png" crc="3907633749" ref="index"/>
+    <file name="u442-17-r.png" crc="372838440" ref="index"/>
+    <file name="u442-17-m.png" crc="150465841" ref="index"/>
+    <file name="u442-17-fs.png" crc="129793878" ref="index"/>
+    <file name="korablik-u1776.png" crc="324544081" ref="домашняя-страница-копия"/>
+    <file name="rocket-u1768.png" crc="170663799" ref="домашняя-страница-копия"/>
+    <file name="quarantee-u1772.png" crc="3929016246" ref="домашняя-страница-копия"/>
+    <file name="smart50x50-u1760.png" crc="445577340" ref="домашняя-страница-копия"/>
+    <file name="u1737-4.png" crc="4057767487" ref="домашняя-страница-копия"/>
+    <file name="u1728-4.png" crc="3874517740" ref="домашняя-страница-копия"/>
+    <file name="u1732-4.png" crc="109591924" ref="домашняя-страница-копия"/>
+    <file name="u1744-4.png" crc="507686086" ref="домашняя-страница-копия"/>
+    <file name="strelka-u1733.png" crc="3856263030" ref="домашняя-страница-копия"/>
+    <file name="arroow-click-u1558.png" crc="3776674203" ref="домашняя-страница-копия"/>
+    <file name="client1-u1708-fr.jpg" crc="391551089" ref="домашняя-страница-копия"/>
+    <file name="client1.jpg" crc="101444207" ref="домашняя-страница-копия"/>
+    <file name="quotes-u1714.png" crc="4020534805" ref="домашняя-страница-копия"/>
+    <file name="quotes-u1701.png" crc="4020534805" ref="домашняя-страница-копия"/>
+    <file name="client2-u1706-fr.jpg" crc="4202103035" ref="домашняя-страница-копия"/>
+    <file name="client2.jpg" crc="4032584800" ref="домашняя-страница-копия"/>
+    <file name="3-onvu5hriy-u1697-fr.jpg" crc="49618466" ref="домашняя-страница-копия"/>
+    <file name="quotes-u1694.png" crc="4020534805" ref="домашняя-страница-копия"/>
+    <file name="smart50x50-u1522.png" crc="445577340" ref="домашняя-страница-копия"/>
+    <file name="u1822-17.png" crc="3907633749" ref="домашняя-страница-копия"/>
+    <file name="u1822-17-r.png" crc="372838440" ref="домашняя-страница-копия"/>
+    <file name="u1822-17-m.png" crc="150465841" ref="домашняя-страница-копия"/>
+    <file name="u1822-17-fs.png" crc="129793878" ref="домашняя-страница-копия"/>
+  </folder>
+  <file name="index.html" crc="4182408640" mt="1408618318161" redirect="true"/>
+  <file name="домашняя-страница-копия.html" crc="504750992" mt="1408618318112" redirect="true"/>
+</manifest>

@@ -1,0 +1,68 @@
+.show_quick_view{border-radius:10px;box-shadow: 0 0 15px rgba(0, 0, 0, .5);overflow:hidden;width:900px;max-width:100%;transform:translateX(0) translateY(-20%);-o-transform:translateX(0) translateY(-20%);-moz-transform:translateX(0) translateY(-20%);-webkit-transform:translateX(0) translateY(-20%);}
+.popup_visible .show_quick_view{transform:translateX(0) translateY(0%);-o-transform:translateX(0) translateY(0%);-moz-transform:translateX(0) translateY(0%);-webkit-transform:translateX(0) translateY(0%);}
+.quick_view{text-align:center;background:#fff;}
+.quick_view .close{opacity:1.0;position:absolute;z-index:99;top:0px;right:3px;padding:6px;border-radius:4px;font-size:1.1em;color:#EB4F1A;cursor:pointer;}
+.quick_view .close:hover{color:#333;}
+.quick_view .product_info{margin:0 auto;position:relative;width:100%;overflow:hidden;}
+.quick_view .image{position:relative;display:table-cell;width:47%;margin:0 auto;padding:15px 0;background:#fff;box-shadow: 10px 2px 20px -10px #ccc;}
+.quick_view .image img{max-width:100%;height:auto;}
+.quick_view .sticker{position:absolute;top:15px;left:0px;z-index:1;opacity:.8;color:#fff;font-weight:500;padding:5px 12px;border-radius:0 15px 15px 0;box-shadow:0px 3px 5px -2px rgba(0, 0, 0, .3);text-shadow:1px 1px 0 rgba(0, 0, 0, .5)}
+.quick_view .sticker + .sticker{top:52px;}
+.quick_view .sticker + .sticker + .sticker{top:89px;}
+.quick_view .sticker.st_bestseller{background:#eb4f1a;}
+.quick_view .sticker.st_new{background:#eb4f1a;}
+.quick_view .sticker.st_special{background:#eb4f1a;}
+.quick_view .rating{position:relative;bottom:15px;width:100%;margin:-37px 0 0;text-align:center;padding:6px 0;background:rgba(255, 255, 255, .6);opacity:0;font-size:1.2em;}
+.quick_view .rating{opacity:1;}
+.quick_view .rating i{color:#eb4f1a;vertical-align:middle;opacity:.8;}
+.quick_view .rating i + i{margin:0 0 0 3px;}
+.quick_view .product_desc{display:table-cell;width:53%;vertical-align:top;padding:0 20px 20px;text-align:left;background:#f5f5f5}
+.quick_view .product_desc > div{margin:auto 0;overflow:hidden}
+.quick_view .product_desc .stock {margin:0 0 10px;padding:0 0 10px;border-bottom:solid 1px rgba(0, 0, 0, .05);box-shadow: 0 1px 0 rgba(255, 255, 255, 1);}
+.quick_view .product_desc .stock > span {color:#666;}
+.quick_view .product_desc .stock > span + span{margin:0 0 0 15px}
+.quick_view .product_desc .stock > span span {color:#eb4f1a;font-weight:500;}
+.quick_view .image-additional{overflow:hidden;text-align:center;margin:20px 0 0;}
+.quick_view .image-additional img{display:inline-block;border:solid 1px transparent;padding:3px;cursor:pointer;}
+.quick_view .image-additional img + img{margin:0 0 0 10px;}
+.quick_view .image-additional img:hover{border:solid 1px #ddd;}
+.quick_view .name{margin:10px 0 10px;padding:0 0 10px;font-size:1.8em;font-weight:500;color:#EB4F1A;border-bottom: solid 2px #ddd;text-shadow:0 1px 0 #fff;}
+.quick_view .price-cart{margin:0;padding:0 0 10px;border-bottom:solid 1px rgba(255, 255, 255, 1);box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .05);}
+.quick_view .price-cart .price{font-size:1.9em;font-weight:500;color:#555;margin:15px 0 18px}
+.quick_view .price-old{color:#F00;text-decoration:line-through;}
+.quick_view .price-cart .cart{display:inline-block;margin:0 auto;width:auto;text-align:center;overflow:hidden;}
+.quick_view .price-cart .cart .button{float:left;height:33px;padding:0 18px 0;font-size:1.0em;font-weight:500;background:#eb4f1a; color:#fff;}
+.quick_view .right .scroll{height:306px;margin:0 -5px 0 0;}
+.quick_view .options{margin:10px 0 10px;}
+.quick_view .options > div{display:inline-block;}
+.quick_view .options > div + div{margin:0 0 0 15px;}
+.quick_view .options b{display:block;font-weight:500;color:#eb4f1a;padding:0 0 5px;}
+.quick_view .options select{display:inline-block;border-radius:3px;}
+.quick_view .options .option + .option{margin:6px 0 0;}
+.quick_view .options .option_radio{display:inline-block;margin:0 15px 0 0;}
+.quick_view .options input[type='checkbox'] + label + label{border-bottom:dotted 1px #999}
+.quick_view .options input[type='checkbox']{display:none}
+.quick_view .options input[type='checkbox'] + label{display:inline-block;vertical-align:top;margin:2px 3px 8px 0;width:14px;height:14px;background:#f5f5f5;border:solid 1px #aaa;border-radius:3px}
+.quick_view .options input[type='checkbox'] + label:hover, ul.box-filter ul li:hover input[type='checkbox'] + label{border:solid 1px #eb4f1a}
+.quick_view .options input[type='checkbox']:checked + label{background:#eb4f1a;border:solid 1px #eb4f1a;box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4)}
+.quick_view .options input[type='radio'] + label + label{border-bottom:dotted 1px #999}
+.quick_view .options input[type='radio']{display:none}
+.quick_view .options input[type='radio'] + label{display:inline-block;vertical-align:top;margin:2px 3px 8px 0;width:14px;height:14px;background:#f5f5f5;border:solid 1px #aaa;border-radius:10px}
+.quick_view .options input[type='radio'] + label:hover, ul.box-filter ul li:hover input[type='checkbox'] + label{border:solid 1px #eb4f1a}
+.quick_view .options input[type='radio']:checked + label{background:#eb4f1a;border:solid 1px #eb4f1a;box-shadow:inset 0 1px 1px rgba(0, 0, 0, .7)}
+.quick_view .right .price-cart{margin:0 0 12px;padding:0 0 13px;border-bottom:solid 1px #ddd;}
+.quick_view .right .price-cart div{display:inline-block;vertical-align:middle;}
+.quick_view .right .price-cart div + div{margin:0 0 0 10px;}
+.quick_view .right .price-cart .price .price-old{color:#888;text-decoration:line-through;}
+.quick_view .right .price-cart .price .price-new{color:#f00;}
+.quick_view .right .price-cart .cart{overflow:hidden;}
+.quick_view .right .price-cart .cart input[type='text']{width:30px;text-align:center;margin:0px 10px 0 0;padding:4px 0 3px;box-sizing:border-box;border-radius:3px;border:solid 1px#ddd;display:inline-block;vertical-align:middle;}
+.quick_view .description{margin:0 auto 15px;}
+.quick_view .description, .quick_view .description p, .quick_view .description span{font-size:1.0em !important;line-height:1.4em !important;}
+.quick_view .description img{width:300px !important;height:auto !important;}
+
+@media (max-width:550px){
+    .quick_view .image, .quick_view .product_desc{display:block;width:100%;}
+    .quick_view .product_desc{padding:0 15px 15px;}
+    .quick_view .close {display:block}
+}

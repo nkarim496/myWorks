@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<name><![CDATA[MagicToolbox mod for OpenCart]]></name>
+	<version><![CDATA[4.1.23]]></version>
+	<code><![CDATA[MagicZoomPlus]]></code>
+	<author><![CDATA[magictoolbox.com]]></author>
+	<link><![CDATA[http://magictoolbox.com]]></link>
+	<file path="catalog/controller/product/{product,category,manufacturer,search}.php">
+		<operation>
+			<search><![CDATA[<?php]]></search>
+			<add position="after"><![CDATA[
+			
+    global $aFolder;
+    if (!defined('HTTP_ADMIN')) {
+    	$root_dir = DIR_APPLICATION.'../';
+    	$folder_contents = scandir($root_dir);
+		if (!(in_array('admin', $folder_contents) && file_exists($root_dir.'admin/config.php'))) {
+			foreach ($folder_contents as $value) {
+				if (is_dir($root_dir.$value) && $value != '.' && $value != '..'){
+					if (file_exists($root_dir.$value.'/config.php')) {
+						$admin_folder_name = $value;
+						continue;
+					}
+				}
+			}
+		}
+    	if (isset($admin_folder_name)) {
+    		define('HTTP_ADMIN',$admin_folder_name);
+    	} else {
+    		define('HTTP_ADMIN','admin');
+    	}
+    	
+    }
+    $aFolder = preg_replace('/.*\/([^\/].*)\//is','$1',HTTP_ADMIN);
+    if (!isset($GLOBALS['magictoolbox']['magiczoomplus']) && !isset($GLOBALS['magiczoomplus_module_loaded'])) {
+
+	include (preg_match("/components\/com_(ayelshop|aceshop|mijoshop)\/opencart\//ims",__FILE__,$matches)?'components/com_'.$matches[1].'/opencart/':'').$aFolder.'/controller/module/magiczoomplus-opencart-module/module.php';
+    };
+			
+			
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/column_left.php">
+		<operation>
+		  <search><![CDATA[$setting_info = $this->model_extension_module->getModule($part[1]);]]></search>
+			<add position="after"><![CDATA[
+			  if ($setting_info) {
+			      $setting_info['position'] = 'column_left';
+			  }
+			  ]]></add>
+		</operation>
+		
+	</file>
+	
+	<file path="catalog/controller/common/column_left.php">
+		<operation>
+		    <search><![CDATA[if (isset($part[1]) && isset($setting[$part[1]])) {]]></search>
+		    <add position="after"><![CDATA[$setting[$part[1]]['position'] = 'column_left';]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/column_right.php">
+		<operation>
+		  <search><![CDATA[$setting_info = $this->model_extension_module->getModule($part[1]);]]></search>
+			<add position="after"><![CDATA[
+			 if ($setting_info) {
+			    $setting_info['position'] = 'column_right';
+			 }
+			  ]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/column_right.php">
+		<operation>
+		    <search><![CDATA[if (isset($part[1]) && isset($setting[$part[1]])) {]]></search>
+		    <add position="after"><![CDATA[$setting[$part[1]]['position'] = 'column_right';]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/content_bottom.php">
+		<operation>
+		  <search><![CDATA[$setting_info = $this->model_extension_module->getModule($part[1]);]]></search>
+			<add position="after"><![CDATA[
+			 if ($setting_info) {
+			    $setting_info['position'] = 'content_bottom';
+			 }
+			  ]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/content_bottom.php">
+		<operation>
+		    <search><![CDATA[if (isset($part[1]) && isset($setting[$part[1]])) {]]></search>
+		    <add position="after"><![CDATA[$setting[$part[1]]['position'] = 'content_bottom';]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/content_top.php">
+		<operation error="skip">
+		  <search><![CDATA[if (isset($part[1]) && isset($setting[$part[1]])) {]]></search>
+			<add position="after"><![CDATA[$setting[$part[1]]['position'] = 'content_top';]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/content_top.php">
+		<operation error="skip">
+		  <search><![CDATA[$setting_info = $this->model_extension_module->getModule($part[1]);]]></search>
+			<add position="after"><![CDATA[
+			   if ($setting_info) {
+			      $setting_info['position'] = 'content_top';
+			   }
+			  ]]></add>
+		</operation>
+	</file>
+
+	
+	<file path="catalog/controller/product/product.php">
+		<operation>
+		    <search regex="true" limit="2"><![CDATA[~(\$this->response->setOutput\()(\$this->load->view\(.*?product\/product.*?,\s+\$data\))(\);)~]]></search>
+		    <add position="replace"><![CDATA[$1magiczoomplus($2,$this,'product',$product_info)$3]]></add>
+		</operation>
+		
+		<operation>
+		    <search><![CDATA[$results = $this->model_catalog_product->getProductImages($this->request->get['product_id']);]]></search>
+		    <add position="after"><![CDATA[$product_info['images'] = $results;]]></add>
+		</operation>
+	</file>
+	
+	
+	<file path="catalog/controller/product/category.php">
+		<operation>
+		    <search regex="true" limit="2"><![CDATA[~(\$this->response->setOutput\()(\$this->load->view\(.*?product\/category.*?,\s+\$data\))(\);)~]]></search>
+		    <add position="replace"><![CDATA[$1magiczoomplus($2,$this,'category',(isset($results) ? $results : array()))$3]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/product/manufacturer.php">
+		<operation>
+		    <search regex="true"><![CDATA[~(\$this->response->setOutput\()(\$this->load->view\(.*?product\/manufacturer_(?:info|list).*?,\s+\$data\))(\);)~]]></search>
+		    <add position="replace"><![CDATA[$1magiczoomplus($2,$this,'manufacturers',(isset($results) ? $results : array()))$3]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/product/search.php">
+		<operation>
+		    <search regex="true" limit="1"><![CDATA[~(\$this->response->setOutput\()(\$this->load->view\(.*?product\/search.*?,\s+\$data\))(\);)~]]></search>
+		    <add position="replace"><![CDATA[$1magiczoomplus($2,$this,'search',(isset($results) ? $results : array()))$3]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/header.php">
+		<operation>
+			<search><![CDATA[<?php]]></search>
+			<add position="after"><![CDATA[
+    global $aFolder;
+    if (!defined('HTTP_ADMIN')) {
+    	$root_dir = DIR_APPLICATION.'../';
+    	$folder_contents = scandir($root_dir);
+		if (!(in_array('admin', $folder_contents) && file_exists($root_dir.'admin/config.php'))) {
+			foreach ($folder_contents as $value) {
+				if (is_dir($root_dir.$value) && $value != '.' && $value != '..'){
+					if (file_exists($root_dir.$value.'/config.php')) {
+						$admin_folder_name = $value;
+						continue;
+					}
+				}
+			}
+		}
+    	if (isset($admin_folder_name)) {
+    		define('HTTP_ADMIN',$admin_folder_name);
+    	} else {
+    		define('HTTP_ADMIN','admin');
+    	}
+    	
+    }
+    $aFolder = preg_replace('/.*\/([^\/].*)\//is','$1',HTTP_ADMIN);
+    if (!isset($GLOBALS['magictoolbox']['magiczoomplus']) && !isset($GLOBALS['magiczoomplus_module_loaded'])) {
+	include (preg_match("/components\/com_(ayelshop|aceshop|mijoshop)\/opencart\//ims",__FILE__,$matches)?'components/com_'.$matches[1].'/opencart/':'').$aFolder.'/controller/module/magiczoomplus-opencart-module/module.php';
+    };]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[return]]></search>
+			<add  position="replace"><![CDATA[
+			    $contents = ]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[$this->load->view]]></search>
+			<add position="after"><![CDATA[
+    $magiczoomplus_config = $this->config->get('magiczoomplus_settings');
+    if($magiczoomplus_config['magiczoomplus_status'] != 0) {
+        $tool = magiczoomplus_load_core_class($this);
+        if(magiczoomplus_use_effect_on($tool)) {
+            return magiczoomplus_set_headers($contents);
+        }
+    }
+    return $contents;
+    ]]></add>
+		</operation> 
+		
+	</file>
+	
+	<file path="catalog/controller/module/{latest,bestseller,special,featured}.php"> <!-- new opencart ocmod -->
+		<operation>
+			<search><![CDATA[<?php]]></search>
+			<add  position="after"><![CDATA[
+    global $aFolder;
+    if (!defined('HTTP_ADMIN')) {
+    	$root_dir = DIR_APPLICATION.'../';
+    	$folder_contents = scandir($root_dir);
+		if (!(in_array('admin', $folder_contents) && file_exists($root_dir.'admin/config.php'))) {
+			foreach ($folder_contents as $value) {
+				if (is_dir($root_dir.$value) && $value != '.' && $value != '..'){
+					if (file_exists($root_dir.$value.'/config.php')) {
+						$admin_folder_name = $value;
+						continue;
+					}
+				}
+			}
+		}
+    	if (isset($admin_folder_name)) {
+    		define('HTTP_ADMIN',$admin_folder_name);
+    	} else {
+    		define('HTTP_ADMIN','admin');
+    	}
+    	
+    }
+    $aFolder = preg_replace('/.*\/([^\/].*)\//is','$1',HTTP_ADMIN);
+    if (!isset($GLOBALS['magictoolbox']['magiczoomplus']) && !isset($GLOBALS['magiczoomplus_module_loaded'])) {
+	include (preg_match("/components\/com_(ayelshop|aceshop|mijoshop)\/opencart\//ims",__FILE__,$matches)?'components/com_'.$matches[1].'/opencart/':'').$aFolder.'/controller/module/magiczoomplus-opencart-module/module.php';
+    };]]></add>
+		</operation>
+		
+		<operation>
+			<search regex="true"><![CDATA[~return\s+(.*?);~]]></search>
+			<add position="replace"><![CDATA[
+			    $contents = $1;
+			    global $aFolder; include($aFolder.'/controller/module/magiczoomplus-opencart-module/boxes.inc');
+			    return $contents;
+			    ]]>
+			</add>
+		</operation>
+	
+	</file>
+	
+	<file path="catalog/controller/module/latest.php,catalog/controller/module/bestseller.php,catalog/controller/module/special.php,catalog/controller/module/featured.php"> <!-- will work on old opencarts -->
+		<operation>
+			<search><![CDATA[<?php]]></search>
+			<add  position="after"><![CDATA[
+    global $aFolder;
+    if (!defined('HTTP_ADMIN')) {
+    	$root_dir = DIR_APPLICATION.'../';
+    	$folder_contents = scandir($root_dir);
+		if (!(in_array('admin', $folder_contents) && file_exists($root_dir.'admin/config.php'))) {
+			foreach ($folder_contents as $value) {
+				if (is_dir($root_dir.$value) && $value != '.' && $value != '..'){
+					if (file_exists($root_dir.$value.'/config.php')) {
+						$admin_folder_name = $value;
+						continue;
+					}
+				}
+			}
+		}
+    	if (isset($admin_folder_name)) {
+    		define('HTTP_ADMIN',$admin_folder_name);
+    	} else {
+    		define('HTTP_ADMIN','admin');
+    	}
+    	
+    }
+    $aFolder = preg_replace('/.*\/([^\/].*)\//is','$1',HTTP_ADMIN);
+    if (!isset($GLOBALS['magictoolbox']['magiczoomplus']) && !isset($GLOBALS['magiczoomplus_module_loaded'])) {
+	include (preg_match("/components\/com_(ayelshop|aceshop|mijoshop)\/opencart\//ims",__FILE__,$matches)?'components/com_'.$matches[1].'/opencart/':'').$aFolder.'/controller/module/magiczoomplus-opencart-module/module.php';
+    };]]></add>
+		</operation>
+		
+		<operation>
+			<search regex="true"><![CDATA[~return\s+(.*?);~]]></search>
+			<add position="replace"><![CDATA[
+			    $contents = $1;
+			    global $aFolder; include($aFolder.'/controller/module/magiczoomplus-opencart-module/boxes.inc');
+			    return $contents;
+			    ]]>
+			</add>
+		</operation>
+	
+	</file>
+	
+	<file path="catalog/controller/module/featured.php">
+		<operation>
+			<search ><![CDATA[$product_info = $this->model_catalog_product->getProduct($product_id);]]></search>
+			<add position="after" ><![CDATA[
+			    $product_infos[] = $product_info;
+			]]></add>
+		</operation>
+	</file>
+</modification>

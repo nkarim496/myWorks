@@ -1,0 +1,1800 @@
+#
+# Translators:
+# sheisjeremy, 2015
+# sheisjeremy, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WPBackItUp\n"
+"POT-Creation-Date: 2016-06-25 07:41-0400\n"
+"PO-Revision-Date: 2016-06-25 07:41-0400\n"
+"Last-Translator: sheisjeremy\n"
+"Language-Team: Tagalog (http://www.transifex.com/wp-translations/wp-backitup/"
+"language/tl/)\n"
+"Language: tl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/background-processing/class-background-process.php:420
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: lib/includes/class-wpbackitup-admin.php:212 views/backup.php:277
+#: views/backup.php:283 views/backup.php:348 views/restore.php:99
+#: wp-backitup.php:142
+msgid "Backup"
+msgstr "Backup"
+
+#: lib/includes/class-wpbackitup-admin.php:216
+#: lib/includes/class-wpbackitup-admin.php:254 views/restore.php:136
+#: wp-backitup.php:156
+msgid "Restore"
+msgstr "Ipanumbalik sa orihinal"
+
+#: lib/includes/class-wpbackitup-admin.php:220
+msgid "Support"
+msgstr "Support"
+
+#: lib/includes/class-wpbackitup-admin.php:223
+msgid "Settings"
+msgstr "Mga Setting"
+
+#: lib/includes/class-wpbackitup-admin.php:247
+msgid ""
+"The backup you have selected exceeds what your host allows you to upload."
+msgstr ""
+"Ang iyong pinili na mga backup ay lumampas sa pinapayagan ng iyong  host na "
+"dapat i-upload."
+
+#: lib/includes/class-wpbackitup-admin.php:248 views/backup.php:439
+#: views/backup.php:440 views/backup.php:441 views/backup.php:442
+#: views/backup.php:443 views/backup.php:444 views/backup.php:445
+#: views/backup.php:446 views/backup.php:447 views/backup.php:448
+msgid "Warning"
+msgstr "Babala"
+
+#: lib/includes/class-wpbackitup-admin.php:249 views/backup.php:253
+#: views/backup.php:376
+msgid "Error"
+msgstr "Pagkakamali"
+
+#: lib/includes/class-wpbackitup-admin.php:250
+msgid "Response"
+msgstr "Tugon"
+
+#: lib/includes/class-wpbackitup-admin.php:251 views/backup.php:352
+#: views/backup.php:430 views/restore.php:230
+msgid "Status"
+msgstr "Kalagayan"
+
+#: lib/includes/class-wpbackitup-admin.php:252
+msgid "Download"
+msgstr "Download"
+
+#: lib/includes/class-wpbackitup-admin.php:253 views/backup.php:407
+#: views/restore.php:129
+msgid "Delete"
+msgstr "Burahin"
+
+#: lib/includes/class-wpbackitup-admin.php:255
+msgid "(JS997) Unexpected error"
+msgstr "(JS997) hindi inaasahang pagkakamali o  hindi inaasahang error"
+
+#: lib/includes/class-wpbackitup-admin.php:256
+msgid "(JS998) Unexpected error"
+msgstr "(JS998) hindi inaasahang pagkakamali o  hindi inaasahang error"
+
+#: lib/includes/class-wpbackitup-admin.php:257
+msgid "(JS999) An unexpected error has occurred"
+msgstr ""
+"(JS999)  Nangyari ang hindi inaasahang pagkakamali o  Nangyari ang hindi "
+"inaasahang error"
+
+#: lib/includes/class-wpbackitup-admin.php:258
+msgid "Scheduled has been saved."
+msgstr "Ang schedule ay naka-save."
+
+#: lib/includes/class-wpbackitup-admin.php:259
+msgid "Scheduled was not saved."
+msgstr "Ang schedule ay hindi naka - save. "
+
+#: lib/includes/class-wpbackitup-admin.php:260
+msgid "Are you sure you want to restore your site?"
+msgstr ""
+"Ikaw ba ay nakasisiguro na dapat  ibalik sa orihinal ang iyong website? "
+
+#: lib/includes/class-wpbackitup-admin.php:261
+msgid "Are you sure ?"
+msgstr "Ikaw ba ay nakasisiguro?"
+
+#: lib/includes/class-wpbackitup-admin.php:262
+msgid "This file cannot be delete!"
+msgstr "Ang file na ito ay hindi maaaring tanggalin!"
+
+#: lib/includes/class-wpbackitup-admin.php:263
+msgid "View Log"
+msgstr "Tignan ang log files. "
+
+#: lib/includes/class-wpbackitup-admin.php:264
+msgid "New Backup!"
+msgstr "Bagong backup!"
+
+#: lib/includes/class-wpbackitup-admin.php:265
+msgid "Uploaded Backup"
+msgstr "Na upload na backup"
+
+#: lib/includes/class-wpbackitup-admin.php:602
+msgid "Backup Queued"
+msgstr "Ang backup ay nakalinya."
+
+#: lib/includes/class-wpbackitup-admin.php:611
+msgid "Backup could not be queued"
+msgstr "Ang backup ay hindi maaaring isama sa mga naka linya"
+
+#: lib/includes/class-wpbackitup-admin.php:623
+msgid "Job is already in queue."
+msgstr "Ang Job ay nasa queue. "
+
+#: lib/includes/class-wpbackitup-admin.php:661
+msgid "No backup file selected."
+msgstr "Walang backup file na napili"
+
+#: lib/includes/class-wpbackitup-admin.php:668
+msgid "No user id found."
+msgstr "Walang matagpuan na user id"
+
+#: lib/includes/class-wpbackitup-admin.php:691
+msgid "Restore Queued"
+msgstr "Nakalinya na ang mga ipanunumbalik sa orihinal."
+
+#: lib/includes/class-wpbackitup-admin.php:700
+msgid "Restore could not be queued"
+msgstr "Hindi maaaring isama sa linya ng mga ibabalik sa orihinal. "
+
+#: lib/includes/class-wpbackitup-admin.php:706
+msgid "Restore already in queue"
+msgstr "Ang ipanunumbalik sa orihinal ay nakalinya na. "
+
+#: lib/includes/class-wpbackitup-admin.php:738
+msgid "No job id posted"
+msgstr "Walang job id na na-i-post"
+
+#: lib/includes/class-wpbackitup-admin.php:746 views/backup.php:467
+msgid "Backup Cancelled"
+msgstr "Nakansela na backup "
+
+#: lib/includes/class-wpbackitup-admin.php:748
+msgid "Backup job not found"
+msgstr "Hindi natagpuan ang Backup Job"
+
+#: lib/includes/class-wpbackitup-admin.php:917
+msgid "No response log found."
+msgstr "Walang makita na  response log."
+
+#: lib/includes/class-wpbackitup-admin.php:1019
+#: lib/includes/class-wpbackitup-admin.php:1027
+#: lib/includes/class-wpbackitup-admin.php:1073
+#: lib/includes/class-wpbackitup-admin.php:1080
+#: lib/includes/class-wpbackitup-admin.php:1087
+#: lib/includes/class-wpbackitup-admin.php:1094
+#: lib/includes/class-wpbackitup-admin.php:1101
+msgid "Please enter a number"
+msgstr "Maglagay ng numero  "
+
+#: lib/includes/class-wpbackitup-admin.php:1048
+#: lib/includes/class-wpbackitup-admin.php:1210
+msgid "Please enter a valid email"
+msgstr "Ilagay ang tamang email."
+
+#: lib/includes/class-wpbackitup-admin.php:1217
+msgid "Please enter your support ticket id"
+msgstr "Ilagay ang iyong support ticket id"
+
+#: lib/includes/class-wpbackitup-admin.php:1222
+msgid "Please only enter numbers in this field"
+msgstr "Ilagay lamang ang numero"
+
+#: lib/includes/class-wpbackitup-admin.php:2012
+#: lib/includes/class-wpbackitup-admin.php:2032
+msgid ""
+"License could not be activated. Please try again in a few hours and contact "
+"support if this error continues."
+msgstr ""
+"Hindi ma-activate ang lisensya. Pakisubukang muli pagkalipas ng ilang oras "
+"at  makipag-ugnayan sa support kung ang error na ito ay patuloy pa rin. "
+
+#: lib/includes/class-wpbackitup-admin.php:2081
+msgid "License is invalid."
+msgstr "Ang lisensya ay hindi  wasto"
+
+#: lib/includes/class-wpbackitup-admin.php:2086
+msgid "License has expired."
+msgstr "Ang lisensya ay wala ng bisa."
+
+#: lib/includes/class-wpbackitup-admin.php:2089
+#, php-format
+msgid ""
+"Your license has expired. Please <a href=\"%s\" target=\"blank\">renew</a> "
+"now for another year of <strong>product updates</strong> and access to our "
+"<strong>world class support</strong> team."
+msgstr ""
+"Ang iyong lisensya ay nawalan ng bisa<a href=\"%s\" target=\"blank\"> i-"
+"renew </a> ang  iyong lisensya ngayon para sa isa pang taon ng mga update "
+"<strong> ng  produkto </strong> at <strong> priority support. </strong>"
+
+#: lib/includes/class-wpbackitup-admin.php:2103
+msgid "License Expired: Scheduled backups are no longer active."
+msgstr ""
+"Ang lisensya ay wala ng bisa: Ang naka iskedyul na mga backup ay hindi na "
+"aktibo. "
+
+#: lib/includes/class-wpbackitup-admin.php:2111
+msgid "Activation limit has been reached."
+msgstr "Ang pagtatakda ng aktibasyon ay umabot na sa limitasyon "
+
+#: lib/includes/class-wpbackitup-admin.php:2117
+msgid "Your Activation limit has been reached"
+msgstr "Ang pagtatakda ng aktibasyon ay umabot na sa limitasyon "
+
+#: lib/includes/handler_upload.php:29
+msgid "Invalid Nonce"
+msgstr "Hindi wastong nonces"
+
+#: lib/includes/handler_upload.php:39 lib/includes/handler_upload.php:156
+msgid "Upload directory is not writable, or does not exist."
+msgstr ""
+"Ang  direktoryo para sa mga upload  ay hindi naman writable o hindi umiiral."
+
+#: lib/includes/handler_upload.php:80
+#, php-format
+msgid "Error: %s"
+msgstr "Error: %s"
+
+#: lib/includes/handler_upload.php:80
+msgid "File could not be uploaded"
+msgstr "Hindi ma i -upload ang file. "
+
+#: lib/includes/handler_upload.php:146
+msgid "Upload does not appear to be a WPBackItUp backup archive file."
+msgstr "Ang upload ay mistulang hindi WPBackItUp backup archive file."
+
+#: lib/includes/handler_upload.php:166
+msgid "Could not import file into WPBackItUp backup set."
+msgstr "Hindi ma -import ang file sa WPBackItUp backup set"
+
+#: lib/includes/job_backup.php:1135
+#, php-format
+msgid ""
+"<strong>IMPORTANT NOTICE:</strong> <span style=\"color: #ff0000;\"> Your "
+"license has expired.</span><br/><br/>Scheduled backups will only continue to "
+"function for <strong>30</strong> days after your license has expired.Please "
+"<strong><a href=\"%s\" target=\"blank\">renew</a></strong> for another year "
+"of product updates and access to our world class support team.<br/><br/>"
+msgstr ""
+"<strong>MAHALAGANG PAUNAWA:</strong> <span style=\"color: #ff0000;\">Ang "
+"iyong lisensya ay wala ng bisa.</span><br/><br/>Ang naka-iskedyul na pag-"
+"backup ay magpapatuloy lamang para sa <strong>30</strong> araw matapos "
+"mawalang ng bisa ang iyong lisensya. Mangyaring <strong><a href=\"%s\" "
+"target=\"blank\"> i- renew </a></strong> para sa isa pang taon ng mga update "
+"sa produkto at access sa ating pinakamahusay na support team.<br/><br/>"
+
+#: lib/includes/job_backup.php:1140
+#, php-format
+msgid "%s - Backup completed successfully."
+msgstr "%s  Matagumpay na nakumpleto ang back up "
+
+#: lib/includes/job_backup.php:1141
+msgid "Your backup completed successfully."
+msgstr "Matagumpay na nakumpleto ang iyong backup"
+
+#: lib/includes/job_backup.php:1144
+#, php-format
+msgid "%s - Backup did not complete successfully."
+msgstr "%s - Ang backup ay hindi matagumpay na nakumpleto"
+
+#: lib/includes/job_backup.php:1145
+msgid "Your backup did not complete successfully."
+msgstr "Ang iyong backup ay hindi matagumpay na nakumpleto"
+
+#: lib/includes/job_backup.php:1152
+#, php-format
+msgid "WordPress Site: <a href=\"%s\" target=\"_blank\"> %s </a><br/>"
+msgstr "WordPress Site: <a href=\"%s\" target=\"_blank\"> %s </a><br/>"
+
+#: lib/includes/job_backup.php:1153
+msgid "Backup date:"
+msgstr "Petsa ng backup"
+
+#: lib/includes/job_backup.php:1154
+msgid "Number of backups completed with WPBackItUp:"
+msgstr "Bilang ng mga nakumpleto na backup sa  WPBackItUp "
+
+#: lib/includes/job_backup.php:1156
+msgid "Completion Code:"
+msgstr "Completion Code:"
+
+#: lib/includes/job_backup.php:1157
+msgid "WPBackItUp Version:"
+msgstr "Bersyon ng WPBackItUp:"
+
+#: lib/includes/job_backup.php:1169
+#, php-format
+msgid "Checkout %s for info about WPBackItUp and our other products."
+msgstr ""
+"Siyasatin ang %s para sa impormasyon tungkol sa WPBackItUp at ang aming iba "
+"pang mga produkto."
+
+#: lib/includes/job_backup.php:1336
+msgid ""
+"(101) Unable to create a new directory for backup. Please check your CHMOD "
+"settings of your wp-backitup backup directory"
+msgstr ""
+"(101) Hindi makalikha ng isang bagong direktoryo para sa backup. Mangyaring "
+"suriin ang setting ng CHMOD ng iyong direktoryo  para sa backup ng wp-"
+"backitup "
+
+#: lib/includes/job_backup.php:1337
+msgid ""
+"(102) Cannot create backup directory. Please check the CHMOD settings of "
+"your wp-backitup plugin directory"
+msgstr ""
+"(102) Hindi makalikha ng  direktoryo para sa backup. Mangyaring suriin ang  "
+"setting ng CHMOD sa iyong direktoryo ng plugin ng  wp-backitup "
+
+#: lib/includes/job_backup.php:1338
+msgid "(103) Unable to backup your files. Please try again"
+msgstr "(103) Hindi ma-backup ang iyong mga files. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1339
+msgid "(104) Unable to export your database. Please try again"
+msgstr "(104) Hindi ma-export ang iyong database. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1340
+msgid "(105) Unable to export site information file. Please try again"
+msgstr ""
+"(105) Hindi ma -export ang site information file. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1341
+msgid "(106) Unable to cleanup your backup directory"
+msgstr "(106) Hindi malinisan  ang iyong direktoryo ng backup"
+
+#: lib/includes/job_backup.php:1342
+msgid "(107) Unable to compress(zip) your backup. Please try again"
+msgstr "(107) Hindi masiksik ang iyong backup. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1343
+msgid "(108) Unable to backup your site data files. Please try again"
+msgstr ""
+"(108) Hindi ma-backup ang iyong site data files .Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1344
+msgid "(109) Unable to finalize backup. Please try again"
+msgstr "(109) Hindi ma-kumpleto ang  backup. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1345
+msgid "(110) Unable to create backup manifest. Please try again"
+msgstr "(110) Hindi makalikha ng backup manifest. Mangyaring subukan muli.  "
+
+#: lib/includes/job_backup.php:1346
+msgid ""
+"(114) Your database was accessible but an export could not be created. "
+"Please contact support by clicking the get support link on the right. Please "
+"let us know who your host is when you submit the request"
+msgstr ""
+"(114) Ang iyong database ay maaring  ma- access ngunit hindi makakalikha ng "
+"export .  Mangyaring makipag-ugnayan  sa support para sa tulong  sa "
+"pamamagitan ng pag-click  sa link na ito . Mangyaring ipaalam sa amin kung "
+"sino ang iyong host kung magpapadala ng ticket."
+
+#: lib/includes/job_backup.php:1347
+msgid "(120) Unable to backup your themes. Please try again"
+msgstr "(120) Hindi ma-backup ang iyong tema. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1348
+msgid "(121) Unable to backup your plugins. Please try again"
+msgstr "(121) Hindi ma-backup ang iyong mga plugins. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1349
+msgid "(122) Unable to backup your uploads. Please try again"
+msgstr "(122) Hindi ma-backup ang iyong mga uploads. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1350
+msgid "(123) Unable to backup your miscellaneous files. Please try again"
+msgstr ""
+"(123) Hindi ma-backup ang iyong sari-sari na mga file. Mangyaring subukan "
+"muli"
+
+#: lib/includes/job_backup.php:1351
+msgid ""
+"(125) Unable to compress your backup because there is no zip utility "
+"available.  Please contact support"
+msgstr ""
+"(125) Hindi ma- siksik ang iyong backup dahil walang available  na zip "
+"utility. Mangyaring makipag-ugnayan sa support para sa tulong. "
+
+#: lib/includes/job_backup.php:1352
+msgid "(126) Unable to validate your backup. Please try again"
+msgstr "(126) Hindi ma-validate ang iyong backup. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1353
+msgid "(127) Unable to create inventory of files to backup. Please try again"
+msgstr ""
+"(127) Hindi makalikha ng imbentaryo ng mga files na dapat i- backup. "
+"Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1354
+msgid "(128) Unable to create job control record. Please try again"
+msgstr "(128) Hindi makalikha ng job control record. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1356
+msgid ""
+"(2101) Unable to create a new directory for backup. Please check your CHMOD "
+"settings of your wp-backitup backup directory"
+msgstr ""
+"(2101) Hindi makalikha ng isang bagong direktoryo para sa backup. Mangyaring "
+"suriin ang setting ng CHMOD ng iyong direktoryo  para sa backup ng wp-"
+"backitup "
+
+#: lib/includes/job_backup.php:1357
+msgid ""
+"(2102) Cannot create backup directory. Please check the CHMOD settings of "
+"your wp-backitup plugin directory"
+msgstr ""
+"(2102) Hindi makalikha  ng direktoryo ng backup. Mangyaring suriin ang mga "
+"setting ng CHMOD ng inyong  direktoryo  ng plugin ng wp-backitup "
+
+#: lib/includes/job_backup.php:1358
+msgid "(2103) Unable to backup your files. Please try again"
+msgstr "(2103) Hindi ma-backup ang iyong mga files. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1359
+msgid "(2104) Unable to export your database. Please try again"
+msgstr "(2104) Hindi ma-export ang iyong database. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1360
+msgid "(2105) Unable to export site information file. Please try again"
+msgstr ""
+"(2105) Hindi ma-export  and site information file. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1361
+msgid "(2106) Unable to cleanup your backup directory"
+msgstr "(2106) Hindi malinisan  ang iyong direktoryo ng backup"
+
+#: lib/includes/job_backup.php:1362
+msgid "(2107) Unable to compress(zip) your backup. Please try again"
+msgstr ""
+"(2107) Hindi ma-siksik sa  (zip) ang iyong backup. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1363
+msgid "(2108) Unable to backup your site data files. Please try again"
+msgstr ""
+"(2108) Hindi ma-backup ang iyong site data files. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1364
+msgid "(2109) Unable to finalize backup. Please try again"
+msgstr "(2109) Hindi ma-kumpleto ang  backup. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1365
+msgid "(2110) Unable to create backup manifest. Please try again"
+msgstr "(2110) Hindi makalikha ng backup manifest. Mangyaring subukan muli.  "
+
+#: lib/includes/job_backup.php:1366
+msgid ""
+"(2114) Your database was accessible but an export could not be created. "
+"Please contact support by clicking the get support link on the right. Please "
+"let us know who your host is when you submit the request"
+msgstr ""
+"(2114) Ang iyong database ay maaring  ma- access ngunit hindi makakalikha ng "
+"export .  Mangyaring makipag-ugnayan  sa support para sa tulong  sa "
+"pamamagitan ng pag-click  sa link na get support link . Mangyaring ipaalam "
+"sa amin kung sino ang iyong host kung kayo ay magpapadala  ng kahilingan."
+
+#: lib/includes/job_backup.php:1367
+msgid "(2120) Unable to backup your themes. Please try again"
+msgstr "(2120) Hindi ma-backup ang iyong tema. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1368
+msgid "(2121) Unable to backup your plugins. Please try again"
+msgstr "(2121) Hindi ma-backup ang iyong mga plugins. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1369
+msgid "(2122) Unable to backup your uploads. Please try again"
+msgstr "(2122) Hindi ma-backup ang iyong mga upload. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1370
+msgid "(2123) Unable to backup your miscellaneous files. Please try again"
+msgstr ""
+"(2123) Hindi ma-backup ang iyong mga sari-sari na mga file. Mangyaring "
+"subukan muli"
+
+#: lib/includes/job_backup.php:1371
+msgid ""
+"(2125) Unable to compress your backup because there is no zip utility "
+"available.  Please contact support"
+msgstr ""
+"(2125) Hindi ma-isiksik ang iyong backup dahil walang magagamit na  zip "
+"utility. Mangyaring makipag-ugnayan sa support para sa tulong"
+
+#: lib/includes/job_backup.php:1372
+msgid "(2126) Unable to validate your backup. Please try again"
+msgstr "(2126) Hindi ma-validate ang iyong backup. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1373
+msgid "(2127) Unable to create inventory of files to backup. Please try again"
+msgstr ""
+"(2127) Hindi makalikha ng imbentaryo ng mga files na dapat i- backup. "
+"Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1374
+msgid "(2128) Unable to create job control record. Please try again"
+msgstr "(2128) Hindi makalikha ng job control record. Mangyaring subukan muli"
+
+#: lib/includes/job_backup.php:1377
+msgid "(999) Unexpected error"
+msgstr "(999) Hindi inaasahang error o hindi inaasahang pagkakamali"
+
+#. TRANSLATORS: %s = plugin name.
+#. This string is in the header of one of my pages and looks like this: WP BackItUp Dashboard
+#. Similar to how WordPress uses the word dashboard at the in the left navigation.
+#: views/backup.php:17
+#, php-format
+msgid "%s Dashboard"
+msgstr "%s Dashboard"
+
+#: views/backup.php:242
+msgid "Dismiss"
+msgstr "Alisin"
+
+#: views/backup.php:254
+#, php-format
+msgid "Backup folder does not exist. Please contact %s for assistance."
+msgstr ""
+"Ang backup folder ay hindi umiiral.  Makipagugnayan sa  %s suport para sa "
+"tulong. "
+
+#: views/backup.php:254 views/restore.php:75 views/restore.php:82
+msgid "support"
+msgstr "Support"
+
+#: views/backup.php:257 views/backup.php:263
+msgid "Close"
+msgstr "Isara"
+
+#: views/backup.php:278
+msgid ""
+"Click the backup button to create a zipped backup file of this site's "
+"database, plugins, themes and settings."
+msgstr ""
+"I-click ang buton na backup  upang  lumikha ng  zip backup file ng database, "
+"plugins, mga tema at mga setting  ng site database"
+
+#: views/backup.php:279
+msgid ""
+"Once your backup file has been created it will appear in the available "
+"backups section below. This file may remain on your hosting providers server "
+"but we recommend that you download and save it somewhere safe."
+msgstr ""
+"Kapag ang iyong mga backup file ay nagawa na, ito ay lilitaw sa seksyon ng "
+"mga magagamit na backups  Ang file na ito ay maaaring manatili sa iyong "
+"hosting provider server ngunit inirerekumenda namin na iyong i-download at i-"
+"save . "
+
+#: views/backup.php:280
+msgid ""
+"WPBackItUp premium customers can use these backup files to perform an "
+"automated restore of their site."
+msgstr ""
+"Ang mga premium customer ng WPBackItUp  ay maaaring gamitin  ang mga backup "
+"files upang magsagawa ng awtomatikong pagbabalik sa orihinal  ng kanilang "
+"site. "
+
+#: views/backup.php:284
+msgid "Cancel"
+msgstr "Ikansela"
+
+#: views/backup.php:291
+#, php-format
+msgid ""
+"WPBackItUp lite customers may use these backup files to manually restore "
+"their site.  Please visit %s for manual restore instructions."
+msgstr ""
+"Maaaring gamitin ng WPBackItUp  lite customer ang mga backup file para  mano-"
+"manong ibalik sa orihinal ang kanilang site. Mangyaring bisitahin ang %s "
+"para sa  mga tagubilin."
+
+#: views/backup.php:298
+msgid "Backup Schedule"
+msgstr "Backup Iskedyul"
+
+#: views/backup.php:300
+msgid "Select the days of the week you would like your backup to run."
+msgstr "Piliin ang mga araw na nais mong  magsimula ang iyong backup "
+
+#: views/backup.php:302
+msgid ""
+"Backup your site once per week or every day, it's up to you.  If you have "
+"email notifications turned on we'll even send you an email when it's done.  "
+"Once your backup file has been created it will appear in the available "
+"backups section below. This file may remain on your hosting providers server "
+"but we recommend that you download and save it somewhere safe."
+msgstr ""
+"Mag backup ng iyong site  isang beses sa  isang linggo o bawat araw. ito ay "
+"nasa sa'yo.  Kung ikaw ay may  notipikasyon sa email  kami ay magpapadala ng "
+"email kapag ang iyong backup  ay tapos na. Kapag ang iyong mga backup file "
+"ay nagawa na, ito ay lilitaw sa seksyon ng mga magagamit na mga backup. Ang "
+"file na ito ay maaaring manatili sa iyong hosting provider server ngunit "
+"inirerekumenda namin na iyong i-download at i-save."
+
+#: views/backup.php:304
+msgid "Please make sure to schedule your backup for at least once per week."
+msgstr ""
+"Mangyaring siguraduhin na mag-iskedyul ng iyong mga backup , isang beses sa "
+"isang linggo."
+
+#: views/backup.php:308
+msgid "Monday"
+msgstr "Lunes"
+
+#: views/backup.php:309
+msgid "Tuesday"
+msgstr "Martes"
+
+#: views/backup.php:310
+msgid "Wednesday"
+msgstr "Miyerkules"
+
+#: views/backup.php:311
+msgid "Thursday"
+msgstr "Huwebes"
+
+#: views/backup.php:312
+msgid "Friday"
+msgstr "Biyernes"
+
+#: views/backup.php:313
+msgid "Saturday"
+msgstr "Sabado"
+
+#: views/backup.php:314
+msgid "Sunday"
+msgstr "Linggo"
+
+#: views/backup.php:317
+msgid "Save Schedule"
+msgstr "I-save ang iskedyul "
+
+#: views/backup.php:322
+#, php-format
+msgid ""
+"Scheduled backups are only available to WPBackItUp premium customers.  "
+"Please visit %s to get WPBackItUp risk free for 30 days."
+msgstr ""
+"Ang pag iskedyul ng backup ay magagamit lamang ng WPBackItUp premium  "
+"customer. Mangyaring bisitahin ang %s upang  makakuha ng WPBackItUp  risk "
+"free  para sa  30 araw. "
+
+#: views/backup.php:329 views/restore.php:95
+msgid "Available Backups"
+msgstr "Magagamit na Backups "
+
+#: views/backup.php:349
+msgid "Type"
+msgstr "Uri "
+
+#: views/backup.php:350 views/restore.php:100
+msgid "Date"
+msgstr "Petsa"
+
+#: views/backup.php:351
+msgid "Duration"
+msgstr "Panahong itinagal"
+
+#: views/backup.php:370
+msgid "Success"
+msgstr "Matagumpay! "
+
+#: views/backup.php:373
+msgid "Active"
+msgstr "Aktibo: "
+
+#: views/backup.php:416 views/restore.php:149
+msgid "No backup archives found."
+msgstr "Walang nahanap na backup archive"
+
+#: views/backup.php:425
+#, php-format
+msgid ""
+"The automated restore feature is only available to WPBackItUp premium "
+"customers.  Please visit %s to get WPBackItUp risk free for 30 days."
+msgstr ""
+"Ang  awtomatikong pagbabalik sa orihinal ay magagamit lamang ng WPBackItUp "
+"premium customer. Mangyaring bisitahin ang %s upang makakuha ng WPBackItUp  "
+"risk free para sa 30 araw."
+
+#: views/backup.php:434 views/restore.php:234
+msgid "Nothing to report"
+msgstr "Walang maiulat"
+
+#: views/backup.php:439
+msgid "Preparing for backup"
+msgstr "Paghahanda para sa backup"
+
+#: views/backup.php:439 views/backup.php:440 views/backup.php:441
+#: views/backup.php:442 views/backup.php:443 views/backup.php:444
+#: views/backup.php:445 views/backup.php:446 views/backup.php:447
+#: views/backup.php:448 views/restore.php:244 views/restore.php:245
+#: views/restore.php:246 views/restore.php:247 views/restore.php:248
+#: views/restore.php:249 views/restore.php:250 views/restore.php:251
+#: views/restore.php:252 views/restore.php:253 views/restore.php:254
+#: views/restore.php:256
+msgid "Done"
+msgstr "Tapos na "
+
+#: views/backup.php:439 views/backup.php:440 views/backup.php:441
+#: views/backup.php:442 views/backup.php:443 views/backup.php:444
+#: views/backup.php:445 views/backup.php:446 views/backup.php:447
+#: views/backup.php:448 views/restore.php:244 views/restore.php:245
+#: views/restore.php:246 views/restore.php:247 views/restore.php:248
+#: views/restore.php:249 views/restore.php:250 views/restore.php:251
+#: views/restore.php:252 views/restore.php:253 views/restore.php:254
+#: views/restore.php:256
+msgid "Failed"
+msgstr "Hindi napagtagumpayan "
+
+#: views/backup.php:440
+msgid "Creating inventory of files to backup"
+msgstr "Paglikha ng imbentaryo ng files para i-backup."
+
+#: views/backup.php:441
+msgid "Backing up database"
+msgstr "Pag-back up ng database"
+
+#: views/backup.php:442
+msgid "Creating backup information file"
+msgstr "Paglikha ng backup  information file "
+
+#: views/backup.php:443
+msgid "Backing up themes"
+msgstr "Pag-back up ng tema"
+
+#: views/backup.php:444
+msgid "Backing up plugins"
+msgstr "Pag-back up plugins"
+
+#: views/backup.php:445
+msgid "Backing up uploads"
+msgstr "Pag-back up uploads"
+
+#: views/backup.php:446
+msgid "Backing up everything else"
+msgstr "Pag- back up ng lahat ng iba pa"
+
+#: views/backup.php:447
+msgid "Validating backup"
+msgstr "Pagpapatunay sa  backup "
+
+#: views/backup.php:448
+msgid "Finalizing backup"
+msgstr "Pag kumpleto ng backup"
+
+#: views/backup.php:458
+msgid "Backup completed successfully"
+msgstr "Matagumpay na nakumpleto ang backup"
+
+#: views/backup.php:479
+msgid "Backups"
+msgstr "Backups"
+
+#: views/backup.php:479
+msgid "Version "
+msgstr "Bersyon "
+
+#: views/backup.php:481
+msgid "Welcome to WPBackItUp!"
+msgstr "Maligayang pagdating sa WPBackItUp!"
+
+#: views/backup.php:481
+msgid "The simplest way to backup your WordPress site."
+msgstr "Ang pinakasimpleng paraan upang i- backup ang iyong WordPress site."
+
+#: views/backup.php:482
+msgid ""
+"Getting started is easy, just click the backup button on the left side of "
+"this page."
+msgstr ""
+"Ang pagsisimula ay madali, i-click lamang ang buton  ng backup sa kaliwang "
+"bahagi ng pahinang ito."
+
+#: views/backup.php:486
+#, php-format
+msgid ""
+"Congratulations! You have performed <span style=\"font-weight:bold;font-size:"
+"medium;color: green\">%s</span> successful backups."
+msgstr ""
+"Malugod na pagbati! Ikaw ay nagsagawa ng <span style=\"font-weight:bold;font-"
+"size:medium;color: green\">%s</span>  matagumpay na backups "
+
+#: views/backup.php:487
+msgid "Tips"
+msgstr "Tips"
+
+#: views/backup.php:488
+msgid "Backup your site at least once per week"
+msgstr "Mag backup ng  iyong site isang beses sa isang linggo"
+
+#: views/backup.php:489
+msgid "Download all your backups and store them somewhere safe"
+msgstr "I-download ang lahat ng iyong mga backup at  itago saan man ligtas"
+
+#: views/backup.php:490
+msgid "Verify your backup files are good by taking a look at what's inside"
+msgstr ""
+"Upang mapatunayan  na maayos ang iyong mga backup tignan  ang nilalaman nito "
+
+#: views/backup.php:495
+#, php-format
+msgid "Why not %s and schedule your backups!"
+msgstr "Bakit hindi %s at i-iskedyul ang iyong mga backup!"
+
+#: views/backup.php:495
+msgid "upgrade"
+msgstr "upgrade"
+
+#: views/backup.php:504
+msgid "Register WPBackItUp"
+msgstr "Magrehistro  ng WPBackItUp"
+
+#: views/backup.php:507
+msgid ""
+"Enter your name and email address below to receive <b>special offers</b> and "
+"access to our world class <b>support</b> team.  <br />\n"
+"                <br />Enter your license key below to activate it on this "
+"site."
+msgstr ""
+"Ilagay ang iyong pangalan at email address  upang makatanggap ng <b>special "
+"offers </ b> at access sa aming pinakamahusay na <b>support</ b> team. <br/"
+"> \n"
+"Ilagay ang iyong license key  upang ma-activate sa site na ito."
+
+#: views/backup.php:509
+msgid "name"
+msgstr "Pangalan"
+
+#: views/backup.php:510
+msgid "email address"
+msgstr "email address"
+
+#: views/backup.php:511
+msgid "license key"
+msgstr "license key"
+
+#: views/backup.php:511 views/backup.php:561 views/backup.php:565
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: views/backup.php:512
+msgid "Free plugin customers do not need to enter license key."
+msgstr ""
+"Ang mga  free plugin customers ay hindi na kailangang maglagay ng license "
+"key "
+
+#: views/backup.php:513
+msgid "Register"
+msgstr "Mag-rehistro"
+
+#: views/backup.php:522
+msgid "License Info"
+msgstr "Impormasyon ng Lisensya"
+
+#: views/backup.php:544
+msgid "Name"
+msgstr "Pangalan"
+
+#: views/backup.php:545
+msgid "Email"
+msgstr "Email"
+
+#: views/backup.php:546
+msgid "License Type"
+msgstr "Uri ng Lisensya"
+
+#: views/backup.php:547
+msgid "Expires"
+msgstr "Ang lisensya ay mawawalan ng bisa"
+
+#: views/backup.php:550
+msgid "Enter license key to activate on this site."
+msgstr "Ilagay ang license key upang ma-activate sa site na ito"
+
+#: views/backup.php:557
+msgid "License Active"
+msgstr "Aktibong Lisensya "
+
+#: views/backup.php:565
+msgid "License expired"
+msgstr "Wala ng  bisa ang lisensya"
+
+#: views/backup.php:569
+msgid "Update"
+msgstr "Update"
+
+#: views/backup.php:573
+msgid "Activate"
+msgstr "I-activate"
+
+#: views/backup.php:577
+#, php-format
+msgid "Purchase a %s license using the purchase link above."
+msgstr "Bumili ng %s  lisensiya gamit ang link  na nasa itaas. "
+
+#: views/backup.php:577
+msgid "no-risk"
+msgstr "no risk "
+
+#: views/backup.php:583
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=\"blank\">renew</a> now for another year of "
+"<strong>product updates</strong> and access to our <strong>world class "
+"support</strong> team."
+msgstr ""
+"<a href=\"%s\" target=\"blank\"> i-renew </a> ang  iyong lisensya ngayon "
+"para sa isa pang taon ng mga update <strong> ng  produkto </strong> at "
+"<strong> priority support. </strong>"
+
+#: views/backup.php:594
+msgid "Useful Links"
+msgstr "Kapaki-pakinabang na mga  Link"
+
+#: views/backup.php:596
+msgid "Getting Started Video"
+msgstr "Video ng Pagsisimula sa WPBackItUp"
+
+#: views/backup.php:599
+msgid "Your account"
+msgstr "Ang iyong account"
+
+#: views/backup.php:602
+msgid "Website Migration Service"
+msgstr "Website Migration Service"
+
+#: views/backup.php:604
+msgid "Documentation"
+msgstr "Dokumentasyon"
+
+#: views/backup.php:607
+msgid "Get support"
+msgstr "Makipagugnayan sa support para sa tulong"
+
+#: views/backup.php:610
+msgid "Feature request"
+msgstr "Feature request"
+
+#: views/backup.php:612
+msgid "Language Translations"
+msgstr "Pagsasalin ng Wika"
+
+#: views/backup.php:614
+msgid "Contact"
+msgstr "Contact"
+
+#: views/restore.php:13
+#, php-format
+msgid "%s Restore"
+msgstr "%s Ipanumbalik sa orihinal"
+
+#: views/restore.php:60
+msgid "Zip Files"
+msgstr "Zip Files"
+
+#: views/restore.php:75
+#, php-format
+msgid "Error: Backup folder does not exist. Please contact %s for assistance."
+msgstr ""
+"Error: Ang backup folder ay hindi umiiral. Mangyaring makipag-ugnayan sa %s "
+"para sa tulong."
+
+#: views/restore.php:82
+#, php-format
+msgid "Error: Restore folder does not exist. Please contact %s for assistance."
+msgstr ""
+"Error: Ang restore folder ay hindi umiiral. Mangyaring makipag- ugnayan sa "
+"%s para sa tulong"
+
+#: views/restore.php:165
+#, php-format
+msgid ""
+"<p>* The automated restore feature is only available to licensed customers.  "
+"Please visit <a href=\"%s\" target=\"_blank\">%s</a> to get license "
+"WPBackItUp risk free for 30 days.</p>"
+msgstr ""
+"<p>* Ang feature na awtomatikong pagbalik sa orihinal na site ay para lamang "
+"sa mga customers na may lisensya ng WPBackItUp. Mangyaring bisitahin  <a "
+"href=\"%s\" target=\"_blank\">%s</a> upang makakuha ng lisensiya ng  "
+"WPBackItUp  risk free ng 30 araw. </p>"
+
+#: views/restore.php:177
+msgid "Upload"
+msgstr "Upload"
+
+#: views/restore.php:180
+msgid ""
+"Upload WPBackItUp archive(zip) files to add to your list of available "
+"backups."
+msgstr ""
+"Mag-upload ng mga WPBackItUp archive (zip) file upang idagdag sa iyong "
+"talaan ng mga magagamit na backup. "
+
+#: views/restore.php:197
+msgid "WPBackItUp - Upload backup files"
+msgstr "WPBackItUp - Mag-upload ng mga backup file"
+
+#: views/restore.php:198
+msgid "Backup files may be uploaded into WPBackItUp with this form."
+msgstr ""
+"Ang mga Backup file ay maaaring  ma-i -upload sa WPBackItUp sa pamamagitan "
+"ng  form na ito."
+
+#: views/restore.php:198
+msgid ""
+"They may also be uploaded manually into the WPBackItUp directory (wp-content/"
+"wpbackitup_backups) using FTP. When done uploading all backup files refresh "
+"this page."
+msgstr ""
+"Ang mga ito ay maaari ding  mano-mano na ma-i-upload sa direktoryo ng "
+"WPBackItUp (wp-content/wp backitup_backups) gamit ang FTP. Kapag tapos na "
+"ang pag-upload ng lahat ng backup file, i - refresh ang pahinang ito."
+
+#: views/restore.php:202
+#, php-format
+msgid "This feature requires %s version %s or later"
+msgstr ""
+"Ang feature na ito ay nangangailangan ng %s bersyon %s o mas nauna pang "
+"bersyon "
+
+#: views/restore.php:208
+msgid "Drop backup files here"
+msgstr "Ilagay ang  backup files dito"
+
+#: views/restore.php:214
+msgid ""
+"* Reload this page when done uploading to see new backups appear in the "
+"Available Backups section above. "
+msgstr ""
+"I-reload ang pahinang ito kapag tapos na ang pag-upload upang makita ang "
+"mga  bagong backup sa available section  ng backups na nasa itaas. "
+
+#: views/restore.php:244
+msgid "Preparing for restore"
+msgstr "Paghahanda na maipanumbalik sa orihinal"
+
+#: views/restore.php:245
+msgid "Unpacking backup set"
+msgstr "Unpacking backup set"
+
+#: views/restore.php:246
+msgid "Unzipping backup files"
+msgstr "Unzipping backup files"
+
+#: views/restore.php:247
+msgid "Validating backup files"
+msgstr "Pagpapatunay sa mga backup file"
+
+#: views/restore.php:248
+msgid "Deactivating plugins"
+msgstr "Tanggalin ang pagka-aktibo ng plugin"
+
+#: views/restore.php:249
+msgid "Creating database restore point"
+msgstr "Paglikha ng database restore point"
+
+#: views/restore.php:250
+msgid "Staging content files"
+msgstr "Pagsasaayos ng mga nilalaman na files "
+
+#: views/restore.php:251
+msgid "Restoring content files"
+msgstr "Ipinapanumbalik ang nilalaman na mga file"
+
+#: views/restore.php:252
+msgid "Restoring database"
+msgstr "Ipinapanumbalik  ang database"
+
+#: views/restore.php:253
+msgid "Updating current user info"
+msgstr "Pag-update ng mga kasalukuyang impormasyon ng user"
+
+#: views/restore.php:254
+msgid "Updating site URL"
+msgstr "Pag-update ng site URL "
+
+#: views/restore.php:256
+msgid "Updating permalinks"
+msgstr "Pag-update ng permalinks"
+
+#: views/restore.php:262
+msgid "Error 201: No file selected"
+msgstr "Error 201: Walang napiling file"
+
+#: views/restore.php:263
+msgid "Error 202: Your file could not be uploaded"
+msgstr "Error 202: Hindi ma-i- upload ang iyong file"
+
+#: views/restore.php:264
+msgid "Error 203: Your backup could not be unzipped"
+msgstr "Error 203: Ang iyong backup ay hindi ma-i-unzipped"
+
+#: views/restore.php:265
+msgid ""
+"Error 204: Your backup appears to be invalid. Please ensure you selected a "
+"valid backup"
+msgstr ""
+"Error 204:  Ang iyong  backup  ay hindi wasto. Mangyaring siguraduhin na "
+"pinili mo ang isang  tunay na backup."
+
+#: views/restore.php:266
+msgid "Error 205: Cannot create restore point"
+msgstr "Error 205: Hindi makalikha ng restore point"
+
+#: views/restore.php:267
+msgid "Error 206: Unable to connect to your database"
+msgstr "Error 206: Hindi makakonekta sa iyong database"
+
+#: views/restore.php:268
+msgid ""
+"Error 207: Unable to get current site URL from database. Please try again"
+msgstr ""
+"Error 207: Hindi makuha ang kasalukuyang URL site mula sa database. "
+"Mangyaring subukan muli"
+
+#: views/restore.php:269
+msgid ""
+"Error 208: Unable to get current home URL from database. Please try again"
+msgstr ""
+"Error 208: Hindi makuha ang kasalukuyang home URL mula sa database. "
+"Mangyaring subukan muli"
+
+#: views/restore.php:270
+msgid ""
+"Error 209: Unable to get current user ID from database. Please try again"
+msgstr ""
+"Error 209: Hindi makuha ang kasalukuyang user ID mula sa database. "
+"Mangyaring subukan muli"
+
+#: views/restore.php:271
+msgid ""
+"Error 210: Unable to get current user password from database. Please try "
+"again"
+msgstr ""
+"Error 210: Hindi makuha ang kasalukuyang user password mula sa database. "
+"Mangyaring subukan muli"
+
+#: views/restore.php:272
+msgid ""
+"Error 211: Unable to get current user email from database. Please try again"
+msgstr ""
+"Error 211:  Hindi makuha ang kasalukuyang user email mula sa database. "
+"Mangyaring subukan muli"
+
+#: views/restore.php:273
+msgid ""
+"Error 212: Unable to import your database. This may require importing the "
+"file manually"
+msgstr ""
+"Error 212: Hindi ma-import ang iyong database. Maaaring mangailangan ng mano "
+"-mano  na pag-import ng file"
+
+#: views/restore.php:274
+msgid ""
+"Warning 213: Unable to update your site URL value. Please check your "
+"WordPress general settings to make sure your Site and WordPress URLs are "
+"correct"
+msgstr ""
+"Babala 213: Hindi ma-update ang iyong site URL value. Mangyaring suriin ang "
+"pangkalahatang mga setting ng WordPress upang matiyak na ang iyong site at "
+"WordPress URL ay tama"
+
+#: views/restore.php:275
+msgid ""
+"Warning 214: Unable to update your home URL value. Please check your "
+"WordPress general settings to make sure your Site and WordPress URLs are "
+"correct"
+msgstr ""
+"Babala 214: Hindi ma-update ang iyong home URL value. Mangyaring suriin ang  "
+"pangkalahatang mga setting ng iyong WordPress upang matiyak na ang iyong "
+"site at WordPress URL ay tama"
+
+#: views/restore.php:276
+msgid ""
+"Warning 215: Unable to update your user information. This may require you to "
+"login with the admin username and password that was used when the backup was "
+"created"
+msgstr ""
+"Babala 215: Hindi ma-update ang iyong impormasyon bilang user. Kinakailangan "
+"na ikaw ay  mag-login  gamit ang admin username at password na iyong ginamit "
+"sa paglikha ng backup. "
+
+#: views/restore.php:277
+msgid "Error 216: Database not found in backup"
+msgstr "Error 216: Ang database ay hindi matagpuan sa backup"
+
+#: views/restore.php:278
+msgid "Warning 217: Unable to remove existing wp-content directory"
+msgstr "Babala 217: Hindi matanggal  ang umiiral na direktoryo ng wp-content"
+
+#: views/restore.php:279
+msgid ""
+"Error 218: Unable to create new wp-content directory. Please check your "
+"CHMOD settings in /wp-content/"
+msgstr ""
+"Error 218: Hindi makalikha ng mga bagong direktoryo ng  wp-content. "
+"Mangyaring suriin ang  mga setting ng CHMOD  sa / wp-content / "
+
+#: views/restore.php:280
+msgid "Error 219: Unable to import wp-content. Please try again"
+msgstr "Error 219: Hindi ma - import  ang wp-content. Mangyaring subukan muli."
+
+#: views/restore.php:281
+msgid "Warning 220: Unable to cleanup import directory. No action is required"
+msgstr ""
+"Babala 220: Hindi malinisan ang import ng direktoryo. Walang kinakailangang  "
+"aksyon"
+
+#: views/restore.php:282
+#, php-format
+msgid ""
+"Error 221: Table prefix value in wp-config.php is different from backup. "
+"This MUST be changed in your wp-config.php file before you will be able to "
+"restore your site.  See www.wpbackitup.com <a href =\"%s\" target=\"_blank\" "
+"> FAQs</a> for more info."
+msgstr ""
+"Error 221: Ang Table prefix value sa wp-config.php ay naiiba mula sa backup. "
+"Ito ay dapat na mabago sa iyong wp-config.php file bago mo magawang ibalik "
+"ang iyong site. Tignan ang  www.wpbackitup.com <a href =\"%s\" target="
+"\"_blank\"> FAQs </a> para sa karagdagang impormasyon."
+
+#: views/restore.php:283
+msgid "Error 222: Unable to create restore folder"
+msgstr "Error 222: Hindi makalikha ng restore  folder"
+
+#: views/restore.php:284
+msgid ""
+"Error 223: An error occurred during the restore.  WPBackItUp attempted to "
+"restore the database to its previous state but were unsuccessful.  Please "
+"contact WPBackItUp customer support and do not attempt to perform any "
+"further restores"
+msgstr ""
+"Error 223: May naganap na error habang isinasagawa ang pagbabalik sa "
+"orihinal  ng database. Ang WPBackItUp ay  sumubok na  ibalik sa orihinal ang "
+"database sa kanyang dating estado ngunit ito  ay hindi matagumpay. "
+"Mangyaring makipag-ugnayan sa WPBackItUp customer support para sa tulong at "
+"wag  subukin na magsagawa ng anumang karagdagang restore."
+
+#: views/restore.php:285
+msgid ""
+"Error 224: An error occurred during the restore, however, we have "
+"successfully restored your database to the previous state"
+msgstr ""
+"Error 224: May naganap na error habang ibinabalik sa orihinal ang database, "
+"gayunpaman, matagumpay na naipanumbalik ang iyong database sa dating estado "
+"nito"
+
+#: views/restore.php:286
+msgid ""
+"Error 225: Restore option is only available to licensed WPBackItUp users"
+msgstr ""
+"Error 225: Ang opsyon na pagbabalik sa orihinal o restore  ay magagamit "
+"lamang  ng mga my lisensya na ng WPBackItUp."
+
+#: views/restore.php:287
+msgid ""
+"Error 226: Restore cannot proceed because your backup was created using a "
+"different version of WordPress"
+msgstr ""
+"Error 226: Ang pagbabalik sa orihinal ay hindi maaaring magpatuloy dahil ang "
+"iyong backup ay nilikha gamit ang ibang bersyon ng WordPress"
+
+#: views/restore.php:288
+msgid ""
+"Error 227: Restore cannot proceed because your backup was created using a "
+"different version of WPBackItUp.  Please contact WPBackItUp support to help "
+"convert this backup to the current version"
+msgstr ""
+"Error 227:  Hindi maaaring magpatuloy  ang restore dahil ang iyong backup ay "
+"nilikha gamit ang ibang bersyon ng WPBackItUp. Mangyaring makipag-ugnayan "
+"sa  WPBackItUp support  upang matulungan kayo na ma-i- convert  ang  backup "
+"na ito sa kasalukuyang bersyon"
+
+#: views/restore.php:289
+msgid ""
+"Error 230: WPBackItUp ran into unexpected errors during the database "
+"restore.  However, we were able to successfully revert the database back to "
+"its original state . This error may require importing the database manually"
+msgstr ""
+"Error 230:  Ang WPBackItUp ay nagkaroon ng  hindi inaasahang error  habang  "
+"ibinabalik sa orihinal ang database. Gayunman, matagumpay na nanumbalik  ang "
+"database  sa orihinal na katayuan nito.  Ang error na ito ay maaaring "
+"mangailangan ng mano-mano na pag-import ng database"
+
+#: views/restore.php:290
+msgid ""
+"Error 235: WPBackItUp is not able to proceed because there is no zip utility "
+"available.  Please contact support"
+msgstr ""
+"Error 235: Ang WPBackItUp ay hindi magagawang  magpatuloy dahil walang "
+"available na  zip utility. Mangyaring makipag-ugnayan sa support para sa "
+"tulong"
+
+#: views/restore.php:291
+msgid ""
+"Error 250: WPBackItUp is unable to begin the restore because a backup is "
+"running.  Please wait for the backup to complete and then try again"
+msgstr ""
+"Error 250: Hindi  maaaring  simulan ng WPBackItUp  ang pagbabalik sa "
+"orihinal  dahil my kasalukuyang  backup na nagaganap. Mangyaring maghintay "
+"na makumpleto  ang  backup at pagkatapos ay subukan ulit"
+
+#: views/restore.php:293
+msgid ""
+"Error 260: WPBackItUp is unable to extract archives from backup set.  Please "
+"try again and contact support if this issue continues"
+msgstr ""
+"Error 260: Ang WPBackItUp ay hindi magawang mag extract ng archives mula sa "
+"backup set. Mangyaring subukan muli at makipag-ugnayan sa support kung ang "
+"ganitong isyu ay patuloy pa rin. "
+
+#: views/restore.php:294
+msgid ""
+"Error 261: WPBackItUp is unable to extract archives from backup set.  Please "
+"try again and contact support if this issue continues"
+msgstr ""
+"Error 261: Ang WPBackItUp ay hindi magawang mag extract ng archives mula sa "
+"backup set. Mangyaring subukan muli at makipag-ugnayan sa support kung ang "
+"ganitong isyu ay patuloy pa rin. "
+
+#: views/restore.php:295
+msgid ""
+"Error 262: There were no backup files found in the backup folder.  Please "
+"try again and contact support if this issue continues"
+msgstr ""
+"Error 262: Walang nakita na backup files sa backup folder. Mangyaring "
+"subukan muli at makipag-ugnayan sa support kung magpapatuloy ito. "
+
+#: views/restore.php:297
+msgid ""
+"Error 251: WPBackItUp is unable to begin the restore because the backup "
+"manifest is empty"
+msgstr ""
+"Error 251: Hindi  maaaring simulan  ng  WPBackItUp ang pagbabalik sa "
+"orihinal dahil ang backup manifest ay walang laman"
+
+#: views/restore.php:298
+msgid ""
+"Error 252: At least one zip file is missing from your backup set.  Please "
+"make sure to upload all zip files that were part of this backup"
+msgstr ""
+"Error 252: Hindi bababa sa isang zip file ay nawawala mula sa iyong backup "
+"set. Pakitiyak na i-upload ang lahat ng zip file na bahagi ng backup na ito"
+
+#: views/restore.php:299
+msgid ""
+"Error 253: Backup set contains a zip file that is not in the manifest.  "
+"Please make sure to upload only zip files that were part of this backup"
+msgstr ""
+"Error 253:  Ang backup set ay naglalaman ng isang zip file na wala sa "
+"manifest. Pakitiyak na i-upload lamang ang zip file na bahagi ng backup na "
+"ito "
+
+#: views/restore.php:300
+msgid ""
+"Error 254: The size of one the zip files in this backup set does not match "
+"the manifest so is most likely corrupt.  Upload all zip files in this backup "
+"set again and attempt the restore one more time. "
+msgstr ""
+"Error 254: Ang laki ng isang zip file sa backup set ay hindi tumutugma sa "
+"manifest sa gayon ay pinaka-malamang na corrupt. Mag-upload ng lahat ng zip "
+"file sa backup set muli at subukang ipanumbalik  sa orihinal ng isa pang "
+"beses."
+
+#: views/restore.php:301
+msgid ""
+"Error 255: Backup set does not contain a manifest.  Please make sure to "
+"upload all zip files that were part of this backup"
+msgstr ""
+"Error 255: Ang Backup set ay naglalaman ng isang zip file na wala sa "
+"manifest. Pakitiyak na I-upload lamang ang zip file na bahagi ng backup na "
+"ito. "
+
+#: views/restore.php:303
+msgid ""
+"Warning 300: Unable to restore all WordPress content. Please review your "
+"restore logs to see what WPBackItUp was unable to restore"
+msgstr ""
+"Babala 300: Hindi maibalik sa orihinal  ang lahat ng nilalaman ng WordPress. "
+"Mangyaring suriin ang logs  ng iyong restore para makita kung ano ang hindi "
+"nagawang ibalik sa orihinal ng WPBackItUp . "
+
+#: views/restore.php:304
+msgid ""
+"Warning 305: Unable to restore all plugins. Please review your restore logs "
+"to see what WPBackItUp was unable to restore"
+msgstr ""
+"Babala 305: Hindi maibalik sa orihinal ang lahat ng mga plugin. Mangyaring "
+"suriin ang iyong  logs ng pagbabalik sa orihinal para makita kung ano ang "
+"hindi nagawang ibalik sa orihinal ng WPBackItUp"
+
+#: views/restore.php:306
+msgid "Error 2001: Unable to prepare site for restore"
+msgstr "Error 2001: Hindi maihanda ang  site para maibalik sa orihinal "
+
+#: views/restore.php:307
+msgid "Error 2002: Unable to unzip backup"
+msgstr "Error 2002: Hindi magawang i-unzip  ang backup"
+
+#: views/restore.php:308
+msgid "Error 2003: Unable to validate backup"
+msgstr "Error 2003: Hindi ma-validate  ang backup"
+
+#: views/restore.php:309
+msgid "Error 2004: Unable to create restore point"
+msgstr "Error 2004: Hindi makalikha ng restore point"
+
+#: views/restore.php:310
+msgid "Error 2005: Unable to stage wp-content"
+msgstr "Error 2005: Hindi magawang  mahanda  ang  wp-content"
+
+#: views/restore.php:311
+msgid "Error 2006: Unable to restore content files"
+msgstr "Error 2006: Hindi maibabalik sa orihinal ang nilalaman na file "
+
+#: views/restore.php:312
+msgid "Error 2007: Unable to restore database"
+msgstr "Error 2007: Hindi nagawang ibalik sa orihinal  ang database"
+
+#: views/restore.php:313
+msgid "Error 2999: Unexpected error encountered"
+msgstr "Error 2999: Hindi inaasahang error ang naganap "
+
+#: views/restore.php:320
+msgid ""
+"Restore completed successfully. If you are prompted to login please do so "
+"with your current username and password"
+msgstr ""
+"Matagumpay na nakumpleto ang pagpapanumbalik sa orihinal. Kung ikaw ay "
+"nadiktahan na mag-login mangyaring gawin ito gamit ang  iyong kasalukuyang "
+"username at password"
+
+#: views/settings.php:13
+#, php-format
+msgid "%s Settings"
+msgstr "%s Setting"
+
+#: views/settings.php:48
+msgid "Settings updated successfully!"
+msgstr "Matagumpay na na-i-update ang plugin"
+
+#: views/settings.php:61
+msgid "Email Notifications"
+msgstr "Abiso sa  Email"
+
+#: views/settings.php:62
+msgid ""
+"Please enter your email address if you would like to receive backup email "
+"notifications."
+msgstr ""
+"Pakilagay ang iyong email address kung nais mong makatanggap ng mga  abiso "
+"sa email tungkol sa backup. "
+
+#: views/settings.php:63
+msgid ""
+"Backup email notifications will be sent for every backup and will contain "
+"status information related to the backup."
+msgstr ""
+"Magpapadala ng abiso sa email  sa bawat backup at naglalaman ito ng "
+"impormasyon   na may kaugnayan sa backup."
+
+#: views/settings.php:65 views/settings.php:85 views/settings.php:108
+#: views/settings.php:115 views/settings.php:123 views/settings.php:154
+#: views/settings.php:188 views/settings.php:226 views/settings.php:235
+msgid "Save"
+msgstr "I-save"
+
+#: views/settings.php:81
+msgid "Backup Retention"
+msgstr "Backup Retention"
+
+#: views/settings.php:82
+msgid ""
+"Enter the number of backup archives that you would like to remain on the "
+"server."
+msgstr "Ilagay ang bilang ng backup archive na nais mong manatili sa server."
+
+#: views/settings.php:83
+msgid ""
+"Many hosts limit the amount of space that you can take up on their servers. "
+"This option tells WPBackItUp the maximum number of backup archives that "
+"should remain on your hosts server.  Don't worry, we will always remove the "
+"oldest backup archives first."
+msgstr ""
+"Maraming mga host ang nililimitahan ang puwang na maaari mong kunin sa "
+"kanilang server. Ang opsyon na ito ay nagsasabi sa WPBackItUp ng "
+"pinakamataas na bilang ng mga backup archives na dapat manatili sa iyong "
+"host server. Huwag mag-alala, kami ay palaging nagtatanggal muna ng "
+"pinakaluma na backup archives."
+
+#: views/settings.php:102
+msgid "Logging?"
+msgstr "Logging?"
+
+#: views/settings.php:103
+msgid "Turn on WPBackItUp logging."
+msgstr "Mangyaring i-on ang WPBackItUp logging"
+
+#: views/settings.php:104
+msgid ""
+"This option should only be turned on by advanced users or when "
+"troubleshooting issues with WPBackItUp support."
+msgstr ""
+"Ang opsyon na ito ay dapat  i- on  kapag nag -troubleshoot ng mga isyu sa "
+"WPBackItUp Support."
+
+#: views/settings.php:105
+msgid "Yes"
+msgstr "Oo"
+
+#: views/settings.php:106
+msgid "No"
+msgstr "Hindi"
+
+#: views/settings.php:112
+msgid "Disable restore version compare?"
+msgstr ""
+
+#: views/settings.php:114
+msgid ""
+"Check this box if you would like WPBackItUp not to check major version "
+"issue. This could be dangerous, you can disable it with your own risk."
+msgstr ""
+
+#: views/settings.php:119
+msgid "Single File Backup Set"
+msgstr "Single File Backup Set"
+
+#: views/settings.php:121
+msgid ""
+"Check this box if you would like WPBackItUp to create a single file backup "
+"set."
+msgstr ""
+"Markahan ng tsek kung nais mo na lumikha ang WPBackItUp ng single file "
+"backup set. "
+
+#: views/settings.php:122
+msgid ""
+"When this setting is turned on WPBackItUp will attempt to create a single "
+"file backup set.  If WPBackItUp is unable to create a single file backup set "
+"then it will turn this setting off for you. Creating a single file backup "
+"set may not be possible with hosts that strictly limit memory utilization."
+msgstr ""
+"Kapag ang setting na ito ay naka-on ang WPBackItUp ay lilikha ng solong file "
+"backup set. Kung ang WPBackItUp ay hindi magawang lumikha ng isang solong "
+"backup file set ang setting na ito ay naka- off para sa iyo. Ang paglikha ng "
+"isang solong file backup set ay maaaring hindi posible sa mga host na "
+"mahigpit na limitado ang paggamit ng memory."
+
+#: views/settings.php:127
+msgid "Batch Size"
+msgstr "Laki ng Pangkat"
+
+#: views/settings.php:128
+msgid "Enter the batch size for each of your content items."
+msgstr "Ilagay ang laki ng batch size  sa bawat nilalaman na aytem. "
+
+#: views/settings.php:129
+msgid ""
+"These settings tell WPBackItUp how many items that should be added to the "
+"backup at a time.  If you experience timeouts while running a backup then "
+"these settings can be used to help reduce the amount of time it takes "
+"WPBackItUp to complete each backup task ."
+msgstr ""
+"Ang mga setting na ito ay magsasabi sa WP BackItUp kung gaano karaming aytem "
+"ang dapat na idagdag sa backup. Kung nakakaranas ka ng mga timeout habang "
+"nagaganap ang isang backup ang mga setting na ito ay maaaring magamit upang "
+"makatulong na mabawasan ang dami ng oras na aabutin ng WPBackItUp sa "
+"pagkumpleto ng bawat backup na gagawin."
+
+#: views/settings.php:132
+msgid "DB Tables Batch Size"
+msgstr "Laki ng Pangkat ng DB Tables"
+
+#: views/settings.php:137
+msgid "Plugins Batch Size"
+msgstr "Laki ng Pangkat ng Plugins "
+
+#: views/settings.php:142
+msgid "Themes Batch Size"
+msgstr "Laki ng Pangkat ng  Tema"
+
+#: views/settings.php:147
+msgid "Uploads Batch Size"
+msgstr "Laki ng Pangkat ng  Uploads "
+
+#: views/settings.php:152
+msgid "Others Batch Size"
+msgstr "Iba pang mga  Laki ng Pangkat"
+
+#: views/settings.php:155 views/settings.php:189 views/settings.php:227
+msgid ""
+"* These settings should only be modified by advanced users or when when "
+"working with WPBackItUp support."
+msgstr ""
+"Ang opsyon na ito ay babaguhin lamang sa tuwing  nakikipagugnayan sa "
+"WPBackItUp support."
+
+#: views/settings.php:167
+msgid "Filter Your Folders"
+msgstr "Salain ang Folders"
+
+#: views/settings.php:168
+msgid ""
+"Enter a comma separated list of folders that should be excluded from your "
+"backups."
+msgstr ""
+"Lagyan ng kuwit ang bawat  talaan ng mga folders na hindi isasama sa backup. "
+
+#: views/settings.php:169
+msgid ""
+"It is important to note that when a folder name is present in this list any "
+"occurrence of that folder, and all its contents, will be excluded from the "
+"backup."
+msgstr ""
+"Mahalagang tandaan na kapag ang isang pangalan ng folder ay naroroon na sa "
+"talaan, anumang pangyayari sa folder na iyon, at ang lahat ng mga nilalaman "
+"nito, ay  hindi maisasama sa backup."
+
+#: views/settings.php:171
+msgid "Plugin Folders Filter"
+msgstr "Folders Filter ng Plugin"
+
+#: views/settings.php:176
+msgid "Theme Folders Filter"
+msgstr "Folders Filter ng Tema"
+
+#: views/settings.php:181
+msgid "Upload Folders Filter"
+msgstr "Folders Filter ng Uploads"
+
+#: views/settings.php:185
+msgid "Other Folders Filter"
+msgstr "Iba pang mga Folders Filter"
+
+#: views/settings.php:194
+msgid "Filter Your Database Tables"
+msgstr "Salain ang Database Tables "
+
+#: views/settings.php:195
+msgid "Exclude custom database tables from the backup."
+msgstr "Huwag isama ang custom database tables sa backup."
+
+#: views/settings.php:196
+msgid ""
+"If you would like to exclude a custom table from the backup then simply drag "
+"it to the list on the right.  WordPress core tables may not be excluded from "
+"the backup. "
+msgstr ""
+"Kung iyong nais na huwag isama ang custom table sa backup ay ilipat lamang "
+"ito sa talaan sa kanan. Ang WordPress core tables ay hindi maaaring "
+"tanggalin mula sa backup."
+
+#: views/settings.php:232
+msgid "Remove Data on Uninstall?"
+msgstr "Alisin ang Data sa Uninstall?"
+
+#: views/settings.php:234
+msgid ""
+"Check this box if you would like WPBackItUp to completely remove all of its "
+"data when the plugin is deleted."
+msgstr ""
+"Markahan ng tsek kung nais mo na ganap na  alisin ng  WPBackItUp  ang lahat "
+"ng data nito kapag ang plugin ay tinanggal na."
+
+#: views/support.php:13
+#, php-format
+msgid "%s Support"
+msgstr "%s Support"
+
+#: views/support.php:32
+msgid "Support email sent successfully!"
+msgstr "Matagumpay na naipadala ang email sa support . "
+
+#: views/support.php:45
+msgid "Email Logs to Support"
+msgstr "Mag email ng logs sa support para sa tulong"
+
+#: views/support.php:46
+msgid "This form should be used to send log files to support only."
+msgstr ""
+"Ang form na ito ay dapat gamitin upang magpadala ng log files sa support "
+"para sa tulong. "
+
+#: views/support.php:47
+#, php-format
+msgid ""
+"Please make sure to open a support ticket via WPBackItUp <a href=\"%s\" "
+"target=\"_blank\"> support portal.</a> before using this form."
+msgstr ""
+"Mangyaring siguraduhin na magbukas ng support ticket sa pamamagitan ng "
+"WPBackItUp <a href=\"%s\" target=\"_blank\"> support portal. </a> bago "
+"gamitin ang form na ito."
+
+#: views/support.php:48
+msgid ""
+"The ticket id you receive from your support request should be entered in the "
+"ticket id field below."
+msgstr ""
+"Ang mga ticket id na natanggap mo mula  sa support ay dapat na ilagay  sa  "
+"patlang ng ticket id ."
+
+#: views/support.php:49
+msgid "your email address"
+msgstr "ang iyong email address"
+
+#: views/support.php:59
+msgid "support ticket id"
+msgstr "support ticket id"
+
+#: views/support.php:69
+msgid "problem description or additional information"
+msgstr "paglalarawan ng problema o karagdagang impormasyon"
+
+#: views/support.php:80
+msgid "Send"
+msgstr "Ipadala"
+
+#: views/support.php:83
+msgid "Please register your version of WPBackItUp for access to support."
+msgstr ""
+"Mangyaring irehistro ang iyong bersyon ng WPBackItUp upang magkaroon ng "
+"access sa support para sa tulong."
+
+#: views/support.php:87
+msgid "Premium customers receive priority support."
+msgstr "Ang mga premium customer ay bibigyan ng unang  tulong "
+
+#: wp-backitup.php:93 wp-backitup.php:94
+#, php-format
+msgid "Every %s hours"
+msgstr "Kada %s  oras "
+
+#: wp-backitup.php:95 wp-backitup.php:96 wp-backitup.php:97 wp-backitup.php:98
+#: wp-backitup.php:99
+#, php-format
+msgid "WPBUP - Every %s minutes"
+msgstr "WPBUP - bawat %s minuto"
+
+#: wp-backitup.php:101
+msgid "WPBUP - Once Weekly"
+msgstr "WPBUP - isang beses bawat linggo"
+
+#: wp-backitup.php:102
+msgid "WPBUP - Once Monthly"
+msgstr "WPBUP -  Minsan sa isang buwan "
+
+#: wp-backitup.php:103 wp-backitup.php:104
+#, php-format
+msgid "WPBUP - Every %s hours"
+msgstr "WPBUP -  Sa bawat %s oras"
+
+#: wp-backitup.php:113
+msgid "Local File"
+msgstr ""
+
+#: wp-backitup.php:170
+msgid "Cleanup"
+msgstr "Paglilinis"

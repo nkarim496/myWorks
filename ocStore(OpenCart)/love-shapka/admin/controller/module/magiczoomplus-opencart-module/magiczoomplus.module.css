@@ -1,0 +1,218 @@
+
+/* NOTE: contaner with main image and selector's container */
+div.MagicToolboxContainer {
+    text-align: center;
+}
+div.MagicToolboxContainer.minWidth {
+    min-width: 250px;
+}
+
+/* NOTE: main image styles */
+div.MagicToolboxContainer > a {
+    margin: 0 auto;
+}
+
+/* NOTE: container with selectors */
+div.MagicToolboxSelectorsContainer {
+    clear: both;
+}
+
+/* NOTE: selectors styles */
+div.MagicToolboxSelectorsContainer > a {
+    display: inline-block;
+    margin: 4px 1px;
+}
+
+/* NOTE: contaner with message under Magic Zoom Plus */
+div.MagicToolboxMessage {
+    text-align: center;
+}
+
+/* NOTE: styles for templates */
+div.MagicToolboxMainContainer {
+    max-width: 100%;
+}
+div.MagicToolboxSelectorsContainer img {
+    max-width: 100%;
+}
+
+/* NOTE: selectors on the bottom */
+div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer {
+    padding-top: 5px;
+}
+
+/* NOTE: selectors on the top */
+div.MagicToolboxContainer.selectorsTop .MagicToolboxSelectorsContainer {
+    padding-bottom: 5px;
+}
+
+/* NOTE: selectors on the left */
+div.MagicToolboxContainer.selectorsLeft {
+    display: inline-table;
+    height: 100%;
+}
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxMainContainer,
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    padding-right: 5px;
+}
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer .MagicScroll {
+    height: 100%;
+}
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer a {
+    display: block;
+}
+/* NOTE: fix for MagicScroll */
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer .MagicScroll > a:nth-child(n+2) {
+    display: none;
+}
+
+/* NOTE: selectors on the right */
+div.MagicToolboxContainer.selectorsRight {
+    display: inline-table;
+    height: 100%;
+}
+div.MagicToolboxContainer.selectorsRight .MagicToolboxMainContainer,
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    padding-left: 5px;
+}
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer .MagicScroll {
+    height: 100%;
+}
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer a {
+    display: block;
+}
+/* NOTE: fix for MagicScroll */
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer .MagicScroll > a:nth-child(n+2) {
+    display: none;
+}
+
+/* NOTE: fix for MagicScroll when height of parent elements is not defined */
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer,
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer {
+    position: relative;
+}
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer .MagicScroll,
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer .MagicScroll {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* NOTE: to highlight magic360 selector (magiczoom(plus) + magic360) */
+.zoom-with-360.mz-thumb-selected img {
+    -webkit-filter: none;
+    filter: none;
+}
+.zoom-with-360.mz-thumb:hover:not(.active-selector) img,
+.zoom-with-360.m360-selector:hover:not(.active-selector) img {
+    -webkit-filter: brightness(70%) !important;
+    filter: brightness(70%) !important;
+}
+.zoom-with-360.active-selector img {
+    -webkit-filter: brightness(50%) !important;
+    filter: brightness(50%) !important;
+}
+/* NOTE: IE fix */
+.no-cssfilters-magic .zoom-with-360.mz-thumb-selected img {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+/*.no-cssfilters-magic .zoom-with-360.mz-thumb,*/
+.no-cssfilters-magic .zoom-with-360.m360-selector {
+    background: #000;
+}
+/*.no-cssfilters-magic .zoom-with-360.mz-thumb:hover:not(.active-selector) img,*/
+.no-cssfilters-magic .zoom-with-360.m360-selector:hover:not(.active-selector) img {
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+.no-cssfilters-magic .zoom-with-360.active-selector img {
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+/*.mz-thumb, .mz-thumb:focus,*/
+.zoom-with-360.m360-selector, .zoom-with-360.m360-selector:focus {
+    display: inline-block;
+    line-height: 0;
+    outline: none;
+}
+/* NOTE: border for magic360 selector */
+.zoom-with-360.m360-selector img {
+    border: 0;
+    box-shadow: 0 0 1px 0px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+.ie9-magic .zoom-with-360.m360-selector {
+    box-shadow: 0 0 4px 0px rgba(0,0,0,0.3);
+}
+
+/* NOTE: magicscroll makes the image smaller if there is a margin */
+/*
+.MagicScrollItem a {
+    margin: 0 !important;
+}
+*/
+
+@media only screen and (max-width: 767px) {
+
+    div.MagicToolboxContainer.selectorsRight.noscroll .MagicToolboxMainContainer, 
+    div.MagicToolboxContainer.selectorsRight.noscroll .MagicToolboxSelectorsContainer {
+        display: block;
+        
+    }
+
+    div.MagicToolboxContainer.selectorsLeft.noscroll,
+    div.MagicToolboxContainer.selectorsRight.noscroll {
+        display: block;
+        text-align: center;
+        margin:10px 0;
+    }
+    div.MagicToolboxContainer.selectorsLeft.noscroll .MagicToolboxSelectorsContainer,
+    div.MagicToolboxContainer.selectorsRight.noscroll .MagicToolboxSelectorsContainer {
+        display: block;
+        text-align: center;
+        width:auto !important;
+    }
+    div.MagicToolboxContainer.selectorsLeft.noscroll .MagicToolboxSelectorsContainer a,
+    div.MagicToolboxContainer.selectorsRight.noscroll .MagicToolboxSelectorsContainer a {
+        display: inline-block;
+        margin:5px;
+    }
+    div.MagicToolboxContainer.selectorsLeft.noscroll .MagicToolboxSelectorsContainer a:first-child,
+    div.MagicToolboxContainer.selectorsRight.noscroll .MagicToolboxSelectorsContainer a:first-child {
+        margin-left:0;
+    }
+    div.MagicToolboxContainer.selectorsLeft.noscroll .MagicToolboxSelectorsContainer a:last-child,
+    div.MagicToolboxContainer.selectorsRight.noscroll .MagicToolboxSelectorsContainer a:last-child {
+        margin-left:0;
+    }
+
+}
+#latest_home {
+    margin: 0px auto;
+}
+#bestseller_home {
+    margin: 0px auto;
+}
+#special_home {
+    margin: 0px auto;
+}
+#featured_home {
+    margin: 0px auto;
+}
+
+
+.product-info .right div.options, .product-info .right .description, .product-info .right .htabs,  .product-info .right .price, .product-info .right .cart, .product-info .right .review{ 
+    overflow:auto; 
+}
+.product-info .right .htabs {
+    overflow-y:hidden;
+}
+.MagicToolboxContainer { max-width:none !important; }

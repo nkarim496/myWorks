@@ -1,0 +1,592 @@
+*::-webkit-input-placeholder {
+	color: #fff;
+	opacity: 0.6;
+}
+*:-moz-placeholder {
+	color: #fff;
+	opacity: 0.6;
+}
+*::-moz-placeholder {
+	color: #fff;
+	opacity: 0.6;
+}
+*:-ms-input-placeholder {
+	color: #fff;
+	opacity: 0.6;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red;
+}
+body input:required:valid,
+body textarea:required:valid {
+	border:green;
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	min-width: 320px;
+	position: relative;
+	line-height: 21px;
+	font-family: "UbuntuRegular", sans-serif;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+header {
+	background-color:#1F2022;
+	min-height:63px;
+}
+.logo	{
+	text-align: center;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: right;
+}
+nav ul li {
+	float:left;
+}
+nav ul li a{
+	font-family: "UbuntuRegular";
+	font-size:16px;
+	display: inline-block;
+	line-height: 63px;
+	color: #fff;
+	padding-left: 20px;
+}
+nav ul li a.active,
+nav ul li a:hover {
+	color: #F9F702;
+}
+
+
+main h1	{
+	font-family: "UbuntuBold";
+	font-size: 42px;
+	line-height: 62px;
+	color: #565656;
+	text-transform: uppercase;
+	margin-top: 63px;
+	margin-bottom: 21px;
+}
+main h1 strong {
+	background-color: #F9F702;
+}
+main h2.big {
+	font-family: "UbuntuBold";
+	font-size: 42px;
+	line-height: 62px;
+	color: #565656;
+	text-transform: uppercase;
+	margin-top: 63px;
+	margin-bottom: 21px;
+}
+main p {
+	font-family:"UbuntuRegular";
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 0px;
+	margin-bottom: 42px;
+}
+main .price {
+	display: inline-block;
+	line-height: 21px;
+    background-color: #F9F702;
+    font-family: "UbuntuMedium";
+    color: #565656;
+    font-size: 28px;
+    margin-bottom: 42px;
+    padding: 15px;
+}
+.pchelopaketi-spisok {
+	margin-bottom: 42px;
+}
+.center-wrapper {
+	text-align:center;
+}
+.button {
+	background-color: #e74c3c;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: "UbuntuMedium";
+    font-size: 28px;
+    line-height: 63px;
+    margin-bottom: 42px;
+    padding: 0 21px;
+    text-transform: uppercase;
+}
+.button:hover, .button:focus {
+	text-decoration: none;
+	background-color: #f65b4b;
+	color:#fff;
+}
+.button:active {
+	text-decoration: none;
+	background-color: d83d2d;
+	color:#fff;
+}
+button, button:hover, button:active {
+	border:none;
+}
+
+main img {
+	margin-top: 63px;
+	margin-bottom: 42px;
+	max-width: 100%;
+}
+.slide2-bg {
+	background-image: url(../img/slide2-bg.jpg);
+	background-size: cover;
+	background-position: center top;
+	padding-bottom: 21px;
+}
+.slide2-bg-ramki {
+	background-image: url(../img/bee-honeycomb.jpg);
+	background-size: cover;
+	background-position: center top;
+	padding-bottom: 21px;
+}
+.img-ramki {
+	display: block;
+	margin-top: 63px;
+	min-height: 230px;
+	width:100%;
+	background-color: #F9F702;
+}
+.img-ramki-min {
+	margin-top: 21px;
+	margin-bottom:21px;
+	min-height: 40px;
+	width:17.3469387755102%;
+	background-color: #F9F702;
+	float: left;
+  margin-right: 10.20408163265306%;
+}
+.img-ramki-min img,
+.img-ramki-min-last img {
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+}
+.img-ramki-min-last {
+	margin-top: 21px;
+	margin-bottom: 21px;
+	min-height: 40px;
+	width:17.3469387755102%;
+	background-color: #F9F702;
+	float: left;
+	margin-right:0px;
+}
+.light {
+	color:#fff;
+}
+.justify {
+	text-align: justify;
+}
+main h2 {
+	font-family: "UbuntuBold";
+	font-size: 28px;
+	line-height: 42px;
+	color: #565656;
+	text-transform: uppercase;
+	margin-top: 63px;
+	margin-bottom: 21px;
+}
+main .wrapper {
+	padding:0 20px;
+}
+.gray-bg {
+	background-color: #F2F2F2;
+}
+.center {
+	text-align: center;
+}
+.slide-3-ramki p {
+	text-align: center;
+}
+.bez-posrednikov::before {
+    content: "";
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(../img/ramki-iconset.png);
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+.dostavka::before {
+    content: "";
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(../img/ramki-iconset.png);
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+    background-position: -66px 0;
+}
+.vozvrat::before {
+    content: "";
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(../img/ramki-iconset.png);
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+    background-position: -142px 0;
+}
+.sales::before {
+    content: "";
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(../img/ramki-iconset.png);
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+    background-position: -218px 0;
+}
+.features > div {
+	min-height: 67px;
+	margin-bottom: 21px;
+}
+.features > .high-quality::before {
+	  content: "";
+    width: 65px;
+    display: inline-block;
+    height: 67px;
+    float: left;
+    background-image: url(../img/slide3-iconset.png);
+    background-repeat: no-repeat;
+}
+main .features p {
+	padding-left:80px;
+	margin-bottom: 21px;
+}
+.features .ecology::before {
+	background-image: url(../img/slide3-iconset.png);
+	background-repeat: no-repeat;
+	background-position: 0 -82px;
+	content: "";
+    width: 65px;
+    display: inline-block;
+    height: 67px;
+    float: left;
+}
+.features .poly::before {
+	background-image: url(../img/slide3-iconset.png);
+	background-repeat: no-repeat;
+	background-position: 0 -164px;
+	content: "";
+    width: 65px;
+    display: inline-block;
+    height: 67px;
+    float: left;
+}
+.features .taste::before {
+	background-image: url(../img/slide3-iconset.png);
+	background-repeat: no-repeat;
+	background-position: 0 -246px;
+	content: "";
+    width: 68px;
+    display: inline-block;
+    height: 67px;
+    float: left;
+	margin-bottom: 42px;
+}
+.slide-4 {
+	background-color: #fff;
+}
+.kid {
+}
+.slide-5 {
+	background-image: url(../img/honey.jpg);
+	background-size: cover;
+	min-height: 400px;
+}
+.item-item {
+	margin-bottom: 21px;
+	min-height:40px;
+}
+.item-item p {
+	margin-bottom: 0px;
+}
+.item-num-ramki {
+	border: 2px solid #ffff00;
+    border-radius: 40px;
+    color: #ffff00;
+    display: inline-block;
+    float: left;
+    font-family: "UbuntuCondensedRegular";
+    font-size: 18px;
+    line-height: 35px;
+    margin-right: 20px;
+    min-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+}
+.item-num {
+		border: 2px solid #ffff00;
+    border-radius: 40px;
+    color: #ffff00;
+    display: inline-block;
+    font-size: 30px;
+    min-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    width: 60px;
+    float:left;
+    margin-right:20px;
+    font-family: "UbuntuCondensedRegular";
+    line-height: 54px;
+}
+.slide-5 p {
+	margin-left:80px;
+}
+.slide-6 ul {
+	margin: 0 0 21px 0;
+	padding: 0px;
+	list-style-type: none;
+}
+.slide-6 ul li {
+	background-image: url("../img/list-icon.png");
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+    padding-bottom: 21px;
+    padding-left: 40px;
+}
+.slide-6 img {
+	position: absolute;
+    right: 0px;
+    top: 15px;
+    max-width: 100%;
+}
+.slide-form-ramki {
+
+}
+.slide-form-ramki h2 {
+	font-size: 35px;
+	line-height: 42px;
+}
+.slide-form-ramki .form-wrapper-ramki {
+	background: rgba(31, 32, 34, 0.7) none repeat scroll 0 0;
+    border-radius: 10px;
+    margin: 63px auto 42px;
+    min-height: 400px;
+    width:100%;
+}
+.slide-form-ramki .form-wrapper-ramki p {
+	padding:21px 15px 42px;
+	margin:0;
+}
+.slide-form-ramki .bee-img img {
+	margin-top: 0px;
+}
+.slide-7 {
+	background-image: url(../img/gornyj-med.jpg);
+	background-position: center 220px;
+	background-repeat: no-repeat;
+}
+.slide-7 .form-wrapper {
+	background: rgba(31, 32, 34, 0.7) none repeat scroll 0 0;
+    border-radius: 10px;
+    margin: 0 auto 218px;
+    min-height: 400px;
+    width:100%;
+}
+.form-wrapper p {
+	padding:21px 15px 42px;
+	margin:0;
+}
+
+#form-bottom > input {
+	background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    margin: 0px auto 21px;
+    padding-left: 10px;
+}
+#form-bottom > button {
+    display: block;
+    margin: 21px auto;
+}
+footer {
+	background-color: #1F2022;
+	min-height: 60px;
+}
+footer p.copy {
+	font-size: 16px;
+	color: #fff;
+	margin:21px 0 0;
+}
+footer .contact p {
+	font-family: "UbuntuMedium";
+	font-size:24px;
+	color: #fff;
+	float: right;
+	display:block;
+	background-image: url(../img/phone-icon.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-left: 32px;
+}
+/* CSS pchelopaket.html */
+.features-pchelopaketi {
+	text-align: center;
+}
+.kachestvo::before {
+    content: "";
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(../img/pchelopaket-iconset.png);
+    background-repeat: no-repeat;
+    margin: 42px auto 10px;
+}
+.formirovanie::before {
+    content: "";
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(../img/pchelopaket-iconset.png);
+    background-repeat: no-repeat;
+    margin: 42px auto 10px;
+    background-position: -62px 0;
+}
+.skidki::before {
+    content: "";
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(../img/pchelopaket-iconset.png);
+    background-repeat: no-repeat;
+    margin: 42px auto 10px;
+    background-position: -127px 0;
+
+}
+.gost::before {
+    content: "";
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(../img/pchelopaket-iconset.png);
+    background-repeat: no-repeat;
+    margin: 42px auto 10px;
+    background-position: -198px 0;
+
+}
+img.fly-bee {
+	margin-top: 0px;
+}
+/* CSS contacts.html */
+.slide-form-ramki.contacts h2 {
+	font-size:28px;
+	line-height: 42px;
+}
+.slide-form-ramki.contacts p {
+	font-size: 18px;
+}
+.karta {
+	margin-bottom: 42px;
+}
+/* CSS index.html */
+.slide img {
+	width: 100%;
+	max-width: 100%;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+.about {
+	padding-bottom: 21px;
+}
+.about h2 {
+	margin-top:21px;
+}
+.about p {
+	text-indent: 21px;
+	text-align: justify;
+	margin-bottom: 21px;
+}
+.directions {
+	background-color: #F2F2F2;
+	padding-bottom: 21px;
+}
+.directions-wrapper {
+	margin-bottom:21px;
+}
+.directions-wrapper a {
+	display:block;
+	overflow: hidden;
+	position:relative;
+}
+.directions img {
+	width: 100%;
+	max-width: 100%;
+	margin: 0px;
+}
+
+.directions-wrapper span {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	font-size:28px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 5%;
+	opacity: 1;
+	top:80%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.directions-wrapper a:hover span {
+	opacity:1;
+	top:0;
+	padding-top: 30%;
+
+}
+.img-ramki img {
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+}
+

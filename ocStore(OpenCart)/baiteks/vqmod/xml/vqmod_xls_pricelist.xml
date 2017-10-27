@@ -1,0 +1,112 @@
+<modification>
+
+	<id>XLS Pricelist</id>
+	<version>1.0.0</version>
+	<vqmver>1.0.8</vqmver>
+	<author>Modification: Disconnector</author>
+	
+	<file name="admin/view/template/common/header.tpl">
+		
+		
+		<operation>
+            <search position="after" index="1"><![CDATA[$(document).ready]]></search>
+            <add><![CDATA[
+			<?php if ($this->user->hasPermission('modify', 'module/xls_pricelist')&&$this->config->get('xls_pricelist_category')) { ?>
+			$('ul.left:last').append('<li id="xls_pricelist"><a class="top xls_price" href="#" onclick="gen_price(); return false;" style="color:yellow;"><?php echo $text_xls_pricelist; ?></a></li>');
+			<?php } ?>
+			]]></add>
+        </operation>
+	
+		<operation>
+            <search position="before" index="1"><![CDATA[$(document).ready(function()]]></search>
+            <add><![CDATA[
+			 function gen_price() { 
+				$('#xls_pricelist').html('<a class="top" ><img src="view/image/loading.gif" /></a>');
+				$.ajax({
+					url: '<?php echo HTTP_CATALOG; ?>index.php?route=product/xls_pricelist',
+					type: 'post',
+					data: 'action=generate',
+					dataType: 'json',
+					success: function(json) {
+						
+						if (json['redirect']) {
+							location = json['redirect'];
+						}
+						
+						if (json['error']) {
+							if (json['error']['warning']) {
+								$('#xls_pricelist').html('<a class="top" style="color:red;" >' + json['error']['warning'] + '</a>');
+								
+								$('html, body').animate({ scrollTop: 0 }, 'slow');
+							}
+						}	 
+									
+						if (json['success']) {
+							$('#xls_pricelist').html('<a class="top" style="color:green;"><?php echo $text_xls_success; ?></a>');
+						
+							$('html, body').animate({ scrollTop: 0 }, 'slow'); 
+						}	
+					}
+				});
+				return false;
+			};
+			]]></add>
+        </operation>
+	</file>
+	<file name="admin/controller/common/header.php">
+		<operation>
+            <search position="after" index="1"><![CDATA[
+            $this->data['heading_title'] = $this->language->get('heading_title');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['text_xls_pricelist'] = $this->language->get('text_xls_pricelist');
+			]]></add>
+        </operation><operation>
+            <search position="after" index="1"><![CDATA[
+            $this->data['heading_title'] = $this->language->get('heading_title');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['text_xls_success'] = $this->language->get('text_xls_success');
+			]]></add>
+        </operation>
+	</file>
+	<file name="admin/language/english/common/header.php">
+		<operation>
+            <search position="after" index="1"><![CDATA[
+            $_['text_backup']                      = 'Backup / Restore';
+            ]]></search>
+            <add><![CDATA[
+			$_['text_xls_pricelist']                      = 'Generate pricelist';
+			]]></add>
+        </operation>
+		<operation>
+            <search position="after" index="1"><![CDATA[
+            $_['text_backup']                      = 'Backup / Restore';
+            ]]></search>
+            <add><![CDATA[
+			$_['text_xls_success']                      = 'Successfull';
+			]]></add>
+        </operation>
+		
+	</file>
+	<file name="admin/language/russian/common/header.php">
+		<operation>
+            <search position="after" index="1"><![CDATA[
+            <?php
+            ]]></search>
+            <add><![CDATA[
+			$_['text_xls_pricelist']                      = 'Генерировать прайс';
+			]]></add>
+        </operation>
+		<operation>
+            <search position="after" index="1"><![CDATA[
+            <?php
+            ]]></search>
+            <add><![CDATA[
+			$_['text_xls_success']                      = 'Сгенерировано';
+			]]></add>
+        </operation>
+		
+	</file>
+	
+</modification>

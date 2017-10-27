@@ -1,0 +1,102 @@
+2016-08-25 19:15:57 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: MagicToolbox mod for OpenCart
+FILE: catalog/controller/product/product.php
+CODE: <?php
+LINE: 31
+FILE: catalog/controller/product/category.php
+CODE: <?php
+LINE: 31
+FILE: catalog/controller/product/manufacturer.php
+CODE: <?php
+LINE: 31
+FILE: catalog/controller/product/search.php
+CODE: <?php
+LINE: 31
+FILE: catalog/controller/common/column_left.php
+CODE: $setting_info = $this->model_extension_module->getModule($part[1]);
+LINE: 60
+CODE: if (isset($part[1]) && isset($setting[$part[1]])) {
+NOT FOUND!
+FILE: catalog/controller/common/column_right.php
+CODE: $setting_info = $this->model_extension_module->getModule($part[1]);
+LINE: 60
+CODE: if (isset($part[1]) && isset($setting[$part[1]])) {
+NOT FOUND!
+FILE: catalog/controller/common/content_bottom.php
+CODE: $setting_info = $this->model_extension_module->getModule($part[1]);
+LINE: 60
+CODE: if (isset($part[1]) && isset($setting[$part[1]])) {
+NOT FOUND!
+FILE: catalog/controller/common/content_top.php
+CODE: if (isset($part[1]) && isset($setting[$part[1]])) {
+NOT FOUND!
+CODE: $setting_info = $this->model_extension_module->getModule($part[1]);
+LINE: 60
+REGEX: ~(\$this->response->setOutput\()(\$this->load->view\(.*?product\/product.*?,\s+\$data\))(\);)~
+LINE: 519
+LINE: 521
+CODE: $results = $this->model_catalog_product->getProductImages($this->request->get['product_id']);
+LINE: 340
+REGEX: ~(\$this->response->setOutput\()(\$this->load->view\(.*?product\/category.*?,\s+\$data\))(\);)~
+LINE: 420
+LINE: 422
+REGEX: ~(\$this->response->setOutput\()(\$this->load->view\(.*?product\/manufacturer_(?:info|list).*?,\s+\$data\))(\);)~
+LINE: 95
+LINE: 97
+LINE: 422
+LINE: 424
+REGEX: ~(\$this->response->setOutput\()(\$this->load->view\(.*?product\/search.*?,\s+\$data\))(\);)~
+LINE: 495
+FILE: catalog/controller/common/header.php
+CODE: <?php
+LINE: 26
+CODE: return
+LINE: 191
+LINE: 193
+CODE: $this->load->view
+LINE: 202
+LINE: 215
+FILE: catalog/controller/module/latest.php
+CODE: <?php
+LINE: 26
+REGEX: ~return\s+(.*?);~
+LINE: 101
+LINE: 103
+FILE: catalog/controller/module/bestseller.php
+CODE: <?php
+LINE: 26
+REGEX: ~return\s+(.*?);~
+LINE: 94
+LINE: 96
+FILE: catalog/controller/module/special.php
+CODE: <?php
+LINE: 26
+REGEX: ~return\s+(.*?);~
+LINE: 101
+LINE: 103
+FILE: catalog/controller/module/featured.php
+CODE: <?php
+LINE: 26
+REGEX: ~return\s+(.*?);~
+LINE: 104
+LINE: 106
+CODE: $product_info = $this->model_catalog_product->getProduct($product_id);
+LINE: 56
+----------------------------------------------------------------

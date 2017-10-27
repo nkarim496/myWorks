@@ -1,0 +1,334 @@
+/**
+ * WP Backitup Admin Control Panel Stylesheets
+ * 
+ * @version 1.4.0
+ * @since 1.0.1
+ */
+
+/* Global */
+
+ .error { color: #ff0000;}
+ .warning { color: #FEEFB3;}
+ .wpbackitup-warning { color: #FF8000;}
+
+.isa_info, .isa_success, .isa_warning, .isa_error, .isa_cancelled{
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;-moz-border-radius:.5em;
+-webkit-border-radius:.5em;
+border-radius:.5em;
+ 
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../images/info.png');
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../images/success.png');
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../images/warning.png');
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../images/error.png');
+}
+
+.isa_cancelled{
+	color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../images/warning.png');
+}
+
+p {line-height: 1.4em;}
+
+td {padding: 0;}
+
+h3 {
+	margin: 0;
+	padding: 0 0 0 0;
+    border-bottom: 1px solid #eee;
+}
+
+.wp-backitup-iframe {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	z-index: -1;
+}
+
+.submit { padding: 0; }
+
+/* notification */
+.notice-error, .notice-success, .notice-warning{
+	background-repeat: no-repeat;
+	margin: 10px 20px 2px !important;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.notice-error{
+	border-color: #D8000C;
+	background-image: url('../images/error.png');
+}
+.notice-success{
+	border-color: #7ad03a;
+	background-image:url('../images/success.png');
+}
+.notice-warning{
+	border-color: #9F6000;
+	background-image: url('../images/warning.png');
+}
+#wp-backitup-notification-widget-close{
+	cursor: pointer;
+}
+
+/* Content */
+#content {
+	float: left;
+	width: 65%;
+}
+
+#content input[type="text"], #content input[type="file"] {padding: 0;}
+
+.status-icon {
+	display: inline;
+	height: 16px;
+	position: relative;
+	top: 3px;
+	left: 5px;
+	visibility: hidden;
+	width: 16px;
+}
+
+/** Status Reporting **/
+ .backup-status, 
+ .backup-status span,
+
+ .backup-errors,
+ .backup-errors div,
+ .backup-error,
+
+ .backup-warning,
+ .backup-warning div,
+ 
+ .backup-success,
+ .backup-success div,
+
+ .restore-status,
+ .restore-status span,
+
+ .restore-errors, 
+ .restore-errors div, 
+
+ .restore-success,
+ .restore-success div,
+ .backup-cancelled,
+ .upload-status, 
+ .upload-status span
+ {
+	display: none;
+}
+
+/* Sidebar */
+#sidebar {
+	float: right;
+	width: 30%;
+}
+
+.widget {
+    padding: 1em;
+    background-color: white;
+    margin: 20px;       
+}
+
+/* cancel button */
+.cancel-hidden{
+	display: none !important;
+}
+
+/* widget filters */
+.filters p label{
+	display: block;
+}
+
+/* tagit plugins css */
+ul.tagit {
+    padding: 1px 5px;
+    overflow: auto;
+    margin-left: inherit; /* usually we don't want the regular ul margins. */
+    margin-right: inherit;
+}
+ul.tagit li {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit li.tagit-choice {    
+    position: relative;
+    line-height: inherit;
+}
+input.tagit-hidden-field {
+    display: none;
+}
+ul.tagit li.tagit-choice-read-only { 
+    padding: .2em .5em .2em .5em; 
+} 
+
+ul.tagit li.tagit-choice-editable { 
+    padding: .2em 18px .2em .5em; 
+} 
+
+ul.tagit li.tagit-new {
+    padding: .25em 4px .25em 0;
+}
+
+ul.tagit li.tagit-choice a.tagit-label {
+    cursor: pointer;
+    text-decoration: none;
+}
+ul.tagit li.tagit-choice .tagit-close {
+    cursor: pointer;
+    position: absolute;
+    right: .1em;
+    top: 50%;
+    margin-top: -8px;
+    line-height: 17px;
+}
+
+/* used for some custom themes that don't need image icons */
+ul.tagit li.tagit-choice .tagit-close .text-icon {
+    display: none;
+}
+
+ul.tagit li.tagit-choice input {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit input[type="text"] {
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
+
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    background-color: inherit;
+    outline: none;
+}
+
+.dbfilters_section{
+    overflow: hidden;
+    clear:both;
+    margin-top: -20px;
+}
+.dbfilters_section h4{
+    margin-bottom: 2px;
+}
+.dbfilters_section_left, .dbfilters_section_right{
+    float: left;
+    width: 302px;
+    margin-right: 10px;
+}
+.wpbackitup_connectedSortable{
+    border: 1px solid #eee;
+    width: 100%;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+.wpbackitup_connectedSortable li{
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 280px;
+}
+
+.word-capitalize{
+    text-transform: capitalize;
+}
+
+.wpb-badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url('../images/wpbackitup-logo.png') center top no-repeat;
+    /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);*/
+    color: #32828b;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    margin: 5px 0 0;
+    padding-top: 132px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    width: 150px;
+}
+
+.success-grid{
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    font-weight: bold;
+}
+
+.wpbackitup-topbar{
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+    clear: both;
+    margin: 0;
+    width: 98%;
+    min-width: 255px;
+    padding: 10px;
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 15px;
+}
+.wpbackitup-topbar a,
+.wpbackitup-topbar h2
+{
+    float: left;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.wpbackitup-topbar h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.wpbiu-button{
+    float: right !important;
+    margin-right: 15px !important;
+    margin-top: 10px !important;
+    margin-top: 15px !important;
+}
+#import-uploads{
+    display: none;
+}
+#import-uploads.button-secondary {
+    margin-top: 12px;
+    background: rgb(66, 184, 221) !important;
+    color: #fff !important;
+}
+#import-uploads.button-secondary:hover{
+    background: rgb(69, 188, 228) !important;
+    border-color:#aaa !important;
+}

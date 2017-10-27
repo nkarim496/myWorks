@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Контакты</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rd-mailform.css">
+    <link rel="stylesheet" href="css/rd-mailform_subscribe.css">
+    <link rel="stylesheet" href="css/google-map.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' >
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' >
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:700,100' rel='stylesheet' >
+    <link rel="stylesheet" href="fonts/css/material-icons.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.4.0/css/font-awesome.css">
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page text-center text-lg-left">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+        <div id="stuck_container" class="stuck_container">
+            <div class="container">
+                <div class="brand">
+                    <h1 class="brand_name">
+                        <a href="index.html">Aurum Velleris</a>
+                    </h1>
+                </div>
+                <nav class="nav">
+                    <ul class="sf-menu" data-type="navbar">
+                        <li class="active">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="index-1.html">О нас</a>
+                            <ul class="text-left">
+                                <li>
+                                    <a href="index.html#">Что мы делаем</a>
+                                </li>
+                                <li>
+                                    <a href="index.html#">Кто мы</a>
+                                </li>
+                                <li>
+                                    <a href="index.html#">Откуда мы пришли</a>
+                                </li>
+                                <li>
+                                    <a href="index.html#">К чему стремимся</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="index-2.html">Коллекции</a>
+                        </li>
+                        <li>
+                            <a href="index-3.html">Новости</a>
+                        </li>
+                        <li>
+                            <a href="index-4.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+
+    <main class="index-list">
+        <!--Contact us-->
+        <section class="relative pos-left counter">
+            <div class="lines"></div>
+                <div class="row">
+                    <div class="col-lg-3 col-lg-offset-3 well--inset-5 layer-1 relative">
+                        <h2 class="layer-2 prefix-3 postfix-1">Contact us</h2>
+                    </div>
+                    <div class=" col-lg-6 inset-1">
+                        <div class="map prefix-4">
+                            <div id="google-map" class="map_model"></div>
+                            <ul class="map_locations">
+                                <li data-x="-73.9874068" data-y="40.643180">
+                                    <p> 9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--END Contact us-->
+
+        <!--Get in touch-->
+        <section class="well-sm">
+            <div class="container">
+                        <h3 class="line-bottom">Get in touch</h3>
+
+                        <form class='rd-mailform' method="post" action="http://livedemo00.template-help.com/wt_57786/bat/rd-mailform.php">
+                            <input type="hidden" name="form-type" value="contact"/>
+                            <fieldset>
+                                <div class="row">
+                                <div class="col-md-6">
+                                <label data-add-placeholder>
+                                    <input type="text"
+                                           name="name"
+                                           placeholder="Your Name"
+                                           data-constraints="@LettersOnly @NotEmpty"/>
+                                </label>
+
+                                <label data-add-placeholder>
+                                    <input type="text"
+                                           name="email"
+                                           placeholder="Your Email"
+                                           data-constraints="@Email @NotEmpty"/>
+                                </label>
+
+                                <label data-add-placeholder>
+                                    <input type="text"
+                                           name="phone"
+                                           placeholder="Your Phone Number"
+                                           data-constraints="@Phone"/>
+                                </label>
+                                </div>
+                                <div class="col-md-6 offset-7">
+                                <label data-add-placeholder>
+                                            <textarea name="message" placeholder="Your Message"
+                                            data-constraints="@NotEmpty"></textarea>
+                                </label>
+                                </div>
+                                 </div>
+                                <div class="offset-3 mfControls text-left ">
+                                    <button class="btn btn-md btn-primary" type="submit">Send</button>
+                                </div>
+                                <div class="mfInfo"></div>
+                            </fieldset>
+                        </form>
+
+            </div>
+        </section>
+        <!--END Get in touch-->
+
+
+        <!-- Contacts newsletter-->
+        <section class="well--inset-1">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-5">
+                        <h3 class="line-bottom">contacts</h3>
+                        <p>We are always ready to help you. There are many ways to contact us. You may drop us a line, give us a call or
+                            send an email, choose what suits you the most.</p>
+                        <address>28 Jackson Blvd Ste 1020 Chicago IL 60604-2340</address>
+                        <dl class="contact-info">
+                            <dt>Tel:</dt>
+                            <dd><a href="callto:#">800-2345-6789</a></dd>
+                        </dl>
+                        <a href="mailto:#" class="underline inline-block">info@demolink.org</a>
+                    </div>
+                    <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-3 offset-8">
+                        <h3 class="line-bottom">newsletter</h3>
+                          <!--Form-->
+                        <div class="subscribe">
+                        <form class='rd-mailform' method="post" action="http://livedemo00.template-help.com/wt_57786/bat/rd-mailform.php">
+                            <input type="hidden" name="form-type" value="subscribe"/>
+                            <fieldset>
+                                <label data-add-placeholder="">
+                                    <input type="text"
+                                           name="email"
+                                           placeholder="Enter Your E-mail"
+                                           data-constraints="@Email @NotEmpty"/>
+                                </label>
+                                <div class="mfControls pull-right">
+                                    <button class="btn btn-primary btn-sm" type="submit"></button>
+                                </div>
+                                <div class="mfInfo"></div>
+                            </fieldset>
+                        </form>
+                        </div>
+                        <!-- END Form -->
+                        <ul class="inline-list">
+                            <li><a class=" icon-sm  fa-facebook" href="index-4.html#"></a></li>
+                            <li><a class=" icon-sm  fa-twitter" href="index-4.html#"></a></li>
+                            <li><a class=" icon-sm  fa-google" href="index-4.html#"></a></li>
+                            <li><a class=" icon-sm  fa-youtube" href="index-4.html#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END Contacts newsletter-->
+
+    </main>
+    <footer>
+        <div class="container">
+            Fashion  © <span id="copyright-year"></span>.
+            <a href="index-5.html">Privacy Policy</a>
+            <!-- {%FOOTER_LINK} -->
+        </div>
+    </footer>
+    <!--========================================================
+                               FOOTER
+     =========================================================-->
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

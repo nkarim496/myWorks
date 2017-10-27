@@ -1,0 +1,1654 @@
+#
+# Translators:
+# MD. AL-AMIN <alamin_opu@yahoo.com>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WPBackItUp\n"
+"POT-Creation-Date: 2016-06-25 07:42-0400\n"
+"PO-Revision-Date: 2016-06-25 07:42-0400\n"
+"Last-Translator: MD. AL-AMIN <alamin_opu@yahoo.com>\n"
+"Language-Team: Bengali (Bangladesh) (http://www.transifex.com/wp-translations/wp-"
+"backitup/language/bn_BD/)\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/background-processing/class-background-process.php:420
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: lib/includes/class-wpbackitup-admin.php:212 views/backup.php:277 views/backup.php:283
+#: views/backup.php:348 views/restore.php:99 wp-backitup.php:142
+msgid "Backup"
+msgstr "ব্যাকআপ"
+
+#: lib/includes/class-wpbackitup-admin.php:216 lib/includes/class-wpbackitup-admin.php:254
+#: views/restore.php:136 wp-backitup.php:156
+msgid "Restore"
+msgstr "পুনরুদ্ধার"
+
+#: lib/includes/class-wpbackitup-admin.php:220
+msgid "Support"
+msgstr "সাহায্য"
+
+#: lib/includes/class-wpbackitup-admin.php:223
+msgid "Settings"
+msgstr "সেটিংস"
+
+#: lib/includes/class-wpbackitup-admin.php:247
+msgid "The backup you have selected exceeds what your host allows you to upload."
+msgstr ""
+"অাপনি যে ব্যাকঅাপটি সিলেক্ট করেছেন সেটি অাপনার হোস্ট যতটুকু অাপলোড করার অনুমতি দেয় তা অতিক্রম "
+"করবে।"
+
+#: lib/includes/class-wpbackitup-admin.php:248 views/backup.php:439 views/backup.php:440
+#: views/backup.php:441 views/backup.php:442 views/backup.php:443 views/backup.php:444
+#: views/backup.php:445 views/backup.php:446 views/backup.php:447 views/backup.php:448
+msgid "Warning"
+msgstr "সতর্কবার্তা"
+
+#: lib/includes/class-wpbackitup-admin.php:249 views/backup.php:253 views/backup.php:376
+msgid "Error"
+msgstr "ত্রুটি"
+
+#: lib/includes/class-wpbackitup-admin.php:250
+msgid "Response"
+msgstr "উত্তর"
+
+#: lib/includes/class-wpbackitup-admin.php:251 views/backup.php:352 views/backup.php:430
+#: views/restore.php:230
+msgid "Status"
+msgstr "অবস্থা"
+
+#: lib/includes/class-wpbackitup-admin.php:252
+msgid "Download"
+msgstr "ডাউনলোড"
+
+#: lib/includes/class-wpbackitup-admin.php:253 views/backup.php:407 views/restore.php:129
+msgid "Delete"
+msgstr "মুছুন "
+
+#: lib/includes/class-wpbackitup-admin.php:255
+msgid "(JS997) Unexpected error"
+msgstr "(JS997) অপ্রত্যাশিত ত্রুটি"
+
+#: lib/includes/class-wpbackitup-admin.php:256
+msgid "(JS998) Unexpected error"
+msgstr "(JS998) অপ্রত্যাশিত ত্রুটি"
+
+#: lib/includes/class-wpbackitup-admin.php:257
+msgid "(JS999) An unexpected error has occurred"
+msgstr "(JS999) একটি অপ্রত্যাশিত ত্রুটি হয়েছে"
+
+#: lib/includes/class-wpbackitup-admin.php:258
+msgid "Scheduled has been saved."
+msgstr "সুচি সংরক্ষন করা হয়েছে।"
+
+#: lib/includes/class-wpbackitup-admin.php:259
+msgid "Scheduled was not saved."
+msgstr "সুচি সংরক্ষন সম্পন্ন হয়নি।"
+
+#: lib/includes/class-wpbackitup-admin.php:260
+msgid "Are you sure you want to restore your site?"
+msgstr "অাপনি কি নিশ্চিতভাবে চান সাইটটি পুনরুদ্ধার করতে? "
+
+#: lib/includes/class-wpbackitup-admin.php:261
+msgid "Are you sure ?"
+msgstr "অাপনি কি নিশ্চিত ? "
+
+#: lib/includes/class-wpbackitup-admin.php:262
+msgid "This file cannot be delete!"
+msgstr "এই ফাইলটি মুছা যাবে নাহ !"
+
+#: lib/includes/class-wpbackitup-admin.php:263
+msgid "View Log"
+msgstr "লগ দেখুন"
+
+#: lib/includes/class-wpbackitup-admin.php:264
+msgid "New Backup!"
+msgstr "নতুন ব্যাকঅাপ !"
+
+#: lib/includes/class-wpbackitup-admin.php:265
+msgid "Uploaded Backup"
+msgstr "অাপলোডকৃত ব্যাকঅাপ"
+
+#: lib/includes/class-wpbackitup-admin.php:602
+msgid "Backup Queued"
+msgstr "ব্যাকঅাপ অপেক্ষমান"
+
+#: lib/includes/class-wpbackitup-admin.php:611
+msgid "Backup could not be queued"
+msgstr "ব্যাকঅাপ অপেক্ষমান করা যায়নি। "
+
+#: lib/includes/class-wpbackitup-admin.php:623
+msgid "Job is already in queue."
+msgstr "কাজটি অাগে থেকেই অপেক্ষমান"
+
+#: lib/includes/class-wpbackitup-admin.php:661
+msgid "No backup file selected."
+msgstr "ব্যাকঅাপ ফাইল বাছাই করা হয়নি।"
+
+#: lib/includes/class-wpbackitup-admin.php:668
+msgid "No user id found."
+msgstr "ব্যবহারকারী খুজে পাওয়া যায়নি। "
+
+#: lib/includes/class-wpbackitup-admin.php:691
+msgid "Restore Queued"
+msgstr "পুনরুদ্ধার অপেক্ষমান"
+
+#: lib/includes/class-wpbackitup-admin.php:700
+msgid "Restore could not be queued"
+msgstr "পুনরুদ্ধার অপেক্ষমান করা যায় নি"
+
+#: lib/includes/class-wpbackitup-admin.php:706
+msgid "Restore already in queue"
+msgstr "পুনরুদ্ধার অাগে থেকেই অপেক্ষমান"
+
+#: lib/includes/class-wpbackitup-admin.php:738
+msgid "No job id posted"
+msgstr "কোন কাজের আইডি পোস্ট করা হয়নি "
+
+#: lib/includes/class-wpbackitup-admin.php:746 views/backup.php:467
+msgid "Backup Cancelled"
+msgstr "ব্যাকঅাপ বাতিল করা হয়েছে"
+
+#: lib/includes/class-wpbackitup-admin.php:748
+msgid "Backup job not found"
+msgstr "ব্যাকঅাপ কাজ পাওয়া যায়নি "
+
+#: lib/includes/class-wpbackitup-admin.php:917
+msgid "No response log found."
+msgstr "রেসপনস লগ পাওয়া যায়নি।"
+
+#: lib/includes/class-wpbackitup-admin.php:1019
+#: lib/includes/class-wpbackitup-admin.php:1027
+#: lib/includes/class-wpbackitup-admin.php:1073
+#: lib/includes/class-wpbackitup-admin.php:1080
+#: lib/includes/class-wpbackitup-admin.php:1087
+#: lib/includes/class-wpbackitup-admin.php:1094
+#: lib/includes/class-wpbackitup-admin.php:1101
+msgid "Please enter a number"
+msgstr "একটি নাম্বার প্রবেশ করুন "
+
+#: lib/includes/class-wpbackitup-admin.php:1048
+#: lib/includes/class-wpbackitup-admin.php:1210
+msgid "Please enter a valid email"
+msgstr "একটি সঠিক ইমেইল প্রবেশ করুন "
+
+#: lib/includes/class-wpbackitup-admin.php:1217
+msgid "Please enter your support ticket id"
+msgstr "অাপনার সাপোর্ট টিকেট অাইডি প্রবেশ করুন"
+
+#: lib/includes/class-wpbackitup-admin.php:1222
+msgid "Please only enter numbers in this field"
+msgstr "এই ঘরে শুধুমাত্র নাম্বার প্রবেশ করুন"
+
+#: lib/includes/class-wpbackitup-admin.php:2012
+#: lib/includes/class-wpbackitup-admin.php:2032
+msgid ""
+"License could not be activated. Please try again in a few hours and contact support if "
+"this error continues."
+msgstr ""
+"লাইসেন্স সক্রিয় করা যায়নি । কয়েক ঘন্টার মধ্যে আবার চেষ্টা করুন এবং এই ত্রুটি চলতে থাকলে সহায়তার "
+"জন্য যোগাযোগ করুন । "
+
+#: lib/includes/class-wpbackitup-admin.php:2081
+msgid "License is invalid."
+msgstr "লাইসেন্স সঠিক নয়।"
+
+#: lib/includes/class-wpbackitup-admin.php:2086
+msgid "License has expired."
+msgstr "লাইসেন্স বাতিল হয়ে গিয়েছে। "
+
+#: lib/includes/class-wpbackitup-admin.php:2089
+#, php-format
+msgid ""
+"Your license has expired. Please <a href=\"%s\" target=\"blank\">renew</a> now for "
+"another year of <strong>product updates</strong> and access to our <strong>world class "
+"support</strong> team."
+msgstr ""
+"আপনার লাইসেন্সের মেয়াদ শেষ হয়ে গেছে।  দয়াকরে আরও এক বছরের জন্য <strong> পণ্য আপডেট </"
+"strong><a href=\"%s\" target=\"blank\"> নতুন </a> করুন এবং আমাদের বিশ্বমানের সহায়তা দলের "
+"সহায়তা নিন । "
+
+#: lib/includes/class-wpbackitup-admin.php:2103
+msgid "License Expired: Scheduled backups are no longer active."
+msgstr "লাইসেন্সের মেয়াদ শেষঃ নির্ধারিত ব্যাকআপ আর সক্রিয় নেই । "
+
+#: lib/includes/class-wpbackitup-admin.php:2111
+msgid "Activation limit has been reached."
+msgstr "সক্রিয়করন সীমা পুর্ন হয়ে গিয়েছে।"
+
+#: lib/includes/class-wpbackitup-admin.php:2117
+msgid "Your Activation limit has been reached"
+msgstr "আপনার অ্যাক্টিভেশন শেষ সীমায় পৌঁছেছে"
+
+#: lib/includes/handler_upload.php:29
+msgid "Invalid Nonce"
+msgstr "ভুল Nonce"
+
+#: lib/includes/handler_upload.php:39 lib/includes/handler_upload.php:156
+msgid "Upload directory is not writable, or does not exist."
+msgstr "অাপলোড ডিরেক্টরি writeable নয় , অথবা  এর অস্তিত্ব নেই"
+
+#: lib/includes/handler_upload.php:80
+#, php-format
+msgid "Error: %s"
+msgstr "ত্রুটি: %s"
+
+#: lib/includes/handler_upload.php:80
+msgid "File could not be uploaded"
+msgstr "ফাইল অাপলোড করা সম্ভব নয়। "
+
+#: lib/includes/handler_upload.php:146
+msgid "Upload does not appear to be a WPBackItUp backup archive file."
+msgstr "অাপলোড WP BackitUp ব্যাকঅাপের সংরক্ষিত ফাইল নয়।"
+
+#: lib/includes/handler_upload.php:166
+msgid "Could not import file into WPBackItUp backup set."
+msgstr "WP BackItUp ব্যাকআপ সেট এর মধ্যে ফাইল ইম্পোর্ট করা যায়নি."
+
+#: lib/includes/job_backup.php:1135
+#, php-format
+msgid ""
+"<strong>IMPORTANT NOTICE:</strong> <span style=\"color: #ff0000;\"> Your license has "
+"expired.</span><br/><br/>Scheduled backups will only continue to function for "
+"<strong>30</strong> days after your license has expired.Please <strong><a href=\"%s\" "
+"target=\"blank\">renew</a></strong> for another year of product updates and access to "
+"our world class support team.<br/><br/>"
+msgstr ""
+"<strong>জরুরী বিজ্ঞপ্তি ঃ </strong><span style=\"color: #ff0000;\"> আপনার লাইসেন্সের মেয়াদ "
+"শেষ হয়ে গেছে । </span><br/><br/> আপনার লাইসেন্সের মেয়াদ শেষ হবার পর  শুধুমাত্র <strong>30</"
+"strong> দিন পর্যন্ত নির্ধারিত ব্যাকআপ  চলবে । দয়াকরে আরও এক বছরের জন্য পণ্য হালনাগাদ এবং "
+"আমাদের বিশ্বমানের সহায়তা দলের সহায়তার জন্য <strong><a href=\"%s\" target=\"blank\"> "
+"নবায়ন</a></strong> করুন । <br/><br/>"
+
+#: lib/includes/job_backup.php:1140
+#, php-format
+msgid "%s - Backup completed successfully."
+msgstr "%s - সফলভাবে ব্যাকআপ সম্পন্ন হয়েছে। "
+
+#: lib/includes/job_backup.php:1141
+msgid "Your backup completed successfully."
+msgstr "অাপনার ব্যাকআপ সফলভাবে সম্পন্ন হয়েছে। "
+
+#: lib/includes/job_backup.php:1144
+#, php-format
+msgid "%s - Backup did not complete successfully."
+msgstr "%s - সফলভাবে ব্যাকআপ সম্পন্ন হয়নি। "
+
+#: lib/includes/job_backup.php:1145
+msgid "Your backup did not complete successfully."
+msgstr "অাপনার ব্যাকআপ সফলভাবে সম্পন্ন হয়নি। "
+
+#: lib/includes/job_backup.php:1152
+#, php-format
+msgid "WordPress Site: <a href=\"%s\" target=\"_blank\"> %s </a><br/>"
+msgstr "ওয়ার্ডপ্রেস সাইট: <a href=\"%s\" target=\"_blank\"> %s </a><br/>"
+
+#: lib/includes/job_backup.php:1153
+msgid "Backup date:"
+msgstr "ব্যাকআপের তারিখ:"
+
+#: lib/includes/job_backup.php:1154
+msgid "Number of backups completed with WPBackItUp:"
+msgstr "WP BackItUp দিয়ে ব্যাকঅাপ সম্পন্ন করা হয়েছে:"
+
+#: lib/includes/job_backup.php:1156
+msgid "Completion Code:"
+msgstr "পরিপূর্ন কোড:"
+
+#: lib/includes/job_backup.php:1157
+msgid "WPBackItUp Version:"
+msgstr "WP BackItUp ভার্সন:"
+
+#: lib/includes/job_backup.php:1169
+#, php-format
+msgid "Checkout %s for info about WPBackItUp and our other products."
+msgstr "WP BackItUp এবং অামাদের অন্যান্য প্রোডাক্ট সম্পর্কে জানতে %s দেখুন।"
+
+#: lib/includes/job_backup.php:1336
+msgid ""
+"(101) Unable to create a new directory for backup. Please check your CHMOD settings of "
+"your wp-backitup backup directory"
+msgstr ""
+"(101) ব্যাকঅাপের জন্য নতুন ডিরেক্টরি তৈরি করা যাচ্ছে নাহ। দয়াকরে অাপনার wp-backitup ব্যাকঅাপ "
+"ডিরেক্টরির CHMOD সেটিংস যাচাই করুন"
+
+#: lib/includes/job_backup.php:1337
+msgid ""
+"(102) Cannot create backup directory. Please check the CHMOD settings of your wp-"
+"backitup plugin directory"
+msgstr ""
+"(102) ব্যাকঅাপ ডিরেক্টরি তৈরি করা যাচ্ছে নাহ। দয়াকরে অাপনার wp-backitup প্লাগিন ডিরেক্টরির "
+"CHMOD সেটিংস যাচাই করুন"
+
+#: lib/includes/job_backup.php:1338
+msgid "(103) Unable to backup your files. Please try again"
+msgstr "(103) অাপনার ফাইলসমুহ ব্যাকঅাপ নেয়া যাচ্ছে নাহ। দয়াকরে অাবার চেষ্টা করুন। "
+
+#: lib/includes/job_backup.php:1339
+msgid "(104) Unable to export your database. Please try again"
+msgstr "(104) অাপনার ডেটাবেজ এক্সপোর্ট করা যাচ্ছে নাহ। দয়াকরে অাবার চেষ্টা করুন। "
+
+#: lib/includes/job_backup.php:1340
+msgid "(105) Unable to export site information file. Please try again"
+msgstr "(105) অাপনার সাইটের তথ্য এক্সপোর্ট করা যাচ্ছে নাহ। দয়াকরে অাবার চেষ্টা করুন। "
+
+#: lib/includes/job_backup.php:1341
+msgid "(106) Unable to cleanup your backup directory"
+msgstr "(106) অাপনার ব্যাকঅাপ ডিরেক্টরি পরিষ্কার করা যাচ্ছে নাহ।"
+
+#: lib/includes/job_backup.php:1342
+msgid "(107) Unable to compress(zip) your backup. Please try again"
+msgstr "(107) আপনার ব্যাকআপ সঙ্কুচিত করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1343
+msgid "(108) Unable to backup your site data files. Please try again"
+msgstr "(108) আপনার সাইটের ডাটা ফাইল ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1344
+msgid "(109) Unable to finalize backup. Please try again"
+msgstr "(109) ব্যাকআপ চূড়ান্ত করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1345
+msgid "(110) Unable to create backup manifest. Please try again"
+msgstr "(110) ব্যাকআপ ম্যানিফেস্টো তৈরি করতে অক্ষম । অনুগ্রহপূর্বক আবার চেষ্টা করুন"
+
+#: lib/includes/job_backup.php:1346
+msgid ""
+"(114) Your database was accessible but an export could not be created. Please contact "
+"support by clicking the get support link on the right. Please let us know who your host "
+"is when you submit the request"
+msgstr ""
+"(114) আপনার ডাটাবেস সুগম ছিল কিন্তু এক্সপোর্ট তৈরি করা যায়নি । ডানদিকে সংযোগ সমর্থন লিঙ্কে "
+"ক্লিক করে সমর্থনের সাথে যোগাযোগ করুন ।দয়াকরে অনুরোধ করার সময় আমাদেরকে আপনার হোস্ট জানান । "
+
+#: lib/includes/job_backup.php:1347
+msgid "(120) Unable to backup your themes. Please try again"
+msgstr "(120) আপনার থিম ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1348
+msgid "(121) Unable to backup your plugins. Please try again"
+msgstr "(121) আপনার প্লাগিন ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1349
+msgid "(122) Unable to backup your uploads. Please try again"
+msgstr "(122) আপনার আপলোড ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1350
+msgid "(123) Unable to backup your miscellaneous files. Please try again"
+msgstr "(123) আপনার বিবিধ ফাইল ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1351
+msgid ""
+"(125) Unable to compress your backup because there is no zip utility available.  Please "
+"contact support"
+msgstr ""
+"(125) আপনার ব্যাকআপ সঙ্কুচিত করা যাচ্ছেনা কারন কোন zip utility খুজে পাওয়া যায়নি । দয়াকরে "
+"support এ যোগাযোগ করুন ।"
+
+#: lib/includes/job_backup.php:1352
+msgid "(126) Unable to validate your backup. Please try again"
+msgstr "(126) আপনার ব্যাকআপ যাচাই করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1353
+msgid "(127) Unable to create inventory of files to backup. Please try again"
+msgstr "(127) ব্যাকআপের জন্য ফাইলের তালিকা তৈরি করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1354
+msgid "(128) Unable to create job control record. Please try again"
+msgstr "(128) কাজের নিয়ন্ত্রণ রেকর্ড তৈরি করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1356
+msgid ""
+"(2101) Unable to create a new directory for backup. Please check your CHMOD settings of "
+"your wp-backitup backup directory"
+msgstr ""
+"(2101) ব্যাকঅাপের জন্য নতুন ডিরেক্টরি তৈরি করা যাচ্ছেনা। দয়াকরে অাপনার wp-backitup ব্যাকঅাপ "
+"ডিরেক্টরির CHMOD সেটিংস যাচাই করুন"
+
+#: lib/includes/job_backup.php:1357
+msgid ""
+"(2102) Cannot create backup directory. Please check the CHMOD settings of your wp-"
+"backitup plugin directory"
+msgstr ""
+"(2102) ব্যাকঅাপ ডিরেক্টরি তৈরি করা যাচ্ছেনা। দয়াকরে অাপনার wp-backitup প্লাগিন ডিরেক্টরির "
+"CHMOD সেটিংস যাচাই করুন"
+
+#: lib/includes/job_backup.php:1358
+msgid "(2103) Unable to backup your files. Please try again"
+msgstr "(2103) অাপনার ফাইলসমুহ ব্যাকঅাপ নেয়া যাচ্ছে নাহ। দয়াকরে অাবার চেষ্টা করুন। "
+
+#: lib/includes/job_backup.php:1359
+msgid "(2104) Unable to export your database. Please try again"
+msgstr "(2104) অাপনার ডেটাবেজ এক্সপোর্ট করা যাচ্ছেনা। দয়াকরে অাবার চেষ্টা করুন। "
+
+#: lib/includes/job_backup.php:1360
+msgid "(2105) Unable to export site information file. Please try again"
+msgstr "(2105) অাপনার সাইটের তথ্য এক্সপোর্ট করা যাচ্ছে নাহ। দয়াকরে অাবার চেষ্টা করুন। "
+
+#: lib/includes/job_backup.php:1361
+msgid "(2106) Unable to cleanup your backup directory"
+msgstr "(2106) অাপনার ব্যাকঅাপ ডিরেক্টরি পরিষ্কার করা যাচ্ছেনা।"
+
+#: lib/includes/job_backup.php:1362
+msgid "(2107) Unable to compress(zip) your backup. Please try again"
+msgstr "(2107) আপনার ব্যাকআপ সঙ্কুচিত করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1363
+msgid "(2108) Unable to backup your site data files. Please try again"
+msgstr "(2108) আপনার সাইটের ডাটা ফাইল ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1364
+msgid "(2109) Unable to finalize backup. Please try again"
+msgstr "(2109) ব্যাকআপ চূড়ান্ত করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন। "
+
+#: lib/includes/job_backup.php:1365
+msgid "(2110) Unable to create backup manifest. Please try again"
+msgstr "(2110) ব্যাকআপ ম্যানিফেস্টো তৈরি করতে অক্ষম । অনুগ্রহপূর্বক আবার চেষ্টা করুন"
+
+#: lib/includes/job_backup.php:1366
+msgid ""
+"(2114) Your database was accessible but an export could not be created. Please contact "
+"support by clicking the get support link on the right. Please let us know who your host "
+"is when you submit the request"
+msgstr ""
+"(2114) আপনার ডাটাবেস সুগম ছিল কিন্তু এক্সপোর্ট তৈরি করা যায়নি । ডানদিকে সংযোগ সমর্থন লিঙ্কে "
+"ক্লিক করে সমর্থনের সাথে যোগাযোগ করুন ।দয়াকরে অনুরোধ করার সময় আমাদেরকে আপনার হোস্ট জানান । "
+
+#: lib/includes/job_backup.php:1367
+msgid "(2120) Unable to backup your themes. Please try again"
+msgstr "(2120) আপনার থিম ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1368
+msgid "(2121) Unable to backup your plugins. Please try again"
+msgstr "(2121) আপনার প্লাগিন ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1369
+msgid "(2122) Unable to backup your uploads. Please try again"
+msgstr "(2122) আপনার আপলোড ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1370
+msgid "(2123) Unable to backup your miscellaneous files. Please try again"
+msgstr "(2123) আপনার বিবিধ ফাইল ব্যাকআপ করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1371
+msgid ""
+"(2125) Unable to compress your backup because there is no zip utility available.  "
+"Please contact support"
+msgstr ""
+"(2125) আপনার ব্যাকআপ সঙ্কুচিত করা যাচ্ছেনা কারন কোন zip utility খুজে পাওয়া যায়নি । দয়াকরে "
+"support এ যোগাযোগ করুন ।"
+
+#: lib/includes/job_backup.php:1372
+msgid "(2126) Unable to validate your backup. Please try again"
+msgstr "(2126) আপনার ব্যাকআপ যাচাই করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1373
+msgid "(2127) Unable to create inventory of files to backup. Please try again"
+msgstr "(2127) ব্যাকআপের জন্য ফাইলের তালিকা তৈরি করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1374
+msgid "(2128) Unable to create job control record. Please try again"
+msgstr "(2128) কাজের নিয়ন্ত্রণ রেকর্ড তৈরি করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন । "
+
+#: lib/includes/job_backup.php:1377
+msgid "(999) Unexpected error"
+msgstr "(999) অপ্রত্যাশিত ত্রুটি"
+
+#. TRANSLATORS: %s = plugin name.
+#. This string is in the header of one of my pages and looks like this: WP BackItUp Dashboard
+#. Similar to how WordPress uses the word dashboard at the in the left navigation.
+#: views/backup.php:17
+#, php-format
+msgid "%s Dashboard"
+msgstr "%s ড্যাশবোর্ড"
+
+#: views/backup.php:242
+msgid "Dismiss"
+msgstr "ভন্ডুল"
+
+#: views/backup.php:254
+#, php-format
+msgid "Backup folder does not exist. Please contact %s for assistance."
+msgstr "ব্যাকআপ ফোল্ডার পাওয়া যাচ্ছেনা । দয়াকরে সহায়তার জন্য %s এর সাথে যোগাযোগ করুন."
+
+#: views/backup.php:254 views/restore.php:75 views/restore.php:82
+msgid "support"
+msgstr "সাহায্য"
+
+#: views/backup.php:257 views/backup.php:263
+msgid "Close"
+msgstr "বন্ধ"
+
+#: views/backup.php:278
+msgid ""
+"Click the backup button to create a zipped backup file of this site's database, "
+"plugins, themes and settings."
+msgstr ""
+"এই সাইট এর ডাটাবেস, প্লাগিন, থিম এবং সেটিংস এর একটি জিপ করা ব্যাকআপ ফাইল তৈরি করার জন্য "
+"ব্যাকআপ বাটনে ক্লিক করুন."
+
+#: views/backup.php:279
+msgid ""
+"Once your backup file has been created it will appear in the available backups section "
+"below. This file may remain on your hosting providers server but we recommend that you "
+"download and save it somewhere safe."
+msgstr ""
+"যখনি আপনার ব্যাকআপ ফাইল তৈরি  হবে এটা নীচে পাওয়া ব্যাকআপ বিভাগে প্রদর্শিত হবে । এই ফাইলটি "
+"আপনার হোস্টিং প্রদানকারী সার্ভারে থেকে যেতে পারে কিন্তু আমরা আপনাকে প্রস্তাব দিই এটি ডাউনলোড "
+"করুন এবং  কোথাও নিরাপদে সংরক্ষণ করুন । "
+
+#: views/backup.php:280
+msgid ""
+"WPBackItUp premium customers can use these backup files to perform an automated restore "
+"of their site."
+msgstr ""
+"WP BackItUp প্রিমিয়াম গ্রাহকেরা এই ব্যাকআপ ফাইল ব্যবহার করে তাদের সাইটের স্বয়ংক্রিয় পুনঃস্থাপন "
+"সঞ্চালন করতে পারেন । "
+
+#: views/backup.php:284
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: views/backup.php:291
+#, php-format
+msgid ""
+"WPBackItUp lite customers may use these backup files to manually restore their site.  "
+"Please visit %s for manual restore instructions."
+msgstr ""
+"WP BackItUp সাধারণ গ্রাহকেরা এই ব্যাকআপ ফাইল ব্যবহার করে তাদের সাইটের ম্যানুয়ালি পুনঃস্থাপন "
+"সঞ্চালন করতে পারেন । দয়াকরে ম্যানুয়াল পুনঃস্থাপন নির্দেশিকার জন্য %s দেখুন । "
+
+#: views/backup.php:298
+msgid "Backup Schedule"
+msgstr "ব্যাকআপ সূচী"
+
+#: views/backup.php:300
+msgid "Select the days of the week you would like your backup to run."
+msgstr "সপ্তাহের কোন দিনগুলোতে আপনি ব্যাকআপ চালাতে চান তা নির্বাচন করুন । "
+
+#: views/backup.php:302
+msgid ""
+"Backup your site once per week or every day, it's up to you.  If you have email "
+"notifications turned on we'll even send you an email when it's done.  Once your backup "
+"file has been created it will appear in the available backups section below. This file "
+"may remain on your hosting providers server but we recommend that you download and save "
+"it somewhere safe."
+msgstr ""
+"আপনার সাইটের ব্যাকআপ সপ্তাহে বা প্রতি দিনে একবার নেবেন কিনা, এটা আপনার উপর নির্ভর করে । "
+"আপনি যদি ইমেল বিজ্ঞপ্তি চালু থাকে আমরা আপনাকে একটি ইমেল পাঠিয়ে জানিয়ে দেব যখন এটা শেষ হবে। "
+"যখনি আপনার ব্যাকআপ ফাইল তৈরি  হবে এটা নীচে পাওয়া ব্যাকআপ বিভাগে প্রদর্শিত হবে । এই ফাইলটি "
+"আপনার হোস্টিং প্রদানকারী সার্ভারে থেকে যেতে পারে কিন্তু আমরা আপনাকে প্রস্তাব দিই এটি ডাউনলোড "
+"করুন এবং  কোথাও নিরাপদে সংরক্ষণ করুন । "
+
+#: views/backup.php:304
+msgid "Please make sure to schedule your backup for at least once per week."
+msgstr "দয়াকরে প্রতি সপ্তাহে অন্তত একবার আপনার ব্যাকআপ করার সময় নির্ধারণ করতে  নিশ্চিত করুন."
+
+#: views/backup.php:308
+msgid "Monday"
+msgstr "সোমবার"
+
+#: views/backup.php:309
+msgid "Tuesday"
+msgstr "মঙ্গলবার"
+
+#: views/backup.php:310
+msgid "Wednesday"
+msgstr "বুধবার"
+
+#: views/backup.php:311
+msgid "Thursday"
+msgstr "বৃহস্পতিবার"
+
+#: views/backup.php:312
+msgid "Friday"
+msgstr "শুক্রবার"
+
+#: views/backup.php:313
+msgid "Saturday"
+msgstr "শনিবার"
+
+#: views/backup.php:314
+msgid "Sunday"
+msgstr "রবিবার"
+
+#: views/backup.php:317
+msgid "Save Schedule"
+msgstr "সূচী সংরক্ষন করুন"
+
+#: views/backup.php:322
+#, php-format
+msgid ""
+"Scheduled backups are only available to WPBackItUp premium customers.  Please visit %s "
+"to get WPBackItUp risk free for 30 days."
+msgstr ""
+"নির্ধারিত ব্যাকআপ শুধুমাত্র WP BackItUp প্রিমিয়াম গ্রাহকদের জন্য । 30 দিনের জন্য ঝুঁকিহীন ফ্রি WP "
+"BackItUp পেতে %s এর ভিজিট করুন । "
+
+#: views/backup.php:329 views/restore.php:95
+msgid "Available Backups"
+msgstr "যে যে ব্যাকঅাপ আছে"
+
+#: views/backup.php:349
+msgid "Type"
+msgstr "ধরণ"
+
+#: views/backup.php:350 views/restore.php:100
+msgid "Date"
+msgstr "তারিখ"
+
+#: views/backup.php:351
+msgid "Duration"
+msgstr "স্থিতিকাল"
+
+#: views/backup.php:370
+msgid "Success"
+msgstr "সাফল্য"
+
+#: views/backup.php:373
+msgid "Active"
+msgstr "সক্রিয়"
+
+#: views/backup.php:416 views/restore.php:149
+msgid "No backup archives found."
+msgstr "কোন ব্যাকআপ আর্কাইভ পাওয়া যায়নি । "
+
+#: views/backup.php:425
+#, php-format
+msgid ""
+"The automated restore feature is only available to WPBackItUp premium customers.  "
+"Please visit %s to get WPBackItUp risk free for 30 days."
+msgstr ""
+"স্বয়ংক্রিয় ব্যাকআপ শুধুমাত্র WP BackItUp প্রিমিয়াম গ্রাহকদের জন্য । 30 দিনের জন্য ঝুঁকিহীন ফ্রি WP "
+"BackItUp পেতে %s এর ভিজিট করুন । "
+
+#: views/backup.php:434 views/restore.php:234
+msgid "Nothing to report"
+msgstr "কোনও প্রতিবেদন নেই । "
+
+#: views/backup.php:439
+msgid "Preparing for backup"
+msgstr "ব্যাকঅাপের জন্যে তৈরি হচ্ছে"
+
+#: views/backup.php:439 views/backup.php:440 views/backup.php:441 views/backup.php:442
+#: views/backup.php:443 views/backup.php:444 views/backup.php:445 views/backup.php:446
+#: views/backup.php:447 views/backup.php:448 views/restore.php:244 views/restore.php:245
+#: views/restore.php:246 views/restore.php:247 views/restore.php:248 views/restore.php:249
+#: views/restore.php:250 views/restore.php:251 views/restore.php:252 views/restore.php:253
+#: views/restore.php:254 views/restore.php:256
+msgid "Done"
+msgstr "সম্পন্ন"
+
+#: views/backup.php:439 views/backup.php:440 views/backup.php:441 views/backup.php:442
+#: views/backup.php:443 views/backup.php:444 views/backup.php:445 views/backup.php:446
+#: views/backup.php:447 views/backup.php:448 views/restore.php:244 views/restore.php:245
+#: views/restore.php:246 views/restore.php:247 views/restore.php:248 views/restore.php:249
+#: views/restore.php:250 views/restore.php:251 views/restore.php:252 views/restore.php:253
+#: views/restore.php:254 views/restore.php:256
+msgid "Failed"
+msgstr "ব্যর্থ "
+
+#: views/backup.php:440
+msgid "Creating inventory of files to backup"
+msgstr "ব্যাকআপ ফাইলের তালিকা তৈরি হচ্ছে "
+
+#: views/backup.php:441
+msgid "Backing up database"
+msgstr "ডাটাবেজ ব্যাকঅাপ হচ্ছে"
+
+#: views/backup.php:442
+msgid "Creating backup information file"
+msgstr "ব্যাকঅাপের তথ্য তৈরি হচ্ছে"
+
+#: views/backup.php:443
+msgid "Backing up themes"
+msgstr "থিম ব্যাকঅাপ হচ্ছে"
+
+#: views/backup.php:444
+msgid "Backing up plugins"
+msgstr "প্লাগিন ব্যাকঅাপ হচ্ছে"
+
+#: views/backup.php:445
+msgid "Backing up uploads"
+msgstr "অাপলোড ব্যাকঅাপ হচ্ছে"
+
+#: views/backup.php:446
+msgid "Backing up everything else"
+msgstr "বাকিসব ব্যাকঅাপ হচ্ছে"
+
+#: views/backup.php:447
+msgid "Validating backup"
+msgstr "ব্যাকঅাপ যাচাই করা হচ্ছে"
+
+#: views/backup.php:448
+msgid "Finalizing backup"
+msgstr "ব্যাকঅাপ নেয়া শেষ হচ্ছে"
+
+#: views/backup.php:458
+msgid "Backup completed successfully"
+msgstr "সফলভাবে ব্যাকআপ সম্পন্ন হয়েছে"
+
+#: views/backup.php:479
+msgid "Backups"
+msgstr "ব্যাকআপসমুহ"
+
+#: views/backup.php:479
+msgid "Version "
+msgstr "ভার্সন"
+
+#: views/backup.php:481
+msgid "Welcome to WPBackItUp!"
+msgstr "WP BackItUp! এ স্বাগতম!"
+
+#: views/backup.php:481
+msgid "The simplest way to backup your WordPress site."
+msgstr "আপনার WordPress সাইটের ব্যাকআপের সবচেয়ে সহজ উপায় । "
+
+#: views/backup.php:482
+msgid ""
+"Getting started is easy, just click the backup button on the left side of this page."
+msgstr "শুরু করা খুব সহজ , শুধু এই পৃষ্ঠার বামদিকে ব্যাকআপ বাটনে ক্লিক করুন."
+
+#: views/backup.php:486
+#, php-format
+msgid ""
+"Congratulations! You have performed <span style=\"font-weight:bold;font-size:medium;"
+"color: green\">%s</span> successful backups."
+msgstr ""
+"অভিনন্দন ! আপনি <span style=\"font-weight:bold;font-size:medium;color: green\">%s</span> "
+"ব্যাকআপ সফলভাবে সম্পন্ন করেছেন । "
+
+#: views/backup.php:487
+msgid "Tips"
+msgstr "পরামর্শ"
+
+#: views/backup.php:488
+msgid "Backup your site at least once per week"
+msgstr "সপ্তাহে অন্তত একবার আপনার সাইেটর ব্যাকআপ নিন  "
+
+#: views/backup.php:489
+msgid "Download all your backups and store them somewhere safe"
+msgstr "আপনার সব ব্যাকআপ ডাউনলোড করুন এবং তাদের কোথাও নিরাপদে সংরক্ষণ করুন "
+
+#: views/backup.php:490
+msgid "Verify your backup files are good by taking a look at what's inside"
+msgstr "ফাইেলর ভিতরে দেখে আপনার ব্যাকআপ যাচাই করুন "
+
+#: views/backup.php:495
+#, php-format
+msgid "Why not %s and schedule your backups!"
+msgstr "কেন নয় %s এবং আপনার ব্যাকআপের সময় নির্ধারণ ! "
+
+#: views/backup.php:495
+msgid "upgrade"
+msgstr "আপগ্রেড "
+
+#: views/backup.php:504
+msgid "Register WPBackItUp"
+msgstr " WP BackItUp নিবন্ধন করুন "
+
+#: views/backup.php:507
+msgid ""
+"Enter your name and email address below to receive <b>special offers</b> and access to "
+"our world class <b>support</b> team.  <br />\n"
+"                <br />Enter your license key below to activate it on this site."
+msgstr ""
+"আমাদের বিশ্বমানের <b>সহায়তা</b> দলের সহায়তা এবং <b>বিশেষ সুবিধা</b> পেতে নিচে আপনার নাম "
+"এবং ইমেইল দিন ।<br />\n"
+"<br />এই সাইটে এটি সক্রিয় করার জন্য নিচের আপনার লাইসেন্স কী লিখুন । "
+
+#: views/backup.php:509
+msgid "name"
+msgstr "নাম"
+
+#: views/backup.php:510
+msgid "email address"
+msgstr "ইমেইল ঠিকানা"
+
+#: views/backup.php:511
+msgid "license key"
+msgstr "লাইসেন্স কী"
+
+#: views/backup.php:511 views/backup.php:561 views/backup.php:565
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: views/backup.php:512
+msgid "Free plugin customers do not need to enter license key."
+msgstr "ফ্রি প্লাগইন গ্রাহকদের লাইসেন্স কী প্রবেশ করতে হবে না."
+
+#: views/backup.php:513
+msgid "Register"
+msgstr "নিবন্ধন করুন"
+
+#: views/backup.php:522
+msgid "License Info"
+msgstr "লাইসেন্সের তথ্য"
+
+#: views/backup.php:544
+msgid "Name"
+msgstr "নাম"
+
+#: views/backup.php:545
+msgid "Email"
+msgstr "ইমেইল"
+
+#: views/backup.php:546
+msgid "License Type"
+msgstr "লাইসেন্সের তথ্য"
+
+#: views/backup.php:547
+msgid "Expires"
+msgstr "মেয়াদ শেষ হয়"
+
+#: views/backup.php:550
+msgid "Enter license key to activate on this site."
+msgstr "এই সাইটে সক্রিয় করতে লাইসেন্স কী দিন । "
+
+#: views/backup.php:557
+msgid "License Active"
+msgstr "লাইসেন্স সক্রিয় "
+
+#: views/backup.php:565
+msgid "License expired"
+msgstr "লাইসেন্স এর মেয়াদ শেষ  "
+
+#: views/backup.php:569
+msgid "Update"
+msgstr "হালনাগাদ"
+
+#: views/backup.php:573
+msgid "Activate"
+msgstr "সক্রিয় করুন"
+
+#: views/backup.php:577
+#, php-format
+msgid "Purchase a %s license using the purchase link above."
+msgstr "উপরের লিঙ্ক ব্যবহার করে একটি %s লাইসেন্স কিনুন । "
+
+#: views/backup.php:577
+msgid "no-risk"
+msgstr "ঝুঁকিহীন"
+
+#: views/backup.php:583
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=\"blank\">renew</a> now for another year of "
+"<strong>product updates</strong> and access to our <strong>world class support</strong> "
+"team."
+msgstr ""
+"দয়াকরে আরও এক বছরের জন্য<strong> পণ্য আপডেট </strong> <a href=\"%s\" target=\"blank\"> "
+"নতুন </a> করুন এবং আমাদের বিশ্বমানের সহায়তা দলের সহায়তা নিন । "
+
+#: views/backup.php:594
+msgid "Useful Links"
+msgstr "প্রয়োজনীয় লিঙ্কগুলো "
+
+#: views/backup.php:596
+msgid "Getting Started Video"
+msgstr "প্রারম্ভিক প্রস্তুতি ভিডিও"
+
+#: views/backup.php:599
+msgid "Your account"
+msgstr "অাপনার একাউন্ট"
+
+#: views/backup.php:602
+msgid "Website Migration Service"
+msgstr "ওয়েবসাইট মাইগ্রেশন সেবা"
+
+#: views/backup.php:604
+msgid "Documentation"
+msgstr "ডকুমেন্টেশন"
+
+#: views/backup.php:607
+msgid "Get support"
+msgstr "সাহায্য নিন"
+
+#: views/backup.php:610
+msgid "Feature request"
+msgstr "বৈশিষ্ট্য অনুরোধ"
+
+#: views/backup.php:612
+msgid "Language Translations"
+msgstr "ভাষা অনুবাদ"
+
+#: views/backup.php:614
+msgid "Contact"
+msgstr "যোগাযোগ"
+
+#: views/restore.php:13
+#, php-format
+msgid "%s Restore"
+msgstr "%s পুনরুদ্ধার"
+
+#: views/restore.php:60
+msgid "Zip Files"
+msgstr "জিপ ফাইল"
+
+#: views/restore.php:75
+#, php-format
+msgid "Error: Backup folder does not exist. Please contact %s for assistance."
+msgstr "ত্রুটিঃ ব্যাকআপ ফোল্ডার পাওয়া যায়নি । দয়াকরে সহায়তার জন্য %s এর সাথে যোগাযোগ করুন । "
+
+#: views/restore.php:82
+#, php-format
+msgid "Error: Restore folder does not exist. Please contact %s for assistance."
+msgstr "ত্রুটিঃ পুনরুদ্ধার ফোল্ডার পাওয়া যায়নি । দয়াকরে সহায়তার জন্য %s এর সাথে যোগাযোগ করুন । "
+
+#: views/restore.php:165
+#, php-format
+msgid ""
+"<p>* The automated restore feature is only available to licensed customers.  Please "
+"visit <a href=\"%s\" target=\"_blank\">%s</a> to get license WPBackItUp risk free for "
+"30 days.</p>"
+msgstr ""
+"<p>* স্বয়ংক্রিয় ব্যাকআপ শুধুমাত্র WP BackItUp প্রিমিয়াম গ্রাহকদের জন্য । 30 দিনের জন্য ঝুঁকিহীন ফ্রি "
+"WP BackItUp পেতে <a href=\"%s\" target=\"_blank\">%s</a> ভিজিট করুন । </p>"
+
+#: views/restore.php:177
+msgid "Upload"
+msgstr "আপলোড"
+
+#: views/restore.php:180
+msgid "Upload WPBackItUp archive(zip) files to add to your list of available backups."
+msgstr ""
+"আপনার বিদ্যমান ব্যাকআপ তালিকায় WP BackItUp সংরক্ষাণাগার (ZIP) ফাইলগুলো যোগ করতে আপলোড করুন."
+
+#: views/restore.php:197
+msgid "WPBackItUp - Upload backup files"
+msgstr "WP BackItUp - ব্যাকআপ ফাইলসমূহ আপলোড করুন "
+
+#: views/restore.php:198
+msgid "Backup files may be uploaded into WPBackItUp with this form."
+msgstr "ব্যাকআপ ফাইলসমূহ WP BackItUp এর মধ্যে এই ফর্ম দিয়ে আপলোড করা যেতে পারে । "
+
+#: views/restore.php:198
+msgid ""
+"They may also be uploaded manually into the WPBackItUp directory (wp-content/"
+"wpbackitup_backups) using FTP. When done uploading all backup files refresh this page."
+msgstr ""
+"FTP ব্যবহার করে তাদের WP BackItUp ডিরেক্টরির (Wp-content / wpbackitup_backups) মধ্যে "
+"ম্যানুয়ালি আপলোড করা যেতে পারে । সব ব্যাকআপ ফাইল আপলোড সম্পন্ন হলে এই পৃষ্ঠাটি রিফ্রেশ করুন । "
+
+#: views/restore.php:202
+#, php-format
+msgid "This feature requires %s version %s or later"
+msgstr "এই বৈশিষ্ট্যটির জন্য প্রয়োজন %s এর সংস্করণ %s বা পরবর্তী "
+
+#: views/restore.php:208
+msgid "Drop backup files here"
+msgstr "এখানে ব্যাকআপ ফাইল ছাড়ুন"
+
+#: views/restore.php:214
+msgid ""
+"* Reload this page when done uploading to see new backups appear in the Available "
+"Backups section above. "
+msgstr ""
+"* নতুন ব্যাকআপ উপরে উপলব্ধ ব্যাকআপ বিভাগে প্রদর্শিত দেখতে আপলোড সম্পন্ন হলে এই পৃষ্ঠাটি পুনঃ লোড "
+"করুন । "
+
+#: views/restore.php:244
+msgid "Preparing for restore"
+msgstr "পুনরুদ্ধারের জন্যে তৈরি হচ্ছে"
+
+#: views/restore.php:245
+msgid "Unpacking backup set"
+msgstr "ব্যাকআপ সেট আন-প্যাক করা হচ্ছে "
+
+#: views/restore.php:246
+msgid "Unzipping backup files"
+msgstr "Unzipping ব্যাকআপ সেট"
+
+#: views/restore.php:247
+msgid "Validating backup files"
+msgstr "ব্যাকঅাপ যাচাই করা হচ্ছে"
+
+#: views/restore.php:248
+msgid "Deactivating plugins"
+msgstr "প্লাগিনসমূহ নিষ্ক্রিয় করা হচ্ছে "
+
+#: views/restore.php:249
+msgid "Creating database restore point"
+msgstr "ডাটাবেস পুনঃস্থাপন পয়েন্ট তৈরি করা হচ্ছে "
+
+#: views/restore.php:250
+msgid "Staging content files"
+msgstr "কন্টেন্ট ফাইলসমূহ উপস্থাপন করা হচ্ছে "
+
+#: views/restore.php:251
+msgid "Restoring content files"
+msgstr "কন্টেন্ট ফাইলসমূহ পুনরুদ্ধার করা হচ্ছে"
+
+#: views/restore.php:252
+msgid "Restoring database"
+msgstr "ডাটাবেস পুনরদ্ধার করা হচ্ছে "
+
+#: views/restore.php:253
+msgid "Updating current user info"
+msgstr "বর্তমান ব্যবহারকারীর তথ্য হালনাগাদ করা হচ্ছে "
+
+#: views/restore.php:254
+msgid "Updating site URL"
+msgstr "সাইট URL হালনাগাদ হচ্ছে "
+
+#: views/restore.php:256
+msgid "Updating permalinks"
+msgstr "permalinks হালনাগাদ হচ্ছে "
+
+#: views/restore.php:262
+msgid "Error 201: No file selected"
+msgstr "ত্রুটি 201: কোন ফাইল নির্বাচন করা হয়নি "
+
+#: views/restore.php:263
+msgid "Error 202: Your file could not be uploaded"
+msgstr "ত্রুটি 202: আপনার ফাইলটি আপলোড করা যায়নি "
+
+#: views/restore.php:264
+msgid "Error 203: Your backup could not be unzipped"
+msgstr "ত্রুটি 203: আপনার ব্যাকআপ unzip করা যায়নি "
+
+#: views/restore.php:265
+msgid ""
+"Error 204: Your backup appears to be invalid. Please ensure you selected a valid backup"
+msgstr ""
+"ত্রুটি 204: আপনার ব্যাকআপ অবৈধ বলে মনে হচ্ছে । দয়াকরে একটি বৈধ ব্যাকআপ নির্বাচন নিশ্চিত করুন "
+
+#: views/restore.php:266
+msgid "Error 205: Cannot create restore point"
+msgstr "থ্রুটি 205: পুনরদ্ধার পয়েন্ট তৈরি করা যাচ্ছেনা "
+
+#: views/restore.php:267
+msgid "Error 206: Unable to connect to your database"
+msgstr "ত্রুটি 206: আপনার ডাটাবেসের সঙ্গে সংযোগ দেয়া যাচ্ছেনা "
+
+#: views/restore.php:268
+msgid "Error 207: Unable to get current site URL from database. Please try again"
+msgstr ""
+"ত্রুটি 207: ডাটাবেস থেকে এই সাইটের বর্তমান URL পাওয়া যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন "
+
+#: views/restore.php:269
+msgid "Error 208: Unable to get current home URL from database. Please try again"
+msgstr "ত্রুটি 208: ডাটাবেস থেকে বর্তমান হোম URL পাওয়া যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন "
+
+#: views/restore.php:270
+msgid "Error 209: Unable to get current user ID from database. Please try again"
+msgstr ""
+"ত্রুটি 209: ডাটাবেস থেকে বর্তমান ব্যবহারকারীর ID পাওয়া যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন "
+
+#: views/restore.php:271
+msgid "Error 210: Unable to get current user password from database. Please try again"
+msgstr ""
+"ত্রুটি 210: ডাটাবেস থেকে বর্তমান ব্যবহারকারীর password পাওয়া যাচ্ছেনা । দয়াকরে আবার চেষ্টা "
+"করুন "
+
+#: views/restore.php:272
+msgid "Error 211: Unable to get current user email from database. Please try again"
+msgstr ""
+"ত্রুটি 211: ডাটাবেস থেকে বর্তমান ব্যবহারকারীর email পাওয়া যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন "
+
+#: views/restore.php:273
+msgid ""
+"Error 212: Unable to import your database. This may require importing the file manually"
+msgstr ""
+"ত্রুটি 212: আপনার ডাটাবেস ইম্পোর্ট করা যাচ্ছেনা । এই ফাইল ম্যানুয়ালি ইম্পোর্ট করার প্রয়োজন হতে "
+"পারে "
+
+#: views/restore.php:274
+msgid ""
+"Warning 213: Unable to update your site URL value. Please check your WordPress general "
+"settings to make sure your Site and WordPress URLs are correct"
+msgstr ""
+"বিপদসংকেত 213: আপনার সাইট URL এর ভ্যালু হালনাগাদ করা যাচ্ছেনা । দয়াকরে  WordPress সাধারণ "
+"সেটিংস পরীক্ষা করে নিশ্চিত হউন যে আপনার সাইট এবং WordPress URLs সঠিক "
+
+#: views/restore.php:275
+msgid ""
+"Warning 214: Unable to update your home URL value. Please check your WordPress general "
+"settings to make sure your Site and WordPress URLs are correct"
+msgstr ""
+"বিপদসংকেত 214:  আপনার হোম URL ভ্যালু হালনাগাদ করা যাচ্ছেনা। দয়াকরে  WordPress সাধারণ "
+"সেটিংস পরীক্ষা করে নিশ্চিত হউন যে আপনার সাইট এবং WordPress URLs সঠিক "
+
+#: views/restore.php:276
+msgid ""
+"Warning 215: Unable to update your user information. This may require you to login with "
+"the admin username and password that was used when the backup was created"
+msgstr ""
+"বিপদসঙ্কেত 215: আপনার ব্যবহারকারী তথ্য হালনাগাদ করা যাচ্ছেনা । এই ব্যাকআপ তৈরি করার সময় "
+"ব্যবহৃত অ্যাডমিন ব্যবহারকারীর নাম ও পাসওয়ার্ড দিয়ে লগইন করার প্রয়োজন হতে পারে । "
+
+#: views/restore.php:277
+msgid "Error 216: Database not found in backup"
+msgstr "ত্রুটি 216: ব্যাকআপে ডাটাবেস পাওয়া যায়নি "
+
+#: views/restore.php:278
+msgid "Warning 217: Unable to remove existing wp-content directory"
+msgstr "বিপদসংকেত 217: বিদ্যমান wp-content ডিরেক্টরি অপসারণ করা যাচ্ছেনা "
+
+#: views/restore.php:279
+msgid ""
+"Error 218: Unable to create new wp-content directory. Please check your CHMOD settings "
+"in /wp-content/"
+msgstr ""
+"ত্রুটি 218: নতুন wp-content ডিরেক্টরি তৈরি করা যাচ্ছেনা। দয়াকরে অাপনার /wp-content/ "
+"ডিরেক্টরির CHMOD সেটিংস যাচাই করুন"
+
+#: views/restore.php:280
+msgid "Error 219: Unable to import wp-content. Please try again"
+msgstr "ত্রুটি 219: wp-content ইম্পোরট করা যাচ্ছেনা । দয়াকরে আবার চেষ্টা করুন "
+
+#: views/restore.php:281
+msgid "Warning 220: Unable to cleanup import directory. No action is required"
+msgstr "বিপদসঙ্কেত 220: ইম্পোর্ট ডিরেক্টরি পরিষ্করণ করা যাচ্ছেনা । কোন প্রক্রিয়ার প্রয়োজন নেই "
+
+#: views/restore.php:282
+#, php-format
+msgid ""
+"Error 221: Table prefix value in wp-config.php is different from backup. This MUST be "
+"changed in your wp-config.php file before you will be able to restore your site.  See "
+"www.wpbackitup.com <a href =\"%s\" target=\"_blank\" > FAQs</a> for more info."
+msgstr ""
+"ত্রুটি 221: wp-config.php এর মধ্যে টেবিল prefix মান ব্যাকআপ থেকে ভিন্ন । আপনি আপনার সাইট "
+"পুনরুদ্ধার করতে সক্ষম হওয়ার পূর্বে এই wp-config.php ফাইলের মধ্যে অবশ্যই পরিবর্তন করতে হবে । আরও "
+"তথ্যের জন্য www.wpbackitup.com <a href =\"%s\" target=\"_blank\" > FAQs</a> দেখুন । "
+
+#: views/restore.php:283
+msgid "Error 222: Unable to create restore folder"
+msgstr "ত্রুটি 222: পুনরুদ্ধার ফোল্ডার তৈরি করা যাচ্ছেনা "
+
+#: views/restore.php:284
+msgid ""
+"Error 223: An error occurred during the restore.  WPBackItUp attempted to restore the "
+"database to its previous state but were unsuccessful.  Please contact WPBackItUp "
+"customer support and do not attempt to perform any further restores"
+msgstr ""
+"ত্রুটি 223: পুনস্থাপন করার সময় একটি ত্রুটি ঘটেছে । WP BackItUp ডাটাবেসের পূর্ববর্তী অবস্থানে "
+"পুনস্থাপন করতে চেষ্টা করে সফল হয়নি । দয়াকরে WP BackItUp গ্রাহক সহায়তায় যোগাযোগ করুন এবং আর "
+"কোন পুনস্থাপনের চেষ্টা থেকে বিরত থাকুন ।"
+
+#: views/restore.php:285
+msgid ""
+"Error 224: An error occurred during the restore, however, we have successfully restored "
+"your database to the previous state"
+msgstr ""
+"ত্রুটি 224: পুনস্থাপনের সময় একটি ত্রুটি ঘটেছে, তবুও , আপনার ডাটাবেস পূর্ববর্তী অবস্থানে সফলভাবে "
+"পুনস্থাপিত হয়েছে । "
+
+#: views/restore.php:286
+msgid "Error 225: Restore option is only available to licensed WPBackItUp users"
+msgstr "ত্রুটি 225: পুনরুদ্ধার অপশন শুধুমাত্র লাইসেন্সড WP BackItUp ব্যবহারকারীদের জন্য "
+
+#: views/restore.php:287
+msgid ""
+"Error 226: Restore cannot proceed because your backup was created using a different "
+"version of WordPress"
+msgstr ""
+"ত্রুটি 226: পুনরুদ্ধার পুনরারম্ভ করা যাচ্ছেনা কারন  আপনার ব্যাকআপ আলাদা সংস্করণের WordPress "
+"ব্যবহার করে করা হয়েছে "
+
+#: views/restore.php:288
+msgid ""
+"Error 227: Restore cannot proceed because your backup was created using a different "
+"version of WPBackItUp.  Please contact WPBackItUp support to help convert this backup "
+"to the current version"
+msgstr ""
+"ত্রুটি 227: পুনস্থাপন আর চালিয়ে নেয়া সম্ভব হচ্ছেনা কারন আপনার ব্যাকআপ অন্য সংস্করণের WP BackItUp "
+"দিয়ে করা হয়েছে । দয়াকরে এই ব্যাকআপকে বর্তমান সংস্করণে পরিবর্তিত করতে WP BackItUp সহায়তায় "
+"যোগাযোগ করুন । "
+
+#: views/restore.php:289
+msgid ""
+"Error 230: WPBackItUp ran into unexpected errors during the database restore.  However, "
+"we were able to successfully revert the database back to its original state . This "
+"error may require importing the database manually"
+msgstr ""
+"ত্রুটি 230: ডাটাবেস পুনস্থাপনের সময় WP BackItUp অপ্রত্যাশিত ত্রুটির সম্মুখীন হয়েছে । তবুও ডাটাবেস "
+"প্রাথমিক অবস্থানে প্রত্যাবর্তন করা হয়েছে । এই ত্রুটির জন্য ডাটাবেস ম্যানুয়ালি ইম্পোর্ট করার প্রয়োজন "
+"হতে পারে । "
+
+#: views/restore.php:290
+msgid ""
+"Error 235: WPBackItUp is not able to proceed because there is no zip utility "
+"available.  Please contact support"
+msgstr ""
+"ত্রুটি 235: WP BackItUp পুনরারম্ভ করা যাচ্ছেনা কারন কোন zip utility পাওয়া যায়নি । দয়াকরে "
+"কন্টাক্ট এর সাথে যোগাযোগ করুন"
+
+#: views/restore.php:291
+msgid ""
+"Error 250: WPBackItUp is unable to begin the restore because a backup is running.  "
+"Please wait for the backup to complete and then try again"
+msgstr ""
+"ত্রুটি 250: একটি ব্যাকআপ চলার কারনে WP BackItUp পুনস্থাপন শুরু করতে পারছেনা । দয়াকরে ব্যাকআপ "
+"সম্পন্ন হওয়া পর্যন্ত অপেক্ষা করুন এবং তারপর আবারও চেষ্টা করুন । "
+
+#: views/restore.php:293
+msgid ""
+"Error 260: WPBackItUp is unable to extract archives from backup set.  Please try again "
+"and contact support if this issue continues"
+msgstr ""
+"ত্রুটি 260 ঃ WPBackItUp ব্যাকআপ সেট থেকে আর্কাইভ এক্সট্রাক্ট করতে অক্ষম । অনুগ্রহ করে আবার চেষ্টা "
+"করুন এবং এই ত্রুটি চলতে থাকলে সহায়তার জন্য যোগাযোগ করুন । "
+
+#: views/restore.php:294
+msgid ""
+"Error 261: WPBackItUp is unable to extract archives from backup set.  Please try again "
+"and contact support if this issue continues"
+msgstr ""
+"ত্রুটি 261 ঃ WPBackItUp ব্যাকআপ সেট থেকে আর্কাইভ এক্সট্রাক্ট করতে অক্ষম । অনুগ্রহ করে আবার চেষ্টা "
+"করুন এবং এই ত্রুটি চলতে থাকলে সহায়তার জন্য যোগাযোগ করুন "
+
+#: views/restore.php:295
+msgid ""
+"Error 262: There were no backup files found in the backup folder.  Please try again and "
+"contact support if this issue continues"
+msgstr ""
+"ত্রুটি 262 ঃ কোন ব্যাকআপ ফাইল ব্যাকআপ ফোল্ডারে খুঁজে পাওয়া যায়নি . অনুগ্রহ করে আবার চেষ্টা করুন "
+"এবং এই ত্রুটি চলতে থাকলে সহায়তার জন্য যোগাযোগ করুন "
+
+#: views/restore.php:297
+msgid ""
+"Error 251: WPBackItUp is unable to begin the restore because the backup manifest is "
+"empty"
+msgstr "ত্রুটি 251: WP BackItUp পুনরুদ্ধার শুরু করা সম্ভব হচ্ছেনা কারন ব্যাকআপ ম্যানিফেসট খালি "
+
+#: views/restore.php:298
+msgid ""
+"Error 252: At least one zip file is missing from your backup set.  Please make sure to "
+"upload all zip files that were part of this backup"
+msgstr ""
+"ত্রুটি 252: কমপক্ষে একটি ZIP ফাইল আপনার ব্যাকআপ সেটে অনুপস্থিত । দয়াকরে এই ব্যাকআপের সমস্ত zip "
+"ফাইল আপলোড নিশ্চিত করুন । "
+
+#: views/restore.php:299
+msgid ""
+"Error 253: Backup set contains a zip file that is not in the manifest.  Please make "
+"sure to upload only zip files that were part of this backup"
+msgstr ""
+"ত্রুটি 253: ব্যাকআপ সেটের মধ্যে এমন একটি zip ফাইল রয়েছে যা তালিকাতে নেই । দয়াকরে শুধুমাত্র এই "
+"ব্যাকআপের অন্তর্ভুক্ত zip ফাইল আপলোড নিশ্চিত করুন । "
+
+#: views/restore.php:300
+msgid ""
+"Error 254: The size of one the zip files in this backup set does not match the manifest "
+"so is most likely corrupt.  Upload all zip files in this backup set again and attempt "
+"the restore one more time. "
+msgstr ""
+"ত্রুটি 254: এই ব্যাকআপ সেটে এক ZIP ফাইলের আকার তালিকার সঙ্গে মিলছেনা  তাই সম্ভবত দূষিত । এই "
+"ব্যাকআপ সেটের সমস্ত ফাইল আবার আপলোড করুন এবং আরও একবার পুনরূদ্ধার করার চেষ্টা করুন । "
+
+#: views/restore.php:301
+msgid ""
+"Error 255: Backup set does not contain a manifest.  Please make sure to upload all zip "
+"files that were part of this backup"
+msgstr ""
+"ত্রুটি 255: ব্যাকআপ সেটে তালিকা নেই ।দয়াকরে এই ব্যাকআপের সমস্ত zip ফাইল আপলোড নিশ্চিত করুন । "
+
+#: views/restore.php:303
+msgid ""
+"Warning 300: Unable to restore all WordPress content. Please review your restore logs "
+"to see what WPBackItUp was unable to restore"
+msgstr ""
+"বিপদসঙ্কেত 300: সমস্ত WordPress কন্টেন্ট পুনস্থাপন করা যাচ্ছেনা । দয়াকরে আপনার পুনস্থাপন logs "
+"দেখুন যে WP BackItUp কি পুনস্থাপন করতে পারছেনা । "
+
+#: views/restore.php:304
+msgid ""
+"Warning 305: Unable to restore all plugins. Please review your restore logs to see what "
+"WPBackItUp was unable to restore"
+msgstr ""
+"বিপদসঙ্কেত 305: সমস্ত প্লাগিন পুনস্থাপন সম্ভব হচ্ছেনা । দয়াকরে আপনার পুনস্থাপন logs দেখুন যে WP "
+"BackItUp কি পুনস্থাপন করতে পারছেনা । "
+
+#: views/restore.php:306
+msgid "Error 2001: Unable to prepare site for restore"
+msgstr "ত্রুটি 2001: সাইট পুনরুদ্ধার এর জন্য প্রস্তুত করা যাচ্ছেনা "
+
+#: views/restore.php:307
+msgid "Error 2002: Unable to unzip backup"
+msgstr "ত্রুটি 2002: ব্যাকআপ unzip করা যাচ্ছেনা "
+
+#: views/restore.php:308
+msgid "Error 2003: Unable to validate backup"
+msgstr "ত্রুটি 2003: ব্যাকআপ যাচাই করা যাচ্ছেনা "
+
+#: views/restore.php:309
+msgid "Error 2004: Unable to create restore point"
+msgstr "ত্রুটি 2004: পুনরুদ্ধার পয়েন্ট তৈরি করা যাচ্ছেনা "
+
+#: views/restore.php:310
+msgid "Error 2005: Unable to stage wp-content"
+msgstr "ত্রুটি 2005: wp-content পর্যায় করা যাচ্ছেনা ।"
+
+#: views/restore.php:311
+msgid "Error 2006: Unable to restore content files"
+msgstr "ত্রুটি 2006: কন্টেন্ট ফাইলসমূহ পুনস্থাপন করা যাচ্ছেনা "
+
+#: views/restore.php:312
+msgid "Error 2007: Unable to restore database"
+msgstr "ত্রুটি 2007: ডাটাবেস পুনস্থাপন করা যাচ্ছেনা "
+
+#: views/restore.php:313
+msgid "Error 2999: Unexpected error encountered"
+msgstr "ত্রুটি 2999: অপ্রত্যাশিত ত্রুটি ঘটেছে "
+
+#: views/restore.php:320
+msgid ""
+"Restore completed successfully. If you are prompted to login please do so with your "
+"current username and password"
+msgstr ""
+"পুনস্থাপন সফলভাবে সম্পন্ন হয়েছে । আপনাকে লগইন করার অনুরোধ জানানো হলে  দয়া করে আপনার বর্তমান "
+"ব্যবহারকারীর নাম ও পাসওয়ার্ড দিয়ে এটি করুন । "
+
+#: views/settings.php:13
+#, php-format
+msgid "%s Settings"
+msgstr "%s সেটিংস"
+
+#: views/settings.php:48
+msgid "Settings updated successfully!"
+msgstr "সেটিংস হালনাগাদ সফল হয়েছে।"
+
+#: views/settings.php:61
+msgid "Email Notifications"
+msgstr "ইমেইল বিজ্ঞপ্তি"
+
+#: views/settings.php:62
+msgid ""
+"Please enter your email address if you would like to receive backup email notifications."
+msgstr "আপনি যদি ইমেইলে ব্যাকআপ বিজ্ঞপ্তি পেতে চান তাহলে আপনার ইমেল ঠিকানা লিখুন."
+
+#: views/settings.php:63
+msgid ""
+"Backup email notifications will be sent for every backup and will contain status "
+"information related to the backup."
+msgstr ""
+"ব্যাকআপ ইমেল বিজ্ঞপ্তি প্রতি ব্যাকআপের জন্য পাঠানো হবে এবং ব্যাকআপ এর সাথে সম্পর্কিত অবস্থা "
+"সংক্রান্ত তথ্য উপস্থিত থাকবে."
+
+#: views/settings.php:65 views/settings.php:85 views/settings.php:108
+#: views/settings.php:115 views/settings.php:123 views/settings.php:154
+#: views/settings.php:188 views/settings.php:226 views/settings.php:235
+msgid "Save"
+msgstr "সংরক্ষণ করুন"
+
+#: views/settings.php:81
+msgid "Backup Retention"
+msgstr "ব্যাকআপ ধারণ"
+
+#: views/settings.php:82
+msgid "Enter the number of backup archives that you would like to remain on the server."
+msgstr "আপনি সার্ভারে যে সংখ্যক ব্যাকআপ আর্কাইভ চান তার সংখ্যা লিখুন । "
+
+#: views/settings.php:83
+msgid ""
+"Many hosts limit the amount of space that you can take up on their servers. This option "
+"tells WPBackItUp the maximum number of backup archives that should remain on your hosts "
+"server.  Don't worry, we will always remove the oldest backup archives first."
+msgstr ""
+"আপনি তাদের সার্ভারে যে পরিমাণ জায়গা নেবেন অনেক হোস্ট তার পরিমাণ নিয়ন্ত্রিত করে দেয় । এই "
+"বিকল্পটি WP BackItUp কে আপনার হোস্ট সার্ভারে ব্যাকআপ আর্কাইভের সর্বোচ্চ যে সংখ্যা থাকা উচিত তা "
+"বলে দেয় । চিন্তা করবেন না, সবসময় প্রথম পুরনো ব্যাকআপ আর্কাইভ মুছে ফেলা হবে । "
+
+#: views/settings.php:102
+msgid "Logging?"
+msgstr "লগিং?"
+
+#: views/settings.php:103
+msgid "Turn on WPBackItUp logging."
+msgstr "WP BackItUp লগিং চালু করুন?"
+
+#: views/settings.php:104
+msgid ""
+"This option should only be turned on by advanced users or when troubleshooting issues "
+"with WPBackItUp support."
+msgstr ""
+"এই অপশন শুধুমাত্র অগ্রবর্তী ব্যবহারকারী দ্বারা WPBackItUp সমর্থন সমস্যা সমাধানের সময় চালু করা "
+"উচিত । "
+
+#: views/settings.php:105
+msgid "Yes"
+msgstr "হ্যাঁ"
+
+#: views/settings.php:106
+msgid "No"
+msgstr "না"
+
+#: views/settings.php:112
+msgid "Disable restore version compare?"
+msgstr ""
+
+#: views/settings.php:114
+msgid ""
+"Check this box if you would like WPBackItUp not to check major version issue. This "
+"could be dangerous, you can disable it with your own risk."
+msgstr ""
+
+#: views/settings.php:119
+msgid "Single File Backup Set"
+msgstr "একক ফাইল ব্যাকআপ সেট"
+
+#: views/settings.php:121
+msgid "Check this box if you would like WPBackItUp to create a single file backup set."
+msgstr "এই বক্স চেক করুন যদি আপনি চান WPBackItUp একটি একক ফাইল ব্যাকআপ সেট  তৈরি করুক"
+
+#: views/settings.php:122
+msgid ""
+"When this setting is turned on WPBackItUp will attempt to create a single file backup "
+"set.  If WPBackItUp is unable to create a single file backup set then it will turn this "
+"setting off for you. Creating a single file backup set may not be possible with hosts "
+"that strictly limit memory utilization."
+msgstr ""
+"যখন এই  সেটিং  চালু থাকবে WPBackItUp একটি একক ফাইল ব্যাকআপ সেট তৈরি করার চেষ্টা  করবে। যদি "
+"WPBackItUp একটি একক ফাইল ব্যাকআপ তৈরি করতে না পারে তাহলে এটি এই সেটিংস্‌ বন্ধ করে দেবে। যে "
+"সমস্ত host মেমরি utilization কঠোরভাবে সীমিত করে দেয়, তাতে  একটি একক ফাইল ব্যাকআপ সেট "
+"তৈরি  সম্ভব নাও হতে পারে. "
+
+#: views/settings.php:127
+msgid "Batch Size"
+msgstr "ব্যাচ আকার"
+
+#: views/settings.php:128
+msgid "Enter the batch size for each of your content items."
+msgstr "আপনার প্রতিটি কন্টেন্ট আইটেম এর জন্য ব্যাচ আকার লিখুন । "
+
+#: views/settings.php:129
+msgid ""
+"These settings tell WPBackItUp how many items that should be added to the backup at a "
+"time.  If you experience timeouts while running a backup then these settings can be "
+"used to help reduce the amount of time it takes WPBackItUp to complete each backup "
+"task ."
+msgstr ""
+"এই সেটিংগুলো একই সময়ে কতগুলো আইটেম ব্যাকআপে যোগ হবে তা WP BackItUp কে বলে দেয় । যদি আপনি "
+"সময়সীমা উত্তীর্ণ অভিজ্ঞতা লাভ করেন তাহলে এই সেটিংগুলো প্রতিটি ব্যাকআপের জন্য WP BackItUp এর যে "
+"সময় লাগে তা হ্রাস করতে সহায়ক ভূমিকা পালন করবে। "
+
+#: views/settings.php:132
+msgid "DB Tables Batch Size"
+msgstr "ডিবি টেবিল ব্যাচ আকার"
+
+#: views/settings.php:137
+msgid "Plugins Batch Size"
+msgstr "প্লাগইন ব্যাচ আকার"
+
+#: views/settings.php:142
+msgid "Themes Batch Size"
+msgstr "থিম ব্যাচ আকার"
+
+#: views/settings.php:147
+msgid "Uploads Batch Size"
+msgstr "আপলোড ব্যাচ আকার"
+
+#: views/settings.php:152
+msgid "Others Batch Size"
+msgstr "অন্যদের ব্যাচ আকার"
+
+#: views/settings.php:155 views/settings.php:189 views/settings.php:227
+msgid ""
+"* These settings should only be modified by advanced users or when when working with "
+"WPBackItUp support."
+msgstr ""
+"WP BackItUp সমর্থনের সঙ্গে কাজ করার সময় শুধুমাত্র অগ্রবর্তী ব্যবহারকারী দ্বারা এই অপশন পরিবর্তন "
+"করা উচিত । "
+
+#: views/settings.php:167
+msgid "Filter Your Folders"
+msgstr "আপনার ফোল্ডারসমূহ ফিল্টার করুন "
+
+#: views/settings.php:168
+msgid "Enter a comma separated list of folders that should be excluded from your backups."
+msgstr ""
+"আপনার ব্যাকআপ থেকে বাদ দেওয়া উচিত যে ফোল্ডারসমুহ এর একটি তালিকা কমা দিয়ে পৃথক করে লিখুন । "
+
+#: views/settings.php:169
+msgid ""
+"It is important to note that when a folder name is present in this list any occurrence "
+"of that folder, and all its contents, will be excluded from the backup."
+msgstr ""
+"এটা খেয়াল করা জরুরী যে , যখন একটি ফোল্ডারের নাম এই তালিকাতে থাকে তাহলে ওই ফোল্ডারের যেকোনো "
+"সংঘটন ,এবং এর সমস্ত সামগ্রী ব্যাকআপ থেকে বাদ দেওয়া হবে । "
+
+#: views/settings.php:171
+msgid "Plugin Folders Filter"
+msgstr "প্লাগইন ফোল্ডার ফিল্টার"
+
+#: views/settings.php:176
+msgid "Theme Folders Filter"
+msgstr "থিম ফোল্ডার ফিল্টার"
+
+#: views/settings.php:181
+msgid "Upload Folders Filter"
+msgstr "আপলোড ফোল্ডার ফিল্টার"
+
+#: views/settings.php:185
+msgid "Other Folders Filter"
+msgstr "অন্যান্য ফোল্ডার ফিল্টার"
+
+#: views/settings.php:194
+msgid "Filter Your Database Tables"
+msgstr "আপনার ডাটাবেজ টেবিলসমূহ ফিল্টার করুন "
+
+#: views/settings.php:195
+msgid "Exclude custom database tables from the backup."
+msgstr "ব্যাকআপ থেকে কাস্টম ডাটাবেজ বাদ দিন ।  "
+
+#: views/settings.php:196
+msgid ""
+"If you would like to exclude a custom table from the backup then simply drag it to the "
+"list on the right.  WordPress core tables may not be excluded from the backup. "
+msgstr ""
+"আপনি যদি ব্যাকআপ থেকে একটি কাস্টম টেবিল বাদ দিতে চান তাহলে এটিকে ডানদিকের তালিকায় টেনে "
+"আনুন । \n"
+"ওয়ার্ডপ্রেস কোর টেবিল ব্যাকআপ থেকে বাদ দেওয়া নাও হতে পারে । "
+
+#: views/settings.php:232
+msgid "Remove Data on Uninstall?"
+msgstr "আনইনস্টলে তথ্য অপসারণ ?"
+
+#: views/settings.php:234
+msgid ""
+"Check this box if you would like WPBackItUp to completely remove all of its data when "
+"the plugin is deleted."
+msgstr ""
+"WP BackItUp প্লাগিন মুছে ফেলার সময় আপনি যদি সম্পূর্ণরূপে তার সব তথ্য মুছে ফেলতে চান তাহলে এই "
+"বাক্সে টিক দিন । "
+
+#: views/support.php:13
+#, php-format
+msgid "%s Support"
+msgstr "%s সাহায্য"
+
+#: views/support.php:32
+msgid "Support email sent successfully!"
+msgstr "সফলভাবে সাহায্যের জন্য ইমেইল পাঠানো হয়েছে"
+
+#: views/support.php:45
+msgid "Email Logs to Support"
+msgstr "ইমেল লগ সমর্থনের জন্য "
+
+#: views/support.php:46
+msgid "This form should be used to send log files to support only."
+msgstr "এই ফর্মটি শুধুমাত্র সমর্থনে লগ ফাইল পাঠানোর জন্য ব্যবহার করা উচিত । "
+
+#: views/support.php:47
+#, php-format
+msgid ""
+"Please make sure to open a support ticket via WPBackItUp <a href=\"%s\" target=\"_blank"
+"\"> support portal.</a> before using this form."
+msgstr ""
+"এই ফরমটি ব্যবহারের পূর্বে দয়াকরে WP BackItUp <a href=\"%s\" target=\"_blank\">সমর্থন "
+"পোর্টালে</a> একটি সমর্থন টিকেট খোলা নিশ্চিত করুন । "
+
+#: views/support.php:48
+msgid ""
+"The ticket id you receive from your support request should be entered in the ticket id "
+"field below."
+msgstr ""
+"আপনার সমর্থন অনুরোধ থেকে প্রাপ্ত টিকেট আইডি নীচের টিকেট আইডি ক্ষেত্রের মধ্যে প্রবেশ করানো উচিত "
+
+#: views/support.php:49
+msgid "your email address"
+msgstr "অাপনার ইমেইল ঠিকানা"
+
+#: views/support.php:59
+msgid "support ticket id"
+msgstr "সাপোর্ট টিকেট অাইডি"
+
+#: views/support.php:69
+msgid "problem description or additional information"
+msgstr "সমস্যা বর্ণনা বা অতিরিক্ত তথ্য"
+
+#: views/support.php:80
+msgid "Send"
+msgstr "পাঠান"
+
+#: views/support.php:83
+msgid "Please register your version of WPBackItUp for access to support."
+msgstr "সমর্থন অ্যাক্সেস জন্য আপনার WP BackItUp সংস্করণ নিবন্ধন করুন."
+
+#: views/support.php:87
+msgid "Premium customers receive priority support."
+msgstr "প্রিমিয়াম গ্রাহকদের অগ্রাধিকার সহায়তা দেওয়া হয় "
+
+#: wp-backitup.php:93 wp-backitup.php:94
+#, php-format
+msgid "Every %s hours"
+msgstr "প্রতি %s ঘন্টা"
+
+#: wp-backitup.php:95 wp-backitup.php:96 wp-backitup.php:97 wp-backitup.php:98
+#: wp-backitup.php:99
+#, php-format
+msgid "WPBUP - Every %s minutes"
+msgstr "WPBUP - প্রতি %s মিনিট "
+
+#: wp-backitup.php:101
+msgid "WPBUP - Once Weekly"
+msgstr "WPBUP - সপ্তাহে একবার "
+
+#: wp-backitup.php:102
+msgid "WPBUP - Once Monthly"
+msgstr "WPBUP - মাসে একবার "
+
+#: wp-backitup.php:103 wp-backitup.php:104
+#, php-format
+msgid "WPBUP - Every %s hours"
+msgstr "WPBUP - প্রতি %s ঘণ্টা "
+
+#: wp-backitup.php:113
+msgid "Local File"
+msgstr ""
+
+#: wp-backitup.php:170
+msgid "Cleanup"
+msgstr "পরিষ্করণ"

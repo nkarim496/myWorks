@@ -1,0 +1,159 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Media */
+
+@media only screen and (min-width : 1200px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.imgbox {
+		height: 351.98px;
+	}
+	.m-menu ul li a {
+		font-size: 13px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.imgbox {
+		height: 264px;
+	}
+	.top-links ul li {
+		padding: 0 7px;
+	}
+	.pasbox p {
+		font-size: 13px;
+	}
+	.profbox p {
+		font-size: 13px;
+	}
+	.profbox {
+		height: 250px;
+	}
+	.infobox p {
+		font-size: 12px;
+	}
+	.infobox .email {
+		font-size: 9px;
+	}
+	.about {
+		font-size: 13px;
+	}
+	.probox {
+		height: 402px;
+	}
+	.certificate p {
+		margin-bottom: 35px;
+		padding: 0px 40px;
+	}
+	.m-menu ul li a {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.form-section input {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width : 479px) {
+	.form-section input {
+		margin-bottom: 20px;
+	}
+	.big-red-but {
+		font-size: 14px;
+		line-height: 1.2;
+		padding: 12px 15px;
+	}
+	.certificate p {
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width : 767px) {
+	.form-section button {
+		width: 220px;
+	}
+	#m-form {
+		text-align: center;
+	}
+	h2 {
+		font-size: 28px;
+	}
+	.imgbox {
+		height: 100%;
+	}
+	.probox {
+		max-width: 390px;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	.certificate p {
+		padding: 0;
+		margin-bottom: 35px;
+	}
+	.profbox {
+		max-width: 390px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.info {
+		max-width: 275px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.map {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.contacts h2 {
+		margin-bottom: 20px;
+	}
+	.pasbox p {
+		max-width: 320px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#contacts {
+		padding: 50px 0 0px;
+	}
+}

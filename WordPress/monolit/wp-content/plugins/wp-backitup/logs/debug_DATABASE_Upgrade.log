@@ -1,0 +1,26 @@
+** Open LOG File ** 
+2016-07-27 20:36:46 (V2 wpbackitup_update_database) INFO: Running database upgrade routines.
+2016-07-27 20:36:46 (V2 wpbackitup_update_database) INFO: Current DB version:0
+2016-07-27 20:36:46 (V2 wpbackitup_update_database) INFO: Target DB version:4
+2016-07-27 20:36:46 (V2 wpbackitup_update_database) INFO: New Install.
+2016-07-27 20:36:46 V2 '*** DROP JOB TABLES ***'
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Drop OLD Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job;
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: OLD Job Table Dropped successfully
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Drop Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job_control;
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Job Table Dropped successfully
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Drop Task Table:DROP TABLE IF EXISTS wp_wpbackitup_job_tasks;
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Task Table Dropped successfully
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Drop Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job_items;
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Item Table Dropped successfully
+2016-07-27 20:36:46 V2 '*** END DROP JOB TABLES ***'
+2016-07-27 20:36:46 V2 '*** CREATE JOB TABLES ***'
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Table Created:wp_wpbackitup_job_control
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Table Created:wp_wpbackitup_job_tasks
+2016-07-27 20:36:46 (V2 wpbackitup_create_custom_tables) INFO: Table Created:wp_wpbackitup_job_items
+2016-07-27 20:36:46 V2 '*** END CREATE JOB TABLES ***'
+2016-07-27 20:36:46 V2 '***SCAN & IMPORT BACKUPS ***'
+2016-07-27 20:36:46 (V2 wpbackitup_scan_import_backups) INFO: Backup Sets Found:array (
+)
+2016-07-27 20:36:46 V2 '***END SCAN & IMPORT BACKUPS ***'
+2016-07-27 20:36:46 (V2 wpbackitup_update_database) INFO: Updated Db version in settings:4
+** Close LOG File ** 

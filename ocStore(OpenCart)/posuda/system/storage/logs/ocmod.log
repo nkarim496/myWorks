@@ -1,0 +1,236 @@
+2017-06-16 14:33:09 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: ocMod for FastFood template
+FILE: system/library/weight.php
+CODE: return number_format($value, 2,
+LINE: 42
+LINE: 44
+FILE: admin/controller/common/filemanager.php
+CODE: 300000
+NOT FOUND!
+FILE: admin/controller/common/menu.php
+CODE: $data['affiliate']
+LINE: 127
+FILE: admin/view/template/common/menu.tpl
+CODE: <?php echo $text_information; ?></a></li>
+LINE: 34
+FILE: admin/language/russian/russian.php
+CODE: // Error
+LINE: 147
+FILE: catalog/controller/common/seo_pro.php
+CODE: $this->request->get['route'] = 'information/information';
+LINE: 91
+CODE: case 'information_id':
+LINE: 176
+FILE: catalog/controller/common/header.php
+CODE: $category['name'],
+LINE: 135
+CODE: $this->config->get('config_telephone');
+LINE: 148
+CODE: $children_data[] = array(
+LINE: 186
+FILE: catalog/controller/common/home.php
+CODE: controller('common/header');
+LINE: 24
+FILE: catalog/controller/information/contact.php
+CODE: $this->config->get('config_fax');
+LINE: 113
+FILE: catalog/language/russian/russian.php
+CODE: // Error
+LINE: 78
+FILE: catalog/language/english/english.php
+CODE: // Error
+LINE: 78
+FILE: catalog/controller/api/cart.php
+CODE: $data['text_items']
+NOT FOUND!
+CODE: $json['total']
+NOT FOUND!
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['text_items']
+NOT FOUND!
+CODE: $json['total']
+LINE: 391
+LINE: 484
+FILE: catalog/controller/common/cart.php
+CODE: $data['text_items']
+LINE: 46
+CODE: $json['total']
+NOT FOUND!
+CODE: $data['text_items']
+LINE: 107
+CODE: $product['quantity'],
+LINE: 168
+FILE: catalog/controller/common/footer.php
+CODE: $data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
+LINE: 92
+FILE: catalog/controller/module/slideshow.php
+CODE: $this->document->
+LINE: 8
+LINE: 9
+FILE: catalog/controller/module/banner.php
+CODE: $this->document->
+LINE: 8
+LINE: 9
+LINE: 10
+FILE: catalog/controller/module/carousel.php
+CODE: $this->document->
+LINE: 8
+LINE: 9
+CODE: $this->load->model('tool/image');
+LINE: 7
+CODE: 'image' => $this->model_tool_image->resize($result['image'], $setting['width'], $setting['height'])
+LINE: 22
+CODE: $this->load->model('tool/image');
+LINE: 11
+FILE: catalog/controller/module/category.php
+CODE: $this->language->get('heading_title');
+LINE: 10
+CODE: if ($category['category_id'] == $data['category_id']) {
+LINE: 41
+FILE: catalog/controller/common/search.php
+CODE: $this->load->language('common/search');
+LINE: 15
+FILE: catalog/controller/product/category.php
+CODE: getTotalProducts($filter_data) . ')' : ''),
+LINE: 175
+CODE: $this->language->get('heading_title');
+LINE: 10
+CODE: $data['products'][] = array(
+NOT FOUND!
+CODE: $data['products'][] = array(
+NOT FOUND!
+CODE: $this->language->get('heading_title');
+NOT FOUND!
+CODE: $data['products'][] = array(
+LINE: 351
+CODE: $data['products'][] = array(
+LINE: 364
+FILE: catalog/controller/product/product.php
+CODE: $this->language->get('heading_title');
+NOT FOUND!
+CODE: $data['products'][] = array(
+LINE: 573
+CODE: $data['products'][] = array(
+LINE: 586
+CODE: $this->language->get('heading_title');
+NOT FOUND!
+CODE: $data['products'][] = array(
+NOT FOUND!
+CODE: $data['products'][] = array(
+NOT FOUND!
+FILE: catalog/controller/product/search.php
+CODE: $this->language->get('heading_title');
+LINE: 133
+CODE: $data['products'][] = array(
+LINE: 376
+CODE: $data['products'][] = array(
+LINE: 389
+FILE: catalog/controller/module/special.php
+CODE: $this->language->get('heading_title');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 190
+CODE: $data['products'][] = array(
+LINE: 203
+FILE: catalog/controller/product/special.php
+CODE: $this->language->get('heading_title');
+LINE: 70
+CODE: $data['products'][] = array(
+LINE: 261
+CODE: $data['products'][] = array(
+LINE: 274
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->language->get('heading_title');
+LINE: 16
+CODE: $data['products'][] = array(
+LINE: 367
+CODE: $data['products'][] = array(
+LINE: 380
+FILE: catalog/controller/module/latest.php
+CODE: $this->language->get('heading_title');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 190
+CODE: $data['products'][] = array(
+LINE: 203
+FILE: catalog/controller/module/featured.php
+CODE: $this->language->get('heading_title');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 190
+CODE: $data['products'][] = array(
+LINE: 203
+FILE: catalog/controller/module/bestseller.php
+CODE: $this->language->get('heading_title');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 183
+CODE: $data['products'][] = array(
+LINE: 196
+CODE: $data['thumb'] = $this->model_tool_image->resize($category_info['image'], $this->config->get('config_image_category_width'), $this->config->get('config_image_category_height'));
+LINE: 134
+CODE: $result = $product_info;
+LINE: 462
+CODE: $data['images'] = array();
+LINE: 313
+CODE: $this->config->get('config_image_popup_height')),
+LINE: 320
+CODE: $product_info['points'];
+LINE: 370
+FILE: catalog/view/theme/fastfood/template/module/filterpro_products.tpl
+CODE: <?php foreach ($products as $product) { ?>
+LINE: 9
+FILE: catalog/view/theme/fastfood/template/product/product.tpl
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 49
+LINE: 63
+LINE: 79
+LINE: 96
+LINE: 347
+LINE: 364
+LINE: 381
+CODE: <option value=""><?php echo $text_select; ?></option>
+LINE: 47
+CODE: (<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
+LINE: 51
+LINE: 67
+LINE: 83
+LINE: 100
+LINE: 352
+LINE: 369
+LINE: 386
+FILE: catalog/view/theme/fastfood/template/product/quick_view.tpl
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 69
+LINE: 83
+LINE: 101
+CODE: <option value=""><?php echo $text_select; ?></option>
+NOT FOUND!
+FILE: catalog/model/catalog/product.php
+CODE: $product_option_value['weight'],
+LINE: 347
+CODE: public function getBestSellerProducts
+LINE: 283
+CODE: $data['options'] = array();
+LINE: 463
+CODE: 'product_option_value_id' =>
+LINE: 483
+LINE: 626
+----------------------------------------------------------------

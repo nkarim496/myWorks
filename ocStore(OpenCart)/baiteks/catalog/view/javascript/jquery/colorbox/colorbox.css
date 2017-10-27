@@ -1,0 +1,88 @@
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{}
+
+    #cboxContent{background:#fff; overflow:visible;padding:14px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-khtml-border-radius: 6px;border-radius: 6px;-webkit-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.5);box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.5);behavior: url('catalog/view/javascript/PIE.htc');}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:0px;}
+        #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxTitle{position:absolute; top:-35px; left:0; width:100%; font: italic 24px "Trebuchet MS", Tahoma, Helvetica, sans-serif;font-weight: bold; color:#7C7C7C;display:none !important;}
+        #cboxCurrent{position:absolute; top:-25px; left:58px; font-weight:bold; color:#7C7C7C;}        
+        #cboxSlideshow{position:absolute; top:-29px; background:url(images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
+
+		
+		
+				
+#cboxPrevious,  #cboxNext{ 
+z-index: 999;
+width: 50px;
+height: 50px;
+margin: -25px 0 0 0;
+display: block;
+background: url(images/arrows.png) -30px 13px no-repeat;
+background-color: #F00;
+position: absolute;
+top: 50%;
+cursor: pointer;
+text-indent: -9999px;
+opacity: 0;
+transition: all 0.5s ease 0s;
+-webkit-transition: all 0.5s ease 0s;
+-ms-transition: all 0.5s ease 0s;
+-moz-transition: all 0.5s ease 0s;
+-o-transition: all 0.5s ease 0s;}	
+#cboxPrevious{left:-50px;background-position:17px 13px;-webkit-border-radius:50em;-moz-border-radius:50em;-khtml-border-radius:50em;border-radius: 50em;margin-left: 10px; }	
+#cboxNext{right:-50px;-webkit-border-radius:50em;-moz-border-radius:50em;-khtml-border-radius:50em;border-radius: 50em;margin-right: 10px;}	
+#cboxContent:hover #cboxNext {opacity: 0.5; right: 0px;}
+#cboxContent:hover #cboxPrevious {opacity: 0.5; left: 0px; }
+#cboxContent:hover #cboxNext:hover, .#cboxContent:hover #cboxPrevious:hover {opacity: 1;}
+
+		
+		
+#cboxClose{
+		
+width: 24px;
+height: 24px;
+cursor: pointer;
+background: #f00 url(images/close.png) 50% no-repeat;
+opacity: 0.5;
+position: absolute;
+top: 5px;
+right: 5px;
+display: block;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 7px 6px -8px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0 7px 6px -8px rgba(0, 0, 0, 0.5);
+box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.5);
+text-indent: -9999px;
+}
+
+        
+        .cboxSlideshow_on #cboxSlideshow{background-position:-125px 0px; right:27px;}
+        .cboxSlideshow_on #cboxSlideshow:hover{background-position:-150px 0px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px; right:27px;}
+        .cboxSlideshow_off #cboxSlideshow:hover{background-position:-125px 0px;}

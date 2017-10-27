@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* CenturyGothicRegular */
+@font-face {
+    font-family: "CenturyGothicRegular";
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
+    url("../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* CenturyGothicBold */
+@font-face {
+    font-family: "CenturyGothicBold";
+    src: url("../fonts/CenturyGothicBold/CenturyGothicBold.eot");
+    src: url("../fonts/CenturyGothicBold/CenturyGothicBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CenturyGothicBold/CenturyGothicBold.woff") format("woff"),
+    url("../fonts/CenturyGothicBold/CenturyGothicBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

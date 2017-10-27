@@ -1,0 +1,53 @@
+<modification>
+  <id>Add Support for News Plus in SEO Pro</id>
+  <version>1.1</version>
+  <vqmver>2.0</vqmver>
+  <author>CODEONETEAM</author>
+  <file name="catalog/controller/common/seo_pro.php">
+    <operation error="skip">
+      <search position="before">
+        <![CDATA[
+		foreach ($data as $key => $value) {
+        ]]>
+      </search>
+      <add>
+        <![CDATA[
+		$is_news = false;
+        ]]>
+      </add>
+    </operation>
+	<operation error="skip">
+      <search position="before">
+        <![CDATA[
+				case 'path':
+        ]]>
+      </search>
+      <add>
+        <![CDATA[
+				case 'news_id':
+					$queries[] = $key . '=' . $value;
+					unset($data[$key]);
+					$postfix = 1;
+					$is_news = true;
+					break;
+        ]]>
+      </add>
+    </operation>
+	<operation error="skip">
+      <search position="replace">
+        <![CDATA[
+					$seo_url .= '/' . rawurlencode($aliases[$query]);
+        ]]>
+      </search>
+      <add>
+        <![CDATA[
+				if ($is_news) {
+					$seo_url .= '/all-news/' . rawurlencode($aliases[$query]);
+				} else {
+					$seo_url .= '/' . rawurlencode($aliases[$query]);
+				}
+        ]]>
+      </add>
+    </operation>
+  </file>
+</modification>
